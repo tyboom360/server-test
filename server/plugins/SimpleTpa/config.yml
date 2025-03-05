@@ -106,16 +106,16 @@ disabled-worlds:
 # B A C K    S E T T I N G S
 
 #If you want to disable the back command, then set this to true
-disable-back-command: false
+disable-back-command: true
 
 # If you want to disable the death coords message, then set this to true
 disable-coords-message: false
 
 # If you want to disable saving the death location, then set this to true
-disable-back-on-death: false
+disable-back-on-death: true
 
 # If you want to disable saving the TP Locations such as TPA, TPAHERE, then set this to true
-disable-back-on-tp: false
+disable-back-on-tp: true
 
 #Booleans
 #  If you want to disable checking for gamemode if equals to spectator, then set this to true

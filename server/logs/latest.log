@@ -1,0 +1,3055 @@
+[14:31:50] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[14:31:50] [Server thread/INFO]: Loading properties
+[14:31:50] [Server thread/INFO]: Default game type: SURVIVAL
+[14:31:51] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[14:31:51] [Server thread/INFO]: Debug logging is disabled
+[14:31:51] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[14:31:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[14:31:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:31:51] [Server thread/INFO]: Data value allowed items: 
+[14:31:51] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[14:31:51] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[14:31:51] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[14:31:51] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[14:31:51] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[14:31:51] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[14:31:51] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[14:31:51] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[14:31:51] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[14:31:51] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[14:31:51] [Server thread/INFO]: Generating keypair
+[14:31:52] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[14:31:52] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[14:31:52] [Server thread/INFO]: Using default channel type
+[14:31:53] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[14:31:53] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[14:31:53] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[14:31:53] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[14:31:53] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[14:31:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:31:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:31:53] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[14:31:53] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[14:31:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:31:53] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[14:31:53] [Server thread/INFO]: Preparing level "world"
+[14:31:53] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:31:53] [Server thread/INFO]: Mob Spawn Range: 4
+[14:31:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:31:53] [Server thread/INFO]: Anti X-Ray: true
+[14:31:53] [Server thread/INFO]: 	Engine Mode: 1
+[14:31:53] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[14:31:53] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[14:31:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:31:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:31:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:31:53] [Server thread/INFO]: Random Lighting Updates: false
+[14:31:53] [Server thread/INFO]: Structure Info Saving: true
+[14:31:53] [Server thread/INFO]: Sending up to 10 chunks per packet
+[14:31:53] [Server thread/INFO]: Max Entity Collisions: 8
+[14:31:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:31:53] [Server thread/INFO]: Max TNT Explosions: 100
+[14:31:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:31:53] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:31:53] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:31:53] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:31:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:31:53] [Server thread/INFO]: View Distance: 4
+[14:31:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:31:53] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[14:31:53] [Server thread/INFO]: Clear tick list: false
+[14:31:53] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:31:53] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:31:53] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[14:31:53] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[14:31:53] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[14:31:53] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[14:31:53] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[14:31:53] [Server thread/INFO]: Water over lava flow speed: 5
+[14:31:53] [Server thread/INFO]: Fix TNT cannons: false
+[14:31:53] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[14:31:53] [Server thread/INFO]: Keep spawn chunk loaded: true
+[14:31:53] [Server thread/INFO]: World async lighting: false
+[14:31:53] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[14:31:53] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[14:31:53] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:31:53] [Server thread/INFO]: Mob Spawn Range: 4
+[14:31:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:31:53] [Server thread/INFO]: Anti X-Ray: true
+[14:31:53] [Server thread/INFO]: 	Engine Mode: 1
+[14:31:53] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[14:31:53] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[14:31:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:31:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:31:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:31:53] [Server thread/INFO]: Random Lighting Updates: false
+[14:31:53] [Server thread/INFO]: Structure Info Saving: true
+[14:31:53] [Server thread/INFO]: Sending up to 10 chunks per packet
+[14:31:53] [Server thread/INFO]: Max Entity Collisions: 8
+[14:31:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:31:53] [Server thread/INFO]: Max TNT Explosions: 100
+[14:31:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:31:53] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:31:53] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:31:53] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:31:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:31:53] [Server thread/INFO]: View Distance: 4
+[14:31:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:31:53] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[14:31:53] [Server thread/INFO]: Clear tick list: false
+[14:31:53] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:31:53] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:31:53] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[14:31:53] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[14:31:53] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[14:31:53] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[14:31:53] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[14:31:53] [Server thread/INFO]: Water over lava flow speed: 5
+[14:31:53] [Server thread/INFO]: Fix TNT cannons: false
+[14:31:53] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[14:31:53] [Server thread/INFO]: Keep spawn chunk loaded: true
+[14:31:53] [Server thread/INFO]: World async lighting: false
+[14:31:53] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[14:31:53] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[14:31:53] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:31:53] [Server thread/INFO]: Mob Spawn Range: 4
+[14:31:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:31:53] [Server thread/INFO]: Anti X-Ray: true
+[14:31:53] [Server thread/INFO]: 	Engine Mode: 1
+[14:31:53] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[14:31:53] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[14:31:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:31:53] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:31:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:31:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:31:53] [Server thread/INFO]: Random Lighting Updates: false
+[14:31:53] [Server thread/INFO]: Structure Info Saving: true
+[14:31:53] [Server thread/INFO]: Sending up to 10 chunks per packet
+[14:31:53] [Server thread/INFO]: Max Entity Collisions: 8
+[14:31:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:31:53] [Server thread/INFO]: Max TNT Explosions: 100
+[14:31:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:31:53] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:31:53] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:31:53] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:31:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:31:53] [Server thread/INFO]: View Distance: 4
+[14:31:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:31:53] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[14:31:53] [Server thread/INFO]: Clear tick list: false
+[14:31:53] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:31:53] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:31:53] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[14:31:53] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[14:31:53] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[14:31:53] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[14:31:53] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[14:31:53] [Server thread/INFO]: Water over lava flow speed: 5
+[14:31:53] [Server thread/INFO]: Fix TNT cannons: false
+[14:31:53] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[14:31:53] [Server thread/INFO]: Keep spawn chunk loaded: true
+[14:31:53] [Server thread/INFO]: World async lighting: false
+[14:31:53] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[14:31:53] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[14:31:53] [Server thread/INFO]: Preparing start region for level 0 (Seed: 8309970340097580493)
+[14:31:54] [Server thread/INFO]: Preparing spawn area: 20%
+[14:31:55] [Server thread/INFO]: Preparing spawn area: 76%
+[14:31:56] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8309970340097580493)
+[14:31:57] [Server thread/INFO]: Preparing spawn area: 11%
+[14:31:58] [Server thread/INFO]: Preparing spawn area: 37%
+[14:31:59] [Server thread/INFO]: Preparing spawn area: 77%
+[14:31:59] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8309970340097580493)
+[14:32:00] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[14:32:00] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[14:32:00] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[14:32:00] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[14:32:00] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[14:32:00] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[14:32:01] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:32:01] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[14:32:01] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[14:32:01] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[14:32:01] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[14:32:01] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[14:32:01] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[14:32:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:32:02] [Server thread/INFO]: Done (9.290s)! For help, type "help" or "?"
+[14:32:02] [Server thread/INFO]: Timings Reset
+[14:32:04] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[14:32:04] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[14:32:04] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[15:19:22] [Thread-9/INFO]: UUID of player FunnymanXD is 92f169df-4a11-3260-bac6-b1339e1c942a
+[15:19:22] [Server thread/INFO]: FunnymanXD[/[0:0:0:0:0:0:0:1]:49412] logged in with entity id 561 at ([world]262.0702957036591, 63.0, 34.3525092613348)
+[15:21:46] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[15:22:53] [Thread-10/INFO]: UUID of player Lemonition is 728541c4-6293-3179-9512-e592ca4a9658
+[15:22:53] [Server thread/INFO]: Lemonition[/[0:0:0:0:0:0:0:1]:49642] logged in with entity id 1298 at ([world]495.76295869528127, 55.0, -2258.1002629987447)
+[15:22:56] [Server thread/INFO]: Lemonition lost connection: Disconnected
+[15:22:56] [Server thread/INFO]: Lemonition left the game.
+[15:23:16] [Thread-11/INFO]: UUID of player Lemonition is 728541c4-6293-3179-9512-e592ca4a9658
+[15:23:16] [Server thread/INFO]: Lemonition[/[0:0:0:0:0:0:0:1]:60548] logged in with entity id 1411 at ([world]495.76295869528127, 55.0, -2258.1002629987447)
+[15:23:52] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[15:24:21] [Thread-12/INFO]: UUID of player Fizzy is 62c75a5c-9780-37b4-839e-23e606512cc4
+[15:24:21] [Server thread/INFO]: Fizzy[/[0:0:0:0:0:0:0:1]:33700] logged in with entity id 1988 at ([world]445.229698405335, 79.0, 1565.4615564641886)
+[15:24:26] [Async Chat Thread - #0/INFO]: <Lemonition> hi man[m
+
+[15:24:32] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[15:25:05] [Async Chat Thread - #0/INFO]: <Fizzy> i gotta finish my essay i just had to flex to madeline[m
+
+[15:25:10] [Thread-13/INFO]: UUID of player Mr_Creeper37 is 2475e527-5354-3bfe-a6c9-6000fefe2147
+[15:25:10] [Server thread/INFO]: Mr_Creeper37[/[0:0:0:0:0:0:0:1]:58086] logged in with entity id 2287 at ([world]433.91128732595337, 63.0, 1591.2995082817454)
+[15:25:13] [Server thread/INFO]: Fizzy lost connection: Disconnected
+[15:25:13] [Server thread/INFO]: Fizzy left the game.
+[15:25:31] [Server thread/INFO]: FunnymanXD was blown up by Creeper
+[15:25:32] [Thread-14/INFO]: UUID of player chicken is ec5b73f4-8ad1-389a-a579-08d4703d43bd
+[15:25:32] [Server thread/INFO]: chicken[/[0:0:0:0:0:0:0:1]:60224] logged in with entity id 2343 at ([world]-1802.1447672819331, 69.0, 1402.8726799318051)
+[15:25:37] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[15:25:39] [Server thread/INFO]: Mr_Creeper37 issued server command: /tell Lemonition yo tp rq
+[15:26:20] [Server thread/INFO]: Lemonition lost connection: Timed out
+[15:26:20] [Server thread/INFO]: Lemonition left the game.
+[15:27:07] [Thread-15/INFO]: UUID of player Mr_Creeper_27 is 48e3e27f-d174-35aa-9e85-dfb574c8fa3b
+[15:27:07] [Server thread/INFO]: Mr_Creeper_27[/[0:0:0:0:0:0:0:1]:44354] logged in with entity id 3527 at ([world]172.17922603905333, 64.0, 132.26983507343542)
+[15:27:17] [Async Chat Thread - #1/INFO]: <Mr_Creeper37> hey fello creeper[m
+
+[15:27:23] [Async Chat Thread - #1/INFO]: <chicken> shut up[m
+
+[15:27:35] [Async Chat Thread - #1/INFO]: <Mr_Creeper37> matvee more like midvee[m
+
+[15:27:43] [Thread-16/INFO]: UUID of player Lemonition is 728541c4-6293-3179-9512-e592ca4a9658
+[15:27:43] [Server thread/INFO]: Lemonition[/[0:0:0:0:0:0:0:1]:44028] logged in with entity id 3842 at ([world]489.3025074051359, 55.0, -2276.7036263241434)
+[15:27:46] [Thread-17/INFO]: UUID of player lukey_t is 65062ff5-78fb-3d1b-9bf9-d58ae1b08a89
+[15:27:46] [Server thread/INFO]: lukey_t[/[0:0:0:0:0:0:0:1]:39642] logged in with entity id 3953 at ([world]158.26230001046346, 61.0, -246.26312197540463)
+[15:27:49] [Async Chat Thread - #1/INFO]: <Mr_Creeper_27> hola[m
+
+[15:27:56] [Async Chat Thread - #1/INFO]: <chicken> you guys all suck[m
+
+[15:27:56] [Async Chat Thread - #1/INFO]: <Lemonition> hi[m
+
+[15:28:01] [Async Chat Thread - #1/INFO]: <chicken> lemon shut up[m
+
+[15:28:03] [Async Chat Thread - #1/INFO]: <chicken> u annoy me[m
+
+[15:29:14] [Server thread/INFO]: Mr_Creeper37 issued server command: /tpa Lemonition
+[15:29:31] [Server thread/INFO]: Mr_Creeper37 issued server command: /tell Lemonition leeme tp for nether xp
+[15:29:36] [Server thread/INFO]: Lemonition issued server command: /tpaccept
+[15:29:39] [Server thread/INFO]: Mr_Creeper37 issued server command: /tell Lemonition thx gang
+[15:29:45] [Server thread/INFO]: chicken lost connection: Disconnected
+[15:29:45] [Server thread/INFO]: chicken left the game.
+[15:30:35] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[15:30:36] [Server thread/INFO]: Mr_Creeper37 issued server command: /tell Lemonition nice bar windows
+[15:30:37] [Server thread/INFO]: Lemonition issued server command: /tell Mr_Creeper37 yo do u need food?
+[15:30:47] [Server thread/INFO]: Mr_Creeper37 issued server command: /tell Lemonition nahim chill
+[15:30:49] [Async Chat Thread - #2/INFO]: <Lemonition> alr nice[m
+
+[15:31:00] [Server thread/INFO]: Mr_Creeper37 issued server command: /sethome base
+[15:31:06] [Thread-18/INFO]: UUID of player chicken is ec5b73f4-8ad1-389a-a579-08d4703d43bd
+[15:31:06] [Server thread/INFO]: chicken[/[0:0:0:0:0:0:0:1]:33704] logged in with entity id 6029 at ([world]-1823.8484651673234, 70.0, 1901.8450445508618)
+[15:31:25] [Server thread/INFO]: Mr_Creeper37 issued server command: /tell Lemonition where portal?
+[15:31:34] [Server thread/INFO]: Lemonition issued server command: /tell Mr_Creeper37 downstairs
+[15:31:52] [Server thread/INFO]: Lemonition issued server command: /tell Mr_Creeper37 there
+[15:32:00] [Server thread/INFO]: Mr_Creeper37 issued server command: /tell Lemonition yippee
+[15:32:20] [Thread-19/INFO]: UUID of player Freelancer is fefa8a21-5d3f-37b5-b24f-af8a2993fce6
+[15:32:20] [Server thread/INFO]: Freelancer[/[0:0:0:0:0:0:0:1]:33202] logged in with entity id 7033 at ([world]-119.5, 72.0, 262.5)
+[15:32:38] [Async Chat Thread - #3/INFO]: <chicken> i hate freelancer; heas[m
+
+[15:32:50] [Server thread/INFO]: Freelancer lost connection: Login timed out!
+[15:32:50] [Server thread/INFO]: Freelancer left the game.
+[15:32:50] [Server thread/WARN]: handleDisconnection() called twice
+[15:32:51] [Async Chat Thread - #3/INFO]: <Mr_Creeper37> freelancer sounds familiar[m
+
+[15:32:53] [Async Chat Thread - #3/INFO]: <chicken> lemon u suck[m
+
+[15:32:54] [Async Chat Thread - #3/INFO]: <Mr_Creeper37> is that door[m
+
+[15:32:55] [Async Chat Thread - #3/INFO]: <Lemonition> yea[m
+
+[15:33:00] [Async Chat Thread - #3/INFO]: <Mr_Creeper37> mmmm[m
+
+[15:33:00] [Async Chat Thread - #3/INFO]: <chicken> no thats william webb[m
+
+[15:33:00] [Async Chat Thread - #3/INFO]: <Lemonition> josiah[m
+
+[15:33:02] [Async Chat Thread - #3/INFO]: <chicken> the black one[m
+
+[15:33:51] [Async Chat Thread - #3/INFO]: <FunnymanXD> fin do you need lapiz[m
+
+[15:33:55] [Async Chat Thread - #3/INFO]: <chicken> yeah[m
+
+[15:33:59] [Async Chat Thread - #3/INFO]: <FunnymanXD> i got 27[m
+
+[15:34:49] [Thread-20/INFO]: UUID of player Freelancer is fefa8a21-5d3f-37b5-b24f-af8a2993fce6
+[15:34:49] [Server thread/INFO]: Freelancer[/[0:0:0:0:0:0:0:1]:48684] logged in with entity id 8727 at ([world]-119.93563276510568, 72.0, 262.9916181965075)
+[15:35:21] [Async Chat Thread - #4/INFO]: <Lemonition> do yall have beds[m
+
+[15:35:22] [Server thread/INFO]: FunnymanXD lost connection: Disconnected
+[15:35:22] [Server thread/INFO]: FunnymanXD left the game.
+[15:35:27] [Async Chat Thread - #4/INFO]: <Mr_Creeper37> not rn[m
+
+[15:35:43] [Server thread/INFO]: chicken issued server command: /delhome kaka
+[15:35:46] [Server thread/INFO]: chicken issued server command: /sethome mama
+[15:35:53] [Async Chat Thread - #4/INFO]: <Freelancer> we should blow everything up[m
+
+[15:35:59] [Async Chat Thread - #4/INFO]: <Mr_Creeper37> wowza[m
+
+[15:36:03] [Server thread/INFO]: chicken issued server command: /home
+[15:36:05] [Server thread/INFO]: chicken issued server command: /home mama
+[15:36:06] [Async Chat Thread - #4/INFO]: <Mr_Creeper37> not me tho[m
+
+[15:36:11] [Async Chat Thread - #4/INFO]: <Lemonition> i agree[m
+
+[15:36:18] [Thread-21/INFO]: UUID of player FunnymanXD is 92f169df-4a11-3260-bac6-b1339e1c942a
+[15:36:18] [Server thread/INFO]: FunnymanXD[/[0:0:0:0:0:0:0:1]:36904] logged in with entity id 9624 at ([world]245.7570328183956, 48.166109260938214, 32.699999988079085)
+[15:36:26] [Server thread/INFO]: Lemonition issued server command: /tpa Mr_Creeper37
+[15:36:28] [Async Chat Thread - #4/INFO]: <chicken> Guys be safe freelancer is a griefer[m
+
+[15:36:33] [Server thread/INFO]: Mr_Creeper37 issued server command: /tpaccept
+[15:36:36] [Server thread/INFO]: chicken issued server command: /delhome mama
+[15:36:38] [Server thread/INFO]: chicken issued server command: /sethome mama
+[15:36:42] [Async Chat Thread - #4/INFO]: <Lemonition> hi man[m
+
+[15:36:47] [Async Chat Thread - #4/INFO]: <Mr_Creeper37> hello[m
+
+[15:36:47] [Async Chat Thread - #4/INFO]: <Freelancer> this dude is lying on my name[m
+
+[15:36:52] [Server thread/INFO]: Lemonition issued server command: /home hi
+[15:36:54] [Async Chat Thread - #4/INFO]: <Freelancer> dont listen to a word chicken says[m
+
+[15:37:26] [Server thread/INFO]: Freelancer has just earned the achievement [Taking Inventory]
+[15:38:12] [Thread-23/INFO]: UUID of player Kaka is cb1cc670-f636-3ba5-9572-2b4b2a662d1c
+[15:38:12] [Server thread/INFO]: Kaka[/[0:0:0:0:0:0:0:1]:36196] logged in with entity id 10850 at ([world]-1670.2916422808087, 73.0, 1162.8218823754744)
+[15:38:12] [Server thread/INFO]: Kaka lost connection: Internal Exception: java.net.SocketException: Connection reset
+[15:38:12] [Server thread/INFO]: Kaka left the game.
+[15:38:19] [Server thread/INFO]: chicken issued server command: /home mama
+[15:38:23] [Server thread/INFO]: chicken issued server command: /home mama
+[15:38:42] [Thread-24/INFO]: UUID of player Kaka is cb1cc670-f636-3ba5-9572-2b4b2a662d1c
+[15:38:42] [Server thread/INFO]: Kaka[/[0:0:0:0:0:0:0:1]:50870] logged in with entity id 11213 at ([world]-1670.2916422808087, 73.0, 1162.8218823754744)
+[15:39:08] [Server thread/INFO]: Kaka issued server command: /tpa chicken
+[15:39:10] [Server thread/INFO]: chicken issued server command: /tpdeny
+[15:39:17] [Server thread/INFO]: chicken issued server command: /tpa kaka
+[15:39:25] [Server thread/INFO]: Kaka issued server command: /tpaccept
+[15:39:31] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[15:39:48] [Server thread/INFO]: Freelancer lost connection: Disconnected
+[15:39:48] [Server thread/INFO]: Freelancer left the game.
+[15:40:15] [Server thread/INFO]: Lemonition lost connection: Disconnected
+[15:40:15] [Server thread/INFO]: Lemonition left the game.
+[15:40:35] [Server thread/INFO]: chicken issued server command: /home mama
+[15:40:44] [Server thread/INFO]: Kaka issued server command: /tpa chicken
+[15:40:48] [Server thread/INFO]: chicken lost connection: Disconnected
+[15:40:48] [Server thread/INFO]: chicken left the game.
+[15:42:41] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[15:44:34] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[15:44:53] [Server thread/INFO]: FunnymanXD lost connection: Disconnected
+[15:44:53] [Server thread/INFO]: FunnymanXD left the game.
+[15:44:53] [Thread-25/INFO]: UUID of player chicken is ec5b73f4-8ad1-389a-a579-08d4703d43bd
+[15:44:53] [Server thread/INFO]: chicken[/[0:0:0:0:0:0:0:1]:47162] logged in with entity id 14724 at ([world]-1946.871295746461, 65.0, 2391.699999988079)
+[15:44:57] [Thread-26/INFO]: UUID of player FunnymanXD is 92f169df-4a11-3260-bac6-b1339e1c942a
+[15:44:57] [Server thread/INFO]: FunnymanXD[/[0:0:0:0:0:0:0:1]:41496] logged in with entity id 15144 at ([world]262.6018857955424, 63.0, 32.70152767098656)
+[15:45:00] [Async Chat Thread - #5/INFO]: <chicken> yoooo[m
+
+[15:45:02] [Async Chat Thread - #5/INFO]: <chicken> hey guys[m
+
+[15:45:12] [Async Chat Thread - #5/INFO]: <FunnymanXD> hey[m
+
+[15:45:13] [Async Chat Thread - #5/INFO]: <Mr_Creeper37> your a meany[m
+
+[15:45:25] [Async Chat Thread - #5/INFO]: <chicken> im right next to your brother rn[m
+
+[15:45:31] [Thread-27/INFO]: UUID of player Fizzy is 62c75a5c-9780-37b4-839e-23e606512cc4
+[15:45:31] [Server thread/INFO]: Fizzy[/[0:0:0:0:0:0:0:1]:51496] logged in with entity id 15485 at ([world]451.9608025774978, 80.0, 1570.1459489008937)
+[15:45:40] [Async Chat Thread - #5/INFO]: <Mr_Creeper37> well tell him to tell you you are a mean one[m
+
+[15:45:42] [Async Chat Thread - #5/INFO]: <Fizzy> hi[m
+
+[15:45:45] [Async Chat Thread - #5/INFO]: <Mr_Creeper37> mr grinch type shi[m
+
+[15:45:53] [Async Chat Thread - #5/INFO]: <Mr_Creeper37> oh hi fizzster[m
+
+[15:45:55] [Async Chat Thread - #5/INFO]: <chicken> did u guys hear dutch fork beat fort mill[m
+
+[15:45:58] [Async Chat Thread - #5/INFO]: <Fizzy> wya rn eli[m
+
+[15:46:07] [Async Chat Thread - #5/INFO]: <Mr_Creeper37> im mining quartz[m
+
+[15:46:12] [Server thread/INFO]: Fizzy issued server command: /home main
+[15:46:15] [Async Chat Thread - #5/INFO]: <chicken> kaka[m
+
+[15:46:16] [Async Chat Thread - #5/INFO]: <FunnymanXD> both teams did[m
+
+[15:46:43] [Async Chat Thread - #5/INFO]: <chicken> kaka if u respond ill give u diamonds[m
+
+[15:46:47] [Async Chat Thread - #5/INFO]: <Kaka> hi[m
+
+[15:46:49] [Async Chat Thread - #5/INFO]: <chicken> ok[m
+
+[15:46:51] [Async Chat Thread - #5/INFO]: <chicken> 1 sec[m
+
+[15:46:55] [Server thread/INFO]: Kaka issued server command: /tpa chicken
+[15:47:14] [Async Chat Thread - #5/INFO]: <chicken> u ask for too much- daisy[m
+
+[15:47:21] [Async Chat Thread - #5/INFO]: <Kaka> xray cheats[m
+
+[15:47:38] [Async Chat Thread - #5/INFO]: <Mr_Creeper37> lava ouchie[m
+
+[15:47:43] [Async Chat Thread - #5/INFO]: <Fizzy> -1694 68 1138[m
+
+[15:47:47] [Async Chat Thread - #5/INFO]: <Fizzy> wonder where that is[m
+
+[15:47:48] [Async Chat Thread - #5/INFO]: <chicken> yo[m
+
+[15:47:49] [Async Chat Thread - #5/INFO]: <chicken> chill[m
+
+[15:47:50] [Async Chat Thread - #5/INFO]: <chicken> chill[m
+
+[15:47:52] [Async Chat Thread - #5/INFO]: <chicken> chhill[m
+
+[15:47:52] [Server thread/INFO]: Mr_Creeper_27 lost connection: Timed out
+[15:47:52] [Server thread/INFO]: Mr_Creeper_27 left the game.
+[15:47:53] [Async Chat Thread - #5/INFO]: <chicken> chill[m
+
+[15:47:54] [Async Chat Thread - #5/INFO]: <chicken> chill[m
+
+[15:47:57] [Async Chat Thread - #5/INFO]: <Fizzy> im omw dont worry[m
+
+[15:48:01] [Async Chat Thread - #5/INFO]: <Mr_Creeper37> xd[m
+
+[15:48:06] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[15:48:07] [Async Chat Thread - #5/INFO]: <Mr_Creeper37> thats crazy[m
+
+[15:48:11] [Server thread/INFO]: Kaka issued server command: /tp -1694 68 1138
+[15:48:26] [Server thread/INFO]: Kaka issued server command: /home kaka
+[15:49:01] [Thread-28/INFO]: UUID of player Mr_Creeper_27 is 48e3e27f-d174-35aa-9e85-dfb574c8fa3b
+[15:49:01] [Server thread/INFO]: Mr_Creeper_27[/[0:0:0:0:0:0:0:1]:42644] logged in with entity id 18091 at ([world]174.30000001192093, 30.0, 176.31223272206083)
+[15:49:29] [Server thread/WARN]: FunnymanXD moved wrongly!
+[15:51:02] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[15:51:16] [Thread-29/INFO]: UUID of player Freelancer is fefa8a21-5d3f-37b5-b24f-af8a2993fce6
+[15:51:16] [Server thread/INFO]: Freelancer[/[0:0:0:0:0:0:0:1]:55534] logged in with entity id 19565 at ([world]147.8224323415452, 65.0, 181.7606028882169)
+[15:51:20] [Async Chat Thread - #6/INFO]: <Fizzy> josiah???[m
+
+[15:51:33] [Server thread/INFO]: Kaka issued server command: /tpa chicken
+[15:51:40] [Server thread/INFO]: Fizzy issued server command: /home main
+[15:52:02] [Async Chat Thread - #6/INFO]: <Fizzy> matvey im coming[m
+
+[15:52:09] [Async Chat Thread - #6/INFO]: <chicken> im not there looooooool[m
+
+[15:52:16] [Async Chat Thread - #6/INFO]: <Fizzy> but ur base is[m
+
+[15:52:20] [Async Chat Thread - #6/INFO]: <Mr_Creeper37> ty all this quartz mining and i still havent found any netherite :([m
+
+[15:52:25] [Async Chat Thread - #6/INFO]: <chicken> yeah bro my old base[m
+
+[15:52:32] [Async Chat Thread - #6/INFO]: <chicken> THERE IS NO NETHERITE IN 1.8[m
+
+[15:52:46] [Async Chat Thread - #6/INFO]: <Mr_Creeper37> lolz you prob just havent found any yet[m
+
+[15:52:59] [Async Chat Thread - #6/INFO]: <Fizzy> i have like 4[m
+
+[15:53:05] [Async Chat Thread - #6/INFO]: <Mr_Creeper37> fr[m
+
+[15:53:05] [Async Chat Thread - #6/INFO]: <chicken> yeah bro[m
+
+[15:53:08] [Async Chat Thread - #6/INFO]: <chicken> netherack[m
+
+[15:53:14] [Async Chat Thread - #6/INFO]: <Mr_Creeper37> no[m
+
+[15:53:18] [Async Chat Thread - #6/INFO]: <Mr_Creeper37> the black one[m
+
+[15:53:20] [Thread-30/INFO]: UUID of player CrafterOfMines is 19ab12c5-554d-3805-9c4e-84624144569c
+[15:53:20] [Server thread/INFO]: CrafterOfMines[/[0:0:0:0:0:0:0:1]:43780] logged in with entity id 22004 at ([world]376.2646948755754, 67.0, 1541.5209066866912)
+[15:53:27] [Async Chat Thread - #6/INFO]: <Mr_Creeper37> i like it black not red[m
+
+[15:53:33] [Async Chat Thread - #6/INFO]: <Mr_Creeper37> it hits diff[m
+
+[15:53:34] [Server thread/INFO]: Kaka lost connection: Timed out
+[15:53:34] [Server thread/INFO]: Kaka left the game.
+[15:54:58] [Thread-31/INFO]: UUID of player blurr_bagel is 3d3e45ef-b298-3446-9914-c155c2098b59
+[15:54:59] [Server thread/INFO]: blurr_bagel[/[0:0:0:0:0:0:0:1]:50530] logged in with entity id 23937 at ([world]119.6032652378999, 67.0, 213.38002147281733)
+[15:55:01] [Server thread/INFO]: lukey_t lost connection: Timed out
+[15:55:01] [Server thread/INFO]: lukey_t left the game.
+[15:55:03] [Async Chat Thread - #7/INFO]: <chicken> hi brayden[m
+
+[15:55:07] [Async Chat Thread - #7/INFO]: <Mr_Creeper37> hey mr baughghman[m
+
+[15:55:17] [Async Chat Thread - #7/INFO]: <Mr_Creeper37> wait thats not shushu[m
+
+[15:55:23] [Async Chat Thread - #7/INFO]: <Freelancer> wsg man[m
+
+[15:55:23] [Thread-32/INFO]: UUID of player Will is bccb1f64-220b-32d2-9fc5-369d8daa4109
+[15:55:23] [Server thread/INFO]: Will[/[0:0:0:0:0:0:0:1]:55414] logged in with entity id 25545 at ([world]-1842.6109476451281, 81.0, 1855.5757903805052)
+[15:55:28] [Async Chat Thread - #7/INFO]: <blurr_bagel> no this is brayden baffey[m
+
+[15:55:32] [Async Chat Thread - #7/INFO]: <Mr_Creeper37> fr[m
+
+[15:55:35] [Async Chat Thread - #7/INFO]: <Mr_Creeper_27> who r u[m
+
+[15:55:37] [Async Chat Thread - #7/INFO]: <Mr_Creeper37> hey brayden[m
+
+[15:55:58] [Async Chat Thread - #7/INFO]: <blurr_bagel> who is this[m
+
+[15:56:12] [Async Chat Thread - #7/INFO]: <Mr_Creeper37> the alpha[m
+
+[15:56:20] [Async Chat Thread - #7/INFO]: <Mr_Creeper37> some call me the terminator[m
+
+[15:56:22] [Async Chat Thread - #7/INFO]: <Mr_Creeper_27> wait is this zamchode[m
+
+[15:56:28] [Async Chat Thread - #7/INFO]: <Mr_Creeper37> heeeellll no[m
+
+[15:56:37] [Async Chat Thread - #7/INFO]: <Mr_Creeper_27> not you eli[m
+
+[15:56:38] [Server thread/INFO]: chicken issued server command: /tp -10000 60 10000
+[15:56:41] [Async Chat Thread - #7/INFO]: <Mr_Creeper37> oh ok[m
+
+[15:56:42] [Server thread/INFO]: Will lost connection: Disconnected
+[15:56:42] [Server thread/INFO]: Will left the game.
+[15:56:48] [Async Chat Thread - #7/INFO]: <Mr_Creeper_27> sorry[m
+
+[15:56:53] [Async Chat Thread - #7/INFO]: <blurr_bagel> oh there is two of yall who is this[m
+
+[15:56:53] [Async Chat Thread - #7/INFO]: <Mr_Creeper37> :([m
+
+[15:57:06] [Async Chat Thread - #7/INFO]: <Mr_Creeper37> we need more mr creepers[m
+
+[15:57:18] [Async Chat Thread - #7/INFO]: <chicken> mr creeper is a griefer[m
+
+[15:57:22] [Server thread/INFO]: FunnymanXD lost connection: Timed out
+[15:57:22] [Server thread/INFO]: FunnymanXD left the game.
+[15:57:27] [Async Chat Thread - #7/INFO]: <Mr_Creeper37> tell your next friend that joins to be mrcreeper 17 or mr creeper 7[m
+
+[15:57:33] [Async Chat Thread - #7/INFO]: <Mr_Creeper37> i im not a griefer[m
+
+[15:57:39] [Server thread/INFO]: Freelancer has just earned the achievement [Getting Wood]
+[15:57:42] [Async Chat Thread - #7/INFO]: <blurr_bagel> tell caulder to join[m
+
+[15:57:53] [Async Chat Thread - #7/INFO]: <Mr_Creeper37> frrr[m
+
+[15:58:06] [Async Chat Thread - #7/INFO]: <Mr_Creeper37> if you click tab you can see all the people on and their skins[m
+
+[15:58:14] [Async Chat Thread - #7/INFO]: <Mr_Creeper37> im the blue and black one[m
+
+[15:58:27] [Async Chat Thread - #7/INFO]: <Mr_Creeper37> blue-ish green[m
+
+[15:59:48] [Server thread/INFO]: Mr_Creeper_27 lost connection: Timed out
+[15:59:48] [Server thread/INFO]: Mr_Creeper_27 left the game.
+[16:00:04] [Thread-33/INFO]: UUID of player JRoy is d1fdfab8-6e2e-3160-95e7-e63fd213b737
+[16:00:04] [Server thread/INFO]: JRoy[/[0:0:0:0:0:0:0:1]:51014] logged in with entity id 30671 at ([world]-202.71004782136418, 63.0, 388.4517183704533)
+[16:00:20] [Server thread/INFO]: Freelancer lost connection: Disconnected
+[16:00:20] [Server thread/INFO]: Freelancer left the game.
+[16:00:25] [Server thread/INFO]: chicken lost connection: Disconnected
+[16:00:25] [Server thread/INFO]: chicken left the game.
+[16:01:05] [Thread-34/INFO]: UUID of player Mr_Creeper_27 is 48e3e27f-d174-35aa-9e85-dfb574c8fa3b
+[16:01:05] [Server thread/INFO]: Mr_Creeper_27[/[0:0:0:0:0:0:0:1]:42234] logged in with entity id 31845 at ([world]172.30000001192093, 13.0, 192.30000001192093)
+[16:01:14] [Server thread/INFO]: blurr_bagel lost connection: Disconnected
+[16:01:14] [Server thread/INFO]: blurr_bagel left the game.
+[16:01:52] [Thread-35/INFO]: UUID of player FunnymanXD is 92f169df-4a11-3260-bac6-b1339e1c942a
+[16:01:52] [Server thread/INFO]: FunnymanXD[/[0:0:0:0:0:0:0:1]:38046] logged in with entity id 32552 at ([world]200.75052702508262, 11.0, 17.117582426952048)
+[16:02:08] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[16:03:20] [Server thread/INFO]: Fizzy lost connection: Disconnected
+[16:03:20] [Server thread/INFO]: Fizzy left the game.
+[16:03:53] [Thread-36/INFO]: UUID of player Fizzy is 62c75a5c-9780-37b4-839e-23e606512cc4
+[16:03:53] [Server thread/INFO]: Fizzy[/[0:0:0:0:0:0:0:1]:59168] logged in with entity id 35653 at ([world]-491.1954788170234, 55.0, 1255.4817311837155)
+[16:04:14] [Server thread/INFO]: Mr_Creeper37 issued server command: /home cottage
+[16:04:26] [Server thread/INFO]: Mr_Creeper_27 issued server command: /sethome mine
+[16:06:01] [Thread-37/INFO]: UUID of player lukey_t is 65062ff5-78fb-3d1b-9bf9-d58ae1b08a89
+[16:06:01] [Server thread/INFO]: lukey_t[/[0:0:0:0:0:0:0:1]:35998] logged in with entity id 38430 at ([world]168.82985037130894, 59.0, -255.37544349551885)
+[16:06:51] [Server thread/INFO]: Mr_Creeper37 issued server command: /tell Fizzy ty tp rq
+[16:07:15] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[16:07:56] [Thread-39/INFO]: UUID of player mrcreeper_17 is 2de2b6e5-741c-3162-9470-b6a739db66fa
+[16:07:56] [Server thread/INFO]: mrcreeper_17[/[0:0:0:0:0:0:0:1]:39736] logged in with entity id 40624 at ([world]-118.5, 71.0, 252.5)
+[16:07:58] [Server thread/INFO]: Fizzy issued server command: /tell Mr_Creeper37 i can
+[16:08:03] [Thread-40/INFO]: UUID of player Will is bccb1f64-220b-32d2-9fc5-369d8daa4109
+[16:08:03] [Server thread/INFO]: Will[/[0:0:0:0:0:0:0:1]:39750] logged in with entity id 40975 at ([world]-1827.0811293244064, 69.0, 1925.1195492727736)
+[16:08:09] [Server thread/INFO]: Fizzy issued server command: /tell Mr_Creeper37 *cant
+[16:08:11] [Async Chat Thread - #8/INFO]: <Mr_Creeper37> yooooooo mr creeper 17[m
+
+[16:08:15] [Async Chat Thread - #8/INFO]: <Mr_Creeper37> gaasssssss[m
+
+[16:08:23] [Server thread/INFO]: Mr_Creeper37 issued server command: /tell Fizzy ok
+[16:08:27] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[16:08:29] [Async Chat Thread - #8/INFO]: <mrcreeper_17> yo[m
+
+[16:08:34] [Async Chat Thread - #8/INFO]: <Fizzy> someone tell matvey im 400 blocks out[m
+
+[16:08:41] [Async Chat Thread - #8/INFO]: <lukey_t> jroy what are u doing[m
+
+[16:08:45] [Async Chat Thread - #8/INFO]: <JRoy> mining[m
+
+[16:08:51] [Server thread/INFO]: Mr_Creeper37 issued server command: /tell Fizzy just letting you know i finished the flush doorway
+[16:09:30] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[16:09:44] [Async Chat Thread - #8/INFO]: <Mr_Creeper37> so ive been to the nether[m
+
+[16:10:00] [Async Chat Thread - #8/INFO]: <CrafterOfMines> i coudl tell by the glowstone and quartz blokcs[m
+
+[16:10:04] [Async Chat Thread - #8/INFO]: <Mr_Creeper37> and i got a couple quartz[m
+
+[16:10:17] [Async Chat Thread - #8/INFO]: <CrafterOfMines> i can see that[m
+
+[16:10:23] [Async Chat Thread - #8/INFO]: <Mr_Creeper37> fr[m
+
+[16:10:35] [Async Chat Thread - #8/INFO]: <Fizzy> is anyone in a class with matvey[m
+
+[16:10:39] [Async Chat Thread - #8/INFO]: <Mr_Creeper37> nah[m
+
+[16:10:39] [Async Chat Thread - #8/INFO]: <Fizzy> im in his house[m
+
+[16:10:45] [Async Chat Thread - #8/INFO]: <Mr_Creeper37> bruhhhh[m
+
+[16:10:48] [Async Chat Thread - #8/INFO]: <Fizzy> its so ugly[m
+
+[16:10:50] [Async Chat Thread - #8/INFO]: <Mr_Creeper37> thats wild[m
+
+[16:11:04] [Async Chat Thread - #8/INFO]: <JRoy> luke what r u gonna build right here[m
+
+[16:11:07] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[16:11:18] [Async Chat Thread - #8/INFO]: <lukey_t> i was gonna put cows or smth[m
+
+[16:11:24] [Async Chat Thread - #8/INFO]: <Mr_Creeper37> guys who is creeper17[m
+
+[16:11:36] [Async Chat Thread - #8/INFO]: <JRoy> we need a lead[m
+
+[16:11:40] [Async Chat Thread - #8/INFO]: <JRoy> to bring theme here[m
+
+[16:11:45] [Async Chat Thread - #8/INFO]: <lukey_t> theres no leads in this version[m
+
+[16:11:52] [Async Chat Thread - #8/INFO]: <lukey_t> just lure them with wheat[m
+
+[16:11:53] [Server thread/INFO]: mrcreeper_17 has just earned the achievement [Taking Inventory]
+[16:11:54] [Async Chat Thread - #8/INFO]: <JRoy> there aren't?[m
+
+[16:12:02] [Async Chat Thread - #8/INFO]: <lukey_t> no[m
+
+[16:12:03] [Thread-41/INFO]: UUID of player Kaka is cb1cc670-f636-3ba5-9572-2b4b2a662d1c
+[16:12:03] [Server thread/INFO]: Kaka[/[0:0:0:0:0:0:0:1]:45734] logged in with entity id 45992 at ([world]-1673.4825429623565, 73.0, 1157.674350260196)
+[16:12:13] [Async Chat Thread - #8/INFO]: <JRoy> bruh[m
+
+[16:12:21] [Server thread/INFO]: FunnymanXD has just earned the achievement [Time to Mine!]
+[16:12:21] [Server thread/INFO]: FunnymanXD has just earned the achievement [Getting an Upgrade]
+[16:12:23] [Async Chat Thread - #8/INFO]: <JRoy> ok[m
+
+[16:12:26] [Async Chat Thread - #8/INFO]: <Fizzy> hey finn you live with matvey right[m
+
+[16:12:39] [Thread-42/INFO]: UUID of player chicken is ec5b73f4-8ad1-389a-a579-08d4703d43bd
+[16:12:39] [Server thread/INFO]: chicken[/[0:0:0:0:0:0:0:1]:37880] logged in with entity id 46571 at ([world]-1995.040870009304, 65.0, 4037.680044441459)
+[16:12:48] [Async Chat Thread - #8/INFO]: <Mr_Creeper37> uh oh[m
+
+[16:12:49] [Server thread/INFO]: Kaka issued server command: /tpa chicken
+[16:12:51] [Async Chat Thread - #8/INFO]: <chicken> what bro[m
+
+[16:12:53] [Async Chat Thread - #8/INFO]: <chicken> fizzy[m
+
+[16:12:56] [Async Chat Thread - #8/INFO]: <chicken> what do u need[m
+
+[16:12:58] [Async Chat Thread - #8/INFO]: <Will> matvey tp to me[m
+
+[16:13:02] [Async Chat Thread - #8/INFO]: <Fizzy> come check out ur house[m
+
+[16:13:03] [Async Chat Thread - #8/INFO]: <JRoy> do u want just cows?[m
+
+[16:13:11] [Async Chat Thread - #8/INFO]: <chicken> will later[m
+
+[16:13:14] [Async Chat Thread - #8/INFO]: <Kaka> will can i plz join the base[m
+
+[16:13:17] [Async Chat Thread - #8/INFO]: <lukey_t> yea probably[m
+
+[16:13:22] [Async Chat Thread - #8/INFO]: <JRoy> ok[m
+
+[16:13:23] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[16:13:23] [Server thread/INFO]: Kaka issued server command: /tpa will
+[16:13:40] [Server thread/INFO]: Will issued server command: /tpdeny
+[16:13:51] [Async Chat Thread - #8/INFO]: <chicken> nice netherrack[m
+
+[16:13:52] [Async Chat Thread - #8/INFO]: <chicken> lol[m
+
+[16:13:58] [Async Chat Thread - #8/INFO]: <chicken> u dont think i have tracers/?????[m
+
+[16:13:59] [Async Chat Thread - #8/INFO]: <Mr_Creeper37> >:([m
+
+[16:13:59] [Async Chat Thread - #8/INFO]: <chicken> easy[m
+
+[16:14:06] [Server thread/INFO]: Kaka issued server command: /tpa chicken
+[16:14:50] [Server thread/INFO]: Kaka was shot by Fizzy using [ak12WitASwtichOnIt]
+[16:15:03] [Server thread/INFO]: Kaka issued server command: /home kaka
+[16:15:06] [Thread-43/INFO]: UUID of player Freelancer is fefa8a21-5d3f-37b5-b24f-af8a2993fce6
+[16:15:06] [Server thread/INFO]: Freelancer[/[0:0:0:0:0:0:0:1]:33852] logged in with entity id 49509 at ([world]280.0011216439471, 72.0, -25.221327582937715)
+[16:15:06] [Async Chat Thread - #9/INFO]: <Mr_Creeper37> mad crazy[m
+
+[16:15:18] [Server thread/INFO]: Kaka suffocated in a wall
+[16:15:26] [Server thread/INFO]: Kaka issued server command: /home kaka
+[16:15:31] [Async Chat Thread - #9/INFO]: <mrcreeper_17> actually how[m
+
+[16:15:42] [Server thread/INFO]: Kaka suffocated in a wall
+[16:16:13] [Server thread/INFO]: Kaka issued server command: /tpa chicken
+[16:16:34] [Thread-44/INFO]: UUID of player Lemonition is 728541c4-6293-3179-9512-e592ca4a9658
+[16:16:34] [Server thread/INFO]: Lemonition[/[0:0:0:0:0:0:0:1]:46646] logged in with entity id 51072 at ([world]533.3546834217032, 11.0, -2302.0581513097713)
+[16:16:47] [Async Chat Thread - #10/INFO]: <Fizzy> hi hampton[m
+
+[16:16:49] [Server thread/INFO]: Kaka drowned
+[16:17:02] [Async Chat Thread - #10/INFO]: <mrcreeper_17> hi hampton[m
+
+[16:17:05] [Server thread/INFO]: Lemonition lost connection: Login timed out!
+[16:17:05] [Server thread/INFO]: Lemonition left the game.
+[16:17:05] [Server thread/WARN]: handleDisconnection() called twice
+[16:17:12] [Async Chat Thread - #10/INFO]: <Fizzy> im going home now[m
+
+[16:17:13] [Thread-45/INFO]: UUID of player Lemonition is 728541c4-6293-3179-9512-e592ca4a9658
+[16:17:13] [Server thread/INFO]: Lemonition[/[0:0:0:0:0:0:0:1]:56736] logged in with entity id 51799 at ([world]533.3546834217032, 11.0, -2302.0581513097713)
+[16:17:14] [Async Chat Thread - #10/INFO]: <mrcreeper_17> bye hampton[m
+
+[16:17:21] [Async Chat Thread - #10/INFO]: <mrcreeper_17> hi hampton[m
+
+[16:17:32] [Server thread/INFO]: Freelancer issued server command: /tpa Lemonition
+[16:17:37] [Server thread/INFO]: Lemonition issued server command: /tpaccept
+[16:17:51] [Server thread/INFO]: Lemonition issued server command: /home hi
+[16:18:01] [Server thread/INFO]: Freelancer issued server command: /tpa Lemonition
+[16:18:02] [Server thread/INFO]: Lemonition issued server command: /tpaccept
+[16:18:13] [Server thread/INFO]: Kaka lost connection: Disconnected
+[16:18:13] [Server thread/INFO]: Kaka left the game.
+[16:18:20] [Server thread/INFO]: FunnymanXD issued server command: /home bunke
+[16:18:24] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[16:18:26] [Server thread/INFO]: Fizzy lost connection: Disconnected
+[16:18:26] [Server thread/INFO]: Fizzy left the game.
+[16:18:34] [Server thread/INFO]: FunnymanXD suffocated in a wall
+[16:18:42] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[16:18:55] [Async Chat Thread - #11/INFO]: <chicken> wait tyler[m
+
+[16:18:56] [Async Chat Thread - #11/INFO]: <chicken> tyler[m
+
+[16:18:57] [Async Chat Thread - #11/INFO]: <chicken> yler[m
+
+[16:18:59] [Async Chat Thread - #11/INFO]: <chicken> tyler[m
+
+[16:19:01] [Async Chat Thread - #11/INFO]: <chicken> tyler[m
+
+[16:19:02] [Async Chat Thread - #11/INFO]: <chicken> tyler[m
+
+[16:19:06] [Thread-46/INFO]: UUID of player Kaka is cb1cc670-f636-3ba5-9572-2b4b2a662d1c
+[16:19:06] [Server thread/INFO]: Kaka[/[0:0:0:0:0:0:0:1]:39248] logged in with entity id 54040 at ([world]-107.69999998807904, 74.0, 260.32781889654314)
+[16:19:08] [Async Chat Thread - #11/INFO]: <chicken> let me be ur seductive chicken[m
+
+[16:19:09] [Async Chat Thread - #11/INFO]: <mrcreeper_17> he logged out bro[m
+
+[16:19:16] [Async Chat Thread - #11/INFO]: <mrcreeper_17> ayo[m
+
+[16:19:22] [Server thread/INFO]: Kaka issued server command: /tpa chicken
+[16:19:52] [Async Chat Thread - #11/INFO]: <Kaka> will matvey was wondring if i could rejoin the base?[m
+
+[16:20:00] [Async Chat Thread - #11/INFO]: <chicken> nah[m
+
+[16:20:01] [Async Chat Thread - #11/INFO]: <chicken> will[m
+
+[16:20:07] [Async Chat Thread - #11/INFO]: <chicken> do we let him back in or nah[m
+
+[16:20:14] [Async Chat Thread - #11/INFO]: <Kaka> please[m
+
+[16:20:14] [Async Chat Thread - #11/INFO]: <mrcreeper_17> im ty talking through creeper 17[m
+
+[16:20:14] [Async Chat Thread - #11/INFO]: <chicken> the lowk slimed us out no?[m
+
+[16:20:18] [Async Chat Thread - #11/INFO]: <mrcreeper_17> what is it matvey[m
+
+[16:20:26] [Async Chat Thread - #11/INFO]: <Kaka> i am sorry for sliming u out[m
+
+[16:20:28] [Async Chat Thread - #11/INFO]: <chicken> tyler r u making the world border[m
+
+[16:20:33] [Server thread/INFO]: Lemonition issued server command: /tell mrcreeper_17 who r u btw
+[16:20:38] [Async Chat Thread - #11/INFO]: <mrcreeper_17> probobly at 3000 yeah[m
+
+[16:20:46] [Server thread/INFO]: mrcreeper_17 issued server command: /tell Lemonition madeline
+[16:20:47] [Async Chat Thread - #11/INFO]: <JRoy> bro[m
+
+[16:20:53] [Async Chat Thread - #11/INFO]: <chicken> so like -3000 by 3000 by 3000 by -3000[m
+
+[16:20:54] [Server thread/INFO]: lukey_t lost connection: Disconnected
+[16:20:54] [Server thread/INFO]: lukey_t left the game.
+[16:21:02] [Async Chat Thread - #11/INFO]: <mrcreeper_17> yeah matvey prolly[m
+
+[16:21:05] [Async Chat Thread - #11/INFO]: <chicken> ok[m
+
+[16:21:08] [Async Chat Thread - #11/INFO]: <chicken> perfect[m
+
+[16:21:29] [Server thread/INFO]: mrcreeper_17 issued server command: /tell Lemonition dont tell anyone tho
+[16:21:54] [Server thread/INFO]: Lemonition issued server command: /tell mrcreeper_17 i wont
+[16:22:11] [Thread-47/INFO]: UUID of player blurr_bagel is 3d3e45ef-b298-3446-9914-c155c2098b59
+[16:22:11] [Server thread/INFO]: blurr_bagel[/[0:0:0:0:0:0:0:1]:36216] logged in with entity id 56920 at ([world]-83.21605423520589, 65.0, 209.02260352475665)
+[16:22:11] [Server thread/INFO]: Freelancer issued server command: /sethome
+[16:22:12] [Server thread/INFO]: Kaka lost connection: Disconnected
+[16:22:12] [Server thread/INFO]: Kaka left the game.
+[16:22:18] [Server thread/INFO]: Will lost connection: Disconnected
+[16:22:18] [Server thread/INFO]: Will left the game.
+[16:22:20] [Server thread/INFO]: Lemonition lost connection: Disconnected
+[16:22:20] [Server thread/INFO]: Lemonition left the game.
+[16:22:27] [Server thread/INFO]: Freelancer issued server command: /sethome retard
+[16:22:32] [Server thread/INFO]: mrcreeper_17 issued server command: /sethome hoome
+[16:22:38] [Server thread/INFO]: JRoy lost connection: Disconnected
+[16:22:38] [Server thread/INFO]: JRoy left the game.
+[16:22:39] [Server thread/INFO]: Freelancer lost connection: Disconnected
+[16:22:39] [Server thread/INFO]: Freelancer left the game.
+[16:22:44] [Server thread/INFO]: mrcreeper_17 lost connection: Disconnected
+[16:22:44] [Server thread/INFO]: mrcreeper_17 left the game.
+[16:23:17] [Server thread/INFO]: chicken lost connection: Disconnected
+[16:23:17] [Server thread/INFO]: chicken left the game.
+[16:23:25] [Server thread/INFO]: FunnymanXD lost connection: Disconnected
+[16:23:25] [Server thread/INFO]: FunnymanXD left the game.
+[16:23:31] [Server thread/INFO]: blurr_bagel lost connection: Disconnected
+[16:23:31] [Server thread/INFO]: blurr_bagel left the game.
+[16:23:52] [Server thread/INFO]: Mr_Creeper37 lost connection: Disconnected
+[16:23:52] [Server thread/INFO]: Mr_Creeper37 left the game.
+[16:24:11] [Server thread/INFO]: CrafterOfMines lost connection: Disconnected
+[16:24:11] [Server thread/INFO]: CrafterOfMines left the game.
+[16:25:06] [Server thread/INFO]: Mr_Creeper_27 lost connection: Disconnected
+[16:25:06] [Server thread/INFO]: Mr_Creeper_27 left the game.
+[16:29:30] [Thread-48/INFO]: UUID of player Fizzy is 62c75a5c-9780-37b4-839e-23e606512cc4
+[16:29:30] [Server thread/INFO]: Fizzy[/[0:0:0:0:0:0:0:1]:44484] logged in with entity id 58249 at ([world]-1656.078831669616, 74.0, 1174.135522608488)
+[16:29:39] [Thread-49/INFO]: UUID of player Lemonition is 728541c4-6293-3179-9512-e592ca4a9658
+[16:29:39] [Server thread/INFO]: Lemonition[/[0:0:0:0:0:0:0:1]:44554] logged in with entity id 58779 at ([world]449.1732383013629, 55.0, -2318.667801323323)
+[16:29:46] [Async Chat Thread - #12/INFO]: <Fizzy> hey hampton[m
+
+[16:29:48] [Thread-50/INFO]: UUID of player FunnymanXD is 92f169df-4a11-3260-bac6-b1339e1c942a
+[16:29:48] [Server thread/INFO]: FunnymanXD[/[0:0:0:0:0:0:0:1]:38496] logged in with entity id 58925 at ([world]192.38531970176408, 11.0, 17.863602098043643)
+[16:29:50] [Async Chat Thread - #12/INFO]: <Lemonition> hi man[m
+
+[16:29:59] [Async Chat Thread - #12/INFO]: <Fizzy> im at matveys base[m
+
+[16:30:00] [Thread-51/INFO]: UUID of player JRoy is d1fdfab8-6e2e-3160-95e7-e63fd213b737
+[16:30:00] [Server thread/INFO]: JRoy[/[0:0:0:0:0:0:0:1]:50420] logged in with entity id 59011 at ([world]168.532461166851, 61.5, -264.1152592591137)
+[16:30:05] [Async Chat Thread - #12/INFO]: <Fizzy> i filled it with netherack[m
+
+[16:30:17] [Server thread/INFO]: Lemonition issued server command: /tell Fizzy yea they think ur the one who found it at first
+[16:30:30] [Server thread/INFO]: Lemonition issued server command: /tell Fizzy they alr moved
+[16:30:32] [Server thread/INFO]: FunnymanXD lost connection: Disconnected
+[16:30:32] [Server thread/INFO]: FunnymanXD left the game.
+[16:30:36] [Server thread/INFO]: Fizzy issued server command: /tell Lemonition how do you know
+[16:30:53] [Server thread/INFO]: Lemonition issued server command: /tell Fizzy they aren't very quiet abt it in spanish
+[16:31:09] [Server thread/INFO]: Fizzy issued server command: /tell Lemonition lol so where are they now
+[16:31:34] [Thread-52/INFO]: UUID of player NickAA is c85c331d-e67a-3f43-9dc4-7fe035c5007f
+[16:31:34] [Server thread/INFO]: NickAA[/[0:0:0:0:0:0:0:1]:33780] logged in with entity id 60111 at ([world]244.45338285689238, 10.0, -261.68362383494707)
+[16:33:05] [Server thread/INFO]: Fizzy issued server command: /tell Lemonition where are they now
+[16:33:12] [Server thread/INFO]: Lemonition issued server command: /tell Fizzy no idea
+[16:33:25] [Async Chat Thread - #13/INFO]: <Fizzy> i told them im prolly gonna set the world border to 3000[m
+
+[16:33:38] [Server thread/INFO]: Fizzy issued server command: /tell Lemonition they seemed like they were going there
+[16:33:40] [Async Chat Thread - #13/INFO]: <NickAA> hi[m
+
+[16:33:44] [Async Chat Thread - #13/INFO]: <Fizzy> hey nick[m
+
+[16:34:02] [Async Chat Thread - #13/INFO]: <Fizzy> hey i have an idea[m
+
+[16:34:04] [Async Chat Thread - #13/INFO]: <Fizzy> nick[m
+
+[16:34:09] [Async Chat Thread - #13/INFO]: <NickAA> what[m
+
+[16:34:14] [Async Chat Thread - #13/INFO]: <Fizzy> i want you to find matveys new base[m
+
+[16:34:25] [Thread-53/INFO]: UUID of player Sully is 8559908a-1458-31ee-8991-b78b1bd7a4ed
+[16:34:25] [Server thread/INFO]: Sully[/[0:0:0:0:0:0:0:1]:41910] logged in with entity id 62015 at ([world]487.3998693577722, 63.0, -2276.934416708939)
+[16:34:28] [Async Chat Thread - #13/INFO]: <Fizzy> ill give you 10 diamonds if you do[m
+
+[16:34:36] [Async Chat Thread - #13/INFO]: <NickAA> i have no idea where it is[m
+
+[16:34:40] [Async Chat Thread - #13/INFO]: <Fizzy> ik[m
+
+[16:34:51] [Async Chat Thread - #13/INFO]: <Fizzy> im at their last base rn[m
+
+[16:34:53] [Async Chat Thread - #13/INFO]: <Fizzy> they just moved out[m
+
+[16:34:55] [Server thread/INFO]: Sully lost connection: Login timed out!
+[16:34:55] [Server thread/INFO]: Sully left the game.
+[16:34:56] [Async Chat Thread - #13/INFO]: <Fizzy> if u wanna tp[m
+
+[16:35:01] [Thread-54/INFO]: UUID of player Sully is 8559908a-1458-31ee-8991-b78b1bd7a4ed
+[16:35:01] [Server thread/INFO]: Sully[/[0:0:0:0:0:0:0:1]:53152] logged in with entity id 62353 at ([world]487.69986936224257, 63.0, -2276.934416708939)
+[16:35:10] [Async Chat Thread - #13/INFO]: <NickAA> do you have any idea where its at[m
+
+[16:35:31] [Server thread/INFO]: Sully lost connection: Login timed out!
+[16:35:31] [Server thread/INFO]: Sully left the game.
+[16:35:31] [Server thread/WARN]: handleDisconnection() called twice
+[16:35:38] [Thread-55/INFO]: UUID of player Sully is 8559908a-1458-31ee-8991-b78b1bd7a4ed
+[16:35:38] [Server thread/INFO]: Sully[/[0:0:0:0:0:0:0:1]:37772] logged in with entity id 62724 at ([world]487.69986936224257, 62.90199999809265, -2276.934416708939)
+[16:35:53] [Thread-56/INFO]: UUID of player FreakBob2477 is 5cc70c72-875a-3361-b06a-47468364ec5d
+[16:35:53] [Server thread/INFO]: FreakBob2477[/[0:0:0:0:0:0:0:1]:47112] logged in with entity id 62915 at ([world]-935.4842498064318, 9.1194978019264, -653.6020822846331)
+[16:35:58] [Server thread/INFO]: Lemonition lost connection: Disconnected
+[16:35:58] [Server thread/INFO]: Lemonition left the game.
+[16:35:59] [Thread-57/INFO]: UUID of player blurr_bagel is 3d3e45ef-b298-3446-9914-c155c2098b59
+[16:35:59] [Server thread/INFO]: blurr_bagel[/[0:0:0:0:0:0:0:1]:35998] logged in with entity id 63009 at ([world]-180.48838310410753, 64.0, 280.0125037156663)
+[16:36:05] [Server thread/INFO]: NickAA issued server command: /tpa Fizzy
+[16:36:09] [Server thread/INFO]: Sully lost connection: Login timed out!
+[16:36:09] [Server thread/INFO]: Sully left the game.
+[16:36:09] [Server thread/WARN]: handleDisconnection() called twice
+[16:36:14] [Thread-58/INFO]: UUID of player Sully is 8559908a-1458-31ee-8991-b78b1bd7a4ed
+[16:36:14] [Server thread/INFO]: Sully[/[0:0:0:0:0:0:0:1]:55668] logged in with entity id 63433 at ([world]487.69986936224257, 62.90199999809265, -2276.934416708939)
+[16:36:24] [Server thread/INFO]: Fizzy issued server command: /tpaccept
+[16:36:36] [Async Chat Thread - #14/INFO]: <NickAA> this is their old?[m
+
+[16:36:41] [Server thread/INFO]: blurr_bagel issued server command: /FreakBob2477
+[16:36:44] [Async Chat Thread - #14/INFO]: <Fizzy> yeah[m
+
+[16:36:45] [Server thread/INFO]: Sully lost connection: Login timed out!
+[16:36:45] [Server thread/INFO]: Sully left the game.
+[16:36:45] [Server thread/WARN]: handleDisconnection() called twice
+[16:36:53] [Thread-59/INFO]: UUID of player Sully is 8559908a-1458-31ee-8991-b78b1bd7a4ed
+[16:36:53] [Server thread/INFO]: Sully[/[0:0:0:0:0:0:0:1]:60800] logged in with entity id 63777 at ([world]487.9999999925494, 61.0, -2276.934416708939)
+[16:37:01] [Server thread/INFO]: Fizzy issued server command: /home main
+[16:37:04] [Server thread/INFO]: blurr_bagel issued server command: /tpa FreakBob2477
+[16:37:23] [Server thread/INFO]: Sully lost connection: Login timed out!
+[16:37:23] [Server thread/INFO]: Sully left the game.
+[16:37:23] [Server thread/WARN]: handleDisconnection() called twice
+[16:37:32] [Server thread/INFO]: blurr_bagel issued server command: /tpa FreakBob2477
+[16:37:38] [Server thread/INFO]: FreakBob2477 was slain by Spider
+[16:37:45] [Thread-61/INFO]: UUID of player chandrevej is e4590abd-f4ee-3248-8445-f6927b52b538
+[16:37:45] [Server thread/INFO]: chandrevej[/[0:0:0:0:0:0:0:1]:41870] logged in with entity id 64457 at ([world]-129.5, 71.0, 256.5)
+[16:38:07] [Async Chat Thread - #15/INFO]: <Fizzy> nick we have a suspicion they are going to worldborder[m
+
+[16:38:17] [Async Chat Thread - #15/INFO]: <Fizzy> which im setting to 3000[m
+
+[16:38:19] [Async Chat Thread - #15/INFO]: <chandrevej> kerless where you at boy[m
+
+[16:38:19] [Thread-62/INFO]: UUID of player Sully is 8559908a-1458-31ee-8991-b78b1bd7a4ed
+[16:38:19] [Server thread/INFO]: Sully[/[0:0:0:0:0:0:0:1]:44376] logged in with entity id 64738 at ([world]487.9999999925494, 60.0, -2276.64341670198)
+[16:38:25] [Async Chat Thread - #15/INFO]: <blurr_bagel> nick is getting yelled at by the teacher[m
+
+[16:38:32] [Async Chat Thread - #15/INFO]: <NickAA> yes[m
+
+[16:38:36] [Async Chat Thread - #15/INFO]: <JRoy> why[m
+
+[16:38:41] [Thread-63/INFO]: UUID of player Lemonition is 728541c4-6293-3179-9512-e592ca4a9658
+[16:38:41] [Server thread/INFO]: Lemonition[/[0:0:0:0:0:0:0:1]:52164] logged in with entity id 65099 at ([world]482.51761829639526, 14.0, -2307.699999988079)
+[16:38:49] [Async Chat Thread - #15/INFO]: <NickAA> study hall teach making us put phone in a lock box now[m
+
+[16:38:53] [Async Chat Thread - #15/INFO]: <JRoy> oh yeah[m
+
+[16:38:57] [Async Chat Thread - #15/INFO]: <NickAA> ts so dumb[m
+
+[16:38:58] [Async Chat Thread - #15/INFO]: <Lemonition> mrs malizia has one too[m
+
+[16:38:59] [Async Chat Thread - #15/INFO]: <JRoy> i am not doing ts[m
+
+[16:39:00] [Async Chat Thread - #15/INFO]: <Lemonition> in her room[m
+
+[16:39:13] [Server thread/INFO]: chandrevej issued server command: /hello
+[16:39:14] [Async Chat Thread - #15/INFO]: <JRoy> she aint tell us to do nun tho[m
+
+[16:39:17] [Async Chat Thread - #15/INFO]: <chandrevej> hi[m
+
+[16:39:27] [Async Chat Thread - #15/INFO]: <blurr_bagel> andre[m
+
+[16:39:32] [Async Chat Thread - #15/INFO]: <chandrevej> yo[m
+
+[16:39:40] [Async Chat Thread - #15/INFO]: <blurr_bagel> how are you in here[m
+
+[16:39:40] [Server thread/INFO]: NickAA issued server command: /home house
+[16:39:55] [Async Chat Thread - #15/INFO]: <Lemonition> hi sully[m
+
+[16:39:56] [Async Chat Thread - #15/INFO]: <chandrevej> hampton gave me the suace[m
+
+[16:39:56] [Async Chat Thread - #15/INFO]: <Lemonition> who r u[m
+
+[16:39:58] [Async Chat Thread - #15/INFO]: <NickAA> ty im not going to find base thats like impossible[m
+
+[16:39:59] [Async Chat Thread - #15/INFO]: <Lemonition> i see ur name[m
+
+[16:40:00] [Async Chat Thread - #15/INFO]: <Fizzy> thats carter[m
+
+[16:40:02] [Async Chat Thread - #15/INFO]: <Lemonition> oh ok[m
+
+[16:40:07] [Async Chat Thread - #15/INFO]: <Sully> yo[m
+
+[16:40:16] [Server thread/WARN]: NickAA moved wrongly!
+[16:40:48] [Server thread/INFO]: Fizzy issued server command: /home mai
+[16:40:51] [Server thread/INFO]: Fizzy issued server command: /home main
+[16:41:39] [Server thread/INFO]: NickAA issued server command: /home bouse
+[16:41:41] [Server thread/INFO]: NickAA issued server command: /home house
+[16:41:54] [Async Chat Thread - #16/INFO]: <Fizzy> just letting the server know[m
+
+[16:42:01] [Async Chat Thread - #16/INFO]: <blurr_bagel> peace out[m
+
+[16:42:02] [Async Chat Thread - #16/INFO]: <Fizzy> ten diamonds for whoever finds matvey's new base[m
+
+[16:42:11] [Async Chat Thread - #16/INFO]: <NickAA> jroy i see u[m
+
+[16:42:22] [Async Chat Thread - #16/INFO]: <JRoy> ok[m
+
+[16:42:32] [Async Chat Thread - #16/INFO]: <JRoy> wsy[m
+
+[16:42:34] [Async Chat Thread - #16/INFO]: <JRoy> wsg[m
+
+[16:42:35] [Async Chat Thread - #16/INFO]: <NickAA> why u got so many arrows in u[m
+
+[16:42:40] [Async Chat Thread - #16/INFO]: <JRoy> skeletons[m
+
+[16:42:44] [Async Chat Thread - #16/INFO]: <JRoy> im tryna find cows[m
+
+[16:42:50] [Async Chat Thread - #16/INFO]: <JRoy> but theres none[m
+
+[16:42:50] [Server thread/INFO]: Fizzy issued server command: /tpa NickAA
+[16:42:53] [Async Chat Thread - #16/INFO]: <Fizzy> i got a present[m
+
+[16:42:53] [Async Chat Thread - #16/INFO]: <JRoy> ts pmo[m
+
+[16:42:56] [Server thread/INFO]: blurr_bagel lost connection: Disconnected
+[16:42:56] [Server thread/INFO]: blurr_bagel left the game.
+[16:42:57] [Server thread/INFO]: NickAA issued server command: /tpaccept
+[16:42:58] [Async Chat Thread - #16/INFO]: <NickAA> t[m
+
+[16:43:00] [Thread-64/INFO]: UUID of player blurr_bagel is 3d3e45ef-b298-3446-9914-c155c2098b59
+[16:43:01] [Server thread/INFO]: blurr_bagel[/[0:0:0:0:0:0:0:1]:40794] logged in with entity id 68406 at ([world]267.30000001192093, 76.0, 269.37310770541484)
+[16:43:12] [Async Chat Thread - #16/INFO]: <Lemonition> hi man[m
+
+[16:43:15] [Async Chat Thread - #16/INFO]: <NickAA> ty[m
+
+[16:43:23] [Async Chat Thread - #16/INFO]: <Fizzy> what r yall doing[m
+
+[16:43:29] [Async Chat Thread - #16/INFO]: <NickAA> im doinjg nothing[m
+
+[16:43:31] [Server thread/INFO]: blurr_bagel lost connection: Login timed out!
+[16:43:31] [Server thread/INFO]: blurr_bagel left the game.
+[16:43:32] [Server thread/WARN]: handleDisconnection() called twice
+[16:43:33] [Async Chat Thread - #16/INFO]: <Lemonition> me and carter are in the mines[m
+
+[16:43:35] [Async Chat Thread - #16/INFO]: <NickAA> hes finding cows[m
+
+[16:43:46] [Thread-65/INFO]: UUID of player blurr_bagel is 3d3e45ef-b298-3446-9914-c155c2098b59
+[16:43:46] [Server thread/INFO]: blurr_bagel[/[0:0:0:0:0:0:0:1]:34984] logged in with entity id 69141 at ([world]267.30000001192093, 76.0, 269.37310770541484)
+[16:43:46] [Async Chat Thread - #16/INFO]: <Fizzy> is this lukes base??[m
+
+[16:43:49] [Server thread/INFO]: Lemonition issued server command: /tpa chandrevej
+[16:43:50] [Async Chat Thread - #16/INFO]: <NickAA> was lukes base[m
+
+[16:43:53] [Server thread/INFO]: chandrevej issued server command: /tpaccept
+[16:43:58] [Async Chat Thread - #16/INFO]: <Fizzy> lol[m
+
+[16:44:04] [Async Chat Thread - #16/INFO]: <NickAA> its trash[m
+
+[16:44:10] [Async Chat Thread - #16/INFO]: <JRoy> its good[m
+
+[16:44:11] [Async Chat Thread - #16/INFO]: <Fizzy> actual garbage[m
+
+[16:44:13] [Async Chat Thread - #16/INFO]: <JRoy> trust[m
+
+[16:44:23] [Async Chat Thread - #16/INFO]: <Fizzy> what do you need cows for[m
+
+[16:44:26] [Async Chat Thread - #16/INFO]: <Fizzy> leather?[m
+
+[16:44:30] [Server thread/INFO]: chandrevej has just earned the achievement [Taking Inventory]
+[16:44:31] [Async Chat Thread - #16/INFO]: <JRoy> yes[m
+
+[16:44:37] [Server thread/INFO]: Lemonition issued server command: /home hi
+[16:44:39] [Async Chat Thread - #16/INFO]: <NickAA> jroy let me come to your base[m
+
+[16:44:45] [Async Chat Thread - #16/INFO]: <JRoy> no[m
+
+[16:44:46] [Server thread/INFO]: Fizzy issued server command: /home main
+[16:44:47] [Async Chat Thread - #16/INFO]: <NickAA> showed u mine[m
+
+[16:44:49] [Async Chat Thread - #16/INFO]: <JRoy> no[m
+
+[16:44:55] [Server thread/INFO]: JRoy lost connection: Disconnected
+[16:44:55] [Server thread/INFO]: JRoy left the game.
+[16:44:55] [Server thread/INFO]: Lemonition lost connection: Disconnected
+[16:44:55] [Server thread/INFO]: Lemonition left the game.
+[16:44:59] [Async Chat Thread - #16/INFO]: <NickAA> boi[m
+
+[16:45:05] [Async Chat Thread - #16/INFO]: <Fizzy> crazy work[m
+
+[16:45:09] [Thread-66/INFO]: UUID of player JRoy is d1fdfab8-6e2e-3160-95e7-e63fd213b737
+[16:45:09] [Server thread/INFO]: JRoy[/[0:0:0:0:0:0:0:1]:46034] logged in with entity id 70214 at ([world]117.30000001192093, 62.80377490377337, -307.4001524605087)
+[16:45:12] [Async Chat Thread - #16/INFO]: <blurr_bagel> nick look at my screen[m
+
+[16:45:19] [Async Chat Thread - #16/INFO]: <JRoy> i crashed[m
+
+[16:45:22] [Async Chat Thread - #16/INFO]: <JRoy> ts pmo[m
+
+[16:45:54] [Server thread/INFO]: NickAA issued server command: /tpa JRoy
+[16:46:06] [Async Chat Thread - #16/INFO]: <JRoy> why do u want to tp to me[m
+
+[16:46:11] [Async Chat Thread - #16/INFO]: <NickAA> bored[m
+
+[16:46:17] [Server thread/INFO]: JRoy issued server command: /tpaccept
+[16:46:30] [Async Chat Thread - #16/INFO]: <NickAA> i have ur base cords[m
+
+[16:46:41] [Async Chat Thread - #16/INFO]: <JRoy> i believe that[m
+
+[16:46:42] [Async Chat Thread - #16/INFO]: <NickAA> so it doesn't matter if i see ur base[m
+
+[16:46:52] [Async Chat Thread - #16/INFO]: <Fizzy> jr where is that nether fortress[m
+
+[16:46:56] [Async Chat Thread - #16/INFO]: <JRoy> idk[m
+
+[16:46:59] [Async Chat Thread - #16/INFO]: <JRoy> i forgot[m
+
+[16:47:03] [Async Chat Thread - #16/INFO]: <Fizzy> lol[m
+
+[16:47:09] [Server thread/INFO]: NickAA issued server command: /home house
+[16:47:12] [Server thread/INFO]: blurr_bagel lost connection: Disconnected
+[16:47:12] [Server thread/INFO]: blurr_bagel left the game.
+[16:47:36] [Async Chat Thread - #16/INFO]: <Fizzy> im gonna join on a new name to find spawn coords[m
+
+[16:47:43] [Async Chat Thread - #16/INFO]: <Fizzy> and im gonna build a community center[m
+
+[16:47:47] [Async Chat Thread - #16/INFO]: <Fizzy> if someone wants to come help[m
+
+[16:47:51] [Thread-67/INFO]: UUID of player BubbleNugget825 is 3e594120-15ef-34d5-9d61-d15ebd1f569b
+[16:47:51] [Server thread/INFO]: BubbleNugget825[/[0:0:0:0:0:0:0:1]:37822] logged in with entity id 72423 at ([world]-114.5, 70.0, 252.5)
+[16:47:53] [Async Chat Thread - #16/INFO]: <JRoy> bro what[m
+
+[16:47:57] [Server thread/INFO]: Fizzy lost connection: Disconnected
+[16:47:57] [Server thread/INFO]: Fizzy left the game.
+[16:48:05] [Thread-68/INFO]: UUID of player Fizzy2 is 614cf2e2-23bb-36c1-b399-3b1fd6a60fac
+[16:48:05] [Server thread/INFO]: Fizzy2[/[0:0:0:0:0:0:0:1]:45680] logged in with entity id 72771 at ([world]-112.5, 69.0, 246.5)
+[16:48:13] [Async Chat Thread - #16/INFO]: <JRoy> nobody falling for ts[m
+
+[16:48:15] [Thread-69/INFO]: UUID of player Lemonition is 728541c4-6293-3179-9512-e592ca4a9658
+[16:48:15] [Server thread/INFO]: Lemonition[/[0:0:0:0:0:0:0:1]:46998] logged in with entity id 72884 at ([world]492.6557573651822, 55.0, -2274.624618828333)
+[16:48:16] [Server thread/INFO]: BubbleNugget825 has just earned the achievement [Taking Inventory]
+[16:48:20] [Server thread/INFO]: BubbleNugget825 lost connection: Disconnected
+[16:48:20] [Server thread/INFO]: BubbleNugget825 left the game.
+[16:48:24] [Server thread/INFO]: Fizzy2 lost connection: Disconnected
+[16:48:24] [Server thread/INFO]: Fizzy2 left the game.
+[16:48:26] [Thread-70/INFO]: UUID of player Fizzy2 is 614cf2e2-23bb-36c1-b399-3b1fd6a60fac
+[16:48:26] [Server thread/INFO]: Fizzy2[/[0:0:0:0:0:0:0:1]:45660] logged in with entity id 72969 at ([world]-112.5, 69.0, 246.92287637521605)
+[16:48:31] [Async Chat Thread - #16/INFO]: <Lemonition> fizzy 2[m
+
+[16:48:38] [Server thread/INFO]: Fizzy2 lost connection: Disconnected
+[16:48:38] [Server thread/INFO]: Fizzy2 left the game.
+[16:48:45] [Async Chat Thread - #16/INFO]: <Lemonition> bye fizzy2[m
+
+[16:48:48] [Thread-71/INFO]: UUID of player Fizzy is 62c75a5c-9780-37b4-839e-23e606512cc4
+[16:48:48] [Server thread/INFO]: Fizzy[/[0:0:0:0:0:0:0:1]:55490] logged in with entity id 73206 at ([world]490.65384397509035, 55.0, -2273.945890597659)
+[16:48:53] [Async Chat Thread - #16/INFO]: <Lemonition> hi fizzy1[m
+
+[16:48:58] [Async Chat Thread - #16/INFO]: <Fizzy> spawn is at -115[m
+
+[16:49:01] [Async Chat Thread - #16/INFO]: <Fizzy> 250[m
+
+[16:49:05] [Async Chat Thread - #16/INFO]: <Lemonition> thank yuo for that[m
+
+[16:49:10] [Async Chat Thread - #16/INFO]: <Lemonition> can i have the diamons[m
+
+[16:49:13] [Async Chat Thread - #16/INFO]: <Lemonition> in the chcest[m
+
+[16:49:14] [Async Chat Thread - #16/INFO]: <Fizzy> yes[m
+
+[16:49:15] [Thread-72/INFO]: UUID of player BubbleNugget82 is 6d1b9538-b1f3-318a-945c-888a00acfdaf
+[16:49:15] [Server thread/INFO]: BubbleNugget82[/[0:0:0:0:0:0:0:1]:46022] logged in with entity id 73366 at ([world]158.19816347516323, 63.0, -251.723397180831)
+[16:49:17] [Async Chat Thread - #16/INFO]: <Fizzy> i was abt to tell you to[m
+
+[16:49:19] [Async Chat Thread - #16/INFO]: <Fizzy> leave two[m
+
+[16:49:42] [Thread-73/INFO]: UUID of player blurr_bagel is 3d3e45ef-b298-3446-9914-c155c2098b59
+[16:49:42] [Server thread/INFO]: blurr_bagel[/[0:0:0:0:0:0:0:1]:41512] logged in with entity id 73726 at ([world]358.16022953380207, 71.0, 235.37545350202734)
+[16:49:45] [Server thread/INFO]: NickAA issued server command: /tpa BubbleNugget82
+[16:49:48] [Server thread/INFO]: JRoy has just earned the achievement [Bake Bread]
+[16:49:58] [Server thread/INFO]: BubbleNugget82 issued server command: /tpaccept
+[16:50:01] [Async Chat Thread - #16/INFO]: <Fizzy> is anyone at spawn[m
+
+[16:50:05] [Async Chat Thread - #16/INFO]: <Fizzy> i dont wanna walk there[m
+
+[16:50:36] [Server thread/INFO]: blurr_bagel issued server command: /tpa BubbleNugget82
+[16:50:43] [Server thread/INFO]: Fizzy issued server command: /tpa Bubble_Nugget82
+[16:50:47] [Server thread/INFO]: BubbleNugget82 issued server command: /tpaccept
+[16:50:47] [Server thread/INFO]: Fizzy issued server command: /tpa BubbleNugget82
+[16:51:02] [Async Chat Thread - #16/INFO]: <BubbleNugget82> a[m
+
+[16:51:08] [Server thread/INFO]: blurr_bagel issued server command: /tpa BubbleNugget82
+[16:51:08] [Async Chat Thread - #16/INFO]: <Fizzy> im tryna go to spawn[m
+
+[16:51:17] [Async Chat Thread - #16/INFO]: <Fizzy> click accept[m
+
+[16:51:41] [Server thread/INFO]: Fizzy issued server command: /spawn
+[16:51:43] [Server thread/INFO]: Fizzy issued server command: /help
+[16:51:48] [Server thread/INFO]: FreakBob2477 issued server command: /home gabeshouse
+[16:51:51] [Server thread/INFO]: blurr_bagel issued server command: /tpcancel player
+[16:51:52] [Server thread/INFO]: NickAA has just earned the achievement [We Need to Go Deeper]
+[16:51:53] [Server thread/INFO]: Fizzy issued server command: /help simpleTpa
+[16:52:01] [Async Chat Thread - #16/INFO]: <BubbleNugget82> 7[m
+
+[16:52:17] [Server thread/INFO]: blurr_bagel issued server command: /tpa BubbleNugget82
+[16:52:31] [Server thread/INFO]: BubbleNugget82 issued server command: /accept
+[16:52:31] [Server thread/INFO]: FreakBob2477 issued server command: /sethome gabeshosue
+[16:52:36] [Server thread/INFO]: BubbleNugget82 issued server command: /tpacept
+[16:52:53] [Async Chat Thread - #16/INFO]: <Lemonition> do u like the new room[m
+
+[16:52:56] [Async Chat Thread - #16/INFO]: <Fizzy> yes[m
+
+[16:53:20] [Server thread/INFO]: BubbleNugget82 issued server command: /set home
+[16:53:23] [Server thread/INFO]: BubbleNugget82 issued server command: /sethome
+[16:53:35] [Server thread/INFO]: BubbleNugget82 issued server command: /sethome Bubbles house
+[16:54:00] [Server thread/INFO]: Fizzy issued server command: /tpa Sully
+[16:54:03] [Server thread/INFO]: Lemonition lost connection: Disconnected
+[16:54:03] [Server thread/INFO]: Lemonition left the game.
+[16:54:07] [Server thread/INFO]: Sully issued server command: /tpaccept
+[16:55:23] [Server thread/INFO]: BubbleNugget82 has just earned the achievement [Bake Bread]
+[16:57:32] [Server thread/INFO]: JRoy lost connection: Disconnected
+[16:57:32] [Server thread/INFO]: JRoy left the game.
+[16:58:09] [Thread-74/INFO]: UUID of player Lemonition is 728541c4-6293-3179-9512-e592ca4a9658
+[16:58:09] [Server thread/INFO]: Lemonition[/[0:0:0:0:0:0:0:1]:36890] logged in with entity id 80900 at ([world]490.16991767483216, 55.0, -2276.3763306171722)
+[16:58:09] [Async Chat Thread - #17/INFO]: <NickAA> home house[m
+
+[16:58:14] [Async Chat Thread - #17/INFO]: <Fizzy> lol[m
+
+[16:58:15] [Server thread/INFO]: NickAA issued server command: /home house
+[17:00:37] [Server thread/INFO]: NickAA issued server command: /tpa BubbleNugget82
+[17:00:48] [Server thread/INFO]: BubbleNugget82 issued server command: /tpaccept
+[17:00:52] [Server thread/INFO]: Lemonition lost connection: Disconnected
+[17:00:52] [Server thread/INFO]: Lemonition left the game.
+[17:01:02] [Thread-75/INFO]: UUID of player JRoy is d1fdfab8-6e2e-3160-95e7-e63fd213b737
+[17:01:02] [Server thread/INFO]: JRoy[/[0:0:0:0:0:0:0:1]:43000] logged in with entity id 83364 at ([world]111.93631098181267, 63.0, -234.0913736873767)
+[17:01:18] [Async Chat Thread - #18/INFO]: <BubbleNugget82> jroy can you get another cow[m
+
+[17:01:30] [Async Chat Thread - #18/INFO]: <NickAA> how do i get out[m
+
+[17:02:01] [Thread-76/INFO]: UUID of player Lemonition is 728541c4-6293-3179-9512-e592ca4a9658
+[17:02:02] [Server thread/INFO]: Lemonition[/[0:0:0:0:0:0:0:1]:33316] logged in with entity id 84143 at ([world]484.69986986644517, 63.0, -2272.680529807587)
+[17:03:44] [Async Chat Thread - #19/INFO]: <Lemonition> nick i have a gift[m
+
+[17:03:56] [Async Chat Thread - #19/INFO]: <NickAA> what is it[m
+
+[17:04:00] [Async Chat Thread - #19/INFO]: <Lemonition> iron[m
+
+[17:04:24] [Server thread/INFO]: Lemonition issued server command: /tpa NickAA
+[17:04:55] [Server thread/INFO]: Lemonition issued server command: /tpcancel
+[17:04:59] [Server thread/INFO]: Lemonition issued server command: /tpcancel NickAA
+[17:05:06] [Async Chat Thread - #20/INFO]: <Fizzy> i hate strip mining[m
+
+[17:05:09] [Async Chat Thread - #20/INFO]: <Fizzy> ts so boring[m
+
+[17:05:13] [Async Chat Thread - #20/INFO]: <Lemonition> fr[m
+
+[17:05:16] [Async Chat Thread - #20/INFO]: <chandrevej> ts nigga[m
+
+[17:05:20] [Async Chat Thread - #20/INFO]: <Fizzy> ong[m
+
+[17:05:33] [Server thread/INFO]: Lemonition lost connection: Disconnected
+[17:05:33] [Server thread/INFO]: Lemonition left the game.
+[17:05:46] [Async Chat Thread - #20/INFO]: <JRoy> is he restarted[m
+
+[17:05:51] [Async Chat Thread - #20/INFO]: <BubbleNugget82> put the weat away then back out[m
+
+[17:06:09] [Thread-77/INFO]: UUID of player nevy is aa058c8b-87fe-3215-b67d-5c81b9529893
+[17:06:09] [Server thread/INFO]: nevy[/[0:0:0:0:0:0:0:1]:45266] logged in with entity id 88660 at ([world]-122.5, 71.0, 256.5)
+[17:06:28] [Server thread/INFO]: Fizzy issued server command: /tpa nevy
+[17:06:29] [Async Chat Thread - #20/INFO]: <FreakBob2477> has anyone been to the nether fortress yet?[m
+
+[17:06:39] [Async Chat Thread - #20/INFO]: <Fizzy> no i dont know the coords[m
+
+[17:06:44] [Async Chat Thread - #20/INFO]: <BubbleNugget82> no bitch[m
+
+[17:06:45] [Thread-78/INFO]: UUID of player Lemonition is 728541c4-6293-3179-9512-e592ca4a9658
+[17:06:45] [Server thread/INFO]: Lemonition[/[0:0:0:0:0:0:0:1]:55104] logged in with entity id 89376 at ([world]495.59208626321845, 55.0, -2273.18750167294)
+[17:06:46] [Async Chat Thread - #20/INFO]: <Fizzy> ill go explore it if u tell me[m
+
+[17:06:57] [Server thread/INFO]: nevy lost connection: Disconnected
+[17:06:57] [Server thread/INFO]: nevy left the game.
+[17:06:58] [Async Chat Thread - #20/INFO]: <JRoy> finally bruh[m
+
+[17:06:59] [Server thread/INFO]: NickAA has just earned the achievement [Repopulation]
+[17:07:01] [Thread-80/INFO]: UUID of player nevy is aa058c8b-87fe-3215-b67d-5c81b9529893
+[17:07:01] [Server thread/INFO]: nevy[/[0:0:0:0:0:0:0:1]:42490] logged in with entity id 89666 at ([world]-122.5, 71.0, 256.5)
+[17:07:02] [Async Chat Thread - #20/INFO]: <FreakBob2477> which version is this[m
+
+[17:07:05] [Async Chat Thread - #20/INFO]: <Fizzy> 1.8.8[m
+
+[17:07:05] [Async Chat Thread - #20/INFO]: <NickAA> put door[m
+
+[17:07:07] [Async Chat Thread - #20/INFO]: <Lemonition> 1.8.8[m
+
+[17:07:12] [Server thread/INFO]: Sully burned to death
+[17:07:16] [Async Chat Thread - #20/INFO]: <Lemonition> noo[m
+
+[17:07:17] [Async Chat Thread - #20/INFO]: <FreakBob2477> cuz in the old one theres only one fortress[m
+
+[17:07:19] [Server thread/INFO]: Sully issued server command: /back
+[17:07:25] [Async Chat Thread - #20/INFO]: <Lemonition> gulp[m
+
+[17:07:34] [Server thread/INFO]: Fizzy issued server command: /tpa sully
+[17:07:40] [Server thread/INFO]: Sully issued server command: /tpaccept
+[17:07:51] [Server thread/INFO]: Sully issued server command: /back
+[17:08:12] [Async Chat Thread - #20/INFO]: <BubbleNugget82> can yall give me some food[m
+
+[17:08:17] [Async Chat Thread - #20/INFO]: <Lemonition> sure man[m
+
+[17:08:18] [Async Chat Thread - #20/INFO]: <NickAA> here[m
+
+[17:08:20] [Async Chat Thread - #20/INFO]: <chandrevej> broke ahh[m
+
+[17:08:27] [Server thread/INFO]: chandrevej issued server command: /
+[17:08:31] [Async Chat Thread - #20/INFO]: <JRoy> what is this gon be[m
+
+[17:08:32] [Async Chat Thread - #20/INFO]: <chandrevej> just kidding[m
+
+[17:08:55] [Async Chat Thread - #20/INFO]: <JRoy> what is this gonna be[m
+
+[17:08:59] [Async Chat Thread - #20/INFO]: <BubbleNugget82> will they despawn[m
+
+[17:09:02] [Server thread/INFO]: Sully issued server command: /tpa NickAA
+[17:09:11] [Async Chat Thread - #20/INFO]: <JRoy> idk[m
+
+[17:09:29] [Server thread/INFO]: Sully issued server command: /tpa JRoy
+[17:09:34] [Server thread/INFO]: NickAA lost connection: Disconnected
+[17:09:34] [Server thread/INFO]: NickAA left the game.
+[17:09:48] [Server thread/INFO]: Sully issued server command: /tpa Lemontiton
+[17:10:01] [Async Chat Thread - #20/INFO]: <FreakBob2477> if i run into silver fish does that mean im close to the stronghold?[m
+
+[17:10:05] [Async Chat Thread - #20/INFO]: <Lemonition> idk[m
+
+[17:10:08] [Async Chat Thread - #20/INFO]: <Fizzy> no[m
+
+[17:10:15] [Async Chat Thread - #20/INFO]: <Fizzy> it means ur in a mountain biome[m
+
+[17:10:18] [Async Chat Thread - #20/INFO]: <chandrevej> no sometimes you might just find an infecfected block[m
+
+[17:10:18] [Server thread/INFO]: nevy issued server command: /tpa Blurr_bagel
+[17:10:22] [Server thread/INFO]: blurr_bagel issued server command: /accep
+[17:10:22] [Server thread/INFO]: Sully issued server command: /home
+[17:10:24] [Async Chat Thread - #20/INFO]: <FreakBob2477> alr cool[m
+
+[17:10:26] [Server thread/INFO]: FreakBob2477 issued server command: /
+[17:10:26] [Server thread/INFO]: blurr_bagel issued server command: /accept
+[17:10:39] [Async Chat Thread - #20/INFO]: <FreakBob2477> wait which biome is best for diamonds[m
+
+[17:10:43] [Async Chat Thread - #20/INFO]: <Fizzy> any[m
+
+[17:10:50] [Async Chat Thread - #20/INFO]: <Fizzy> y level 11[m
+
+[17:10:56] [Server thread/INFO]: Lemonition lost connection: Disconnected
+[17:10:56] [Server thread/INFO]: Lemonition left the game.
+[17:11:14] [Server thread/INFO]: nevy tried to swim in lava
+[17:11:18] [Async Chat Thread - #20/INFO]: <FreakBob2477> i cant find any bruh, yesterday i fonud only 8 and then i took a little swim[m
+
+[17:11:22] [Server thread/INFO]: BubbleNugget82 has just earned the achievement [Cow Tipper]
+[17:11:30] [Server thread/INFO]: blurr_bagel was slain by BubbleNugget82
+[17:11:35] [Async Chat Thread - #20/INFO]: <Fizzy> i have like 15 on me[m
+
+[17:11:37] [Server thread/INFO]: JRoy issued server command: /home <Base>
+[17:11:48] [Server thread/INFO]: blurr_bagel issued server command: /tpa BubbleNugget82
+[17:11:58] [Server thread/INFO]: BubbleNugget82 issued server command: /tpaccept
+[17:11:59] [Server thread/INFO]: Sully issued server command: /tpa BubbleNugget82
+[17:12:20] [Thread-81/INFO]: UUID of player Lemonition is 728541c4-6293-3179-9512-e592ca4a9658
+[17:12:20] [Server thread/INFO]: Lemonition[/[0:0:0:0:0:0:0:1]:48612] logged in with entity id 95497 at ([world]623.9000117513173, 69.0, -2358.81103973871)
+[17:12:47] [Server thread/INFO]: nevy was slain by JRoy
+[17:12:56] [Server thread/INFO]: Sully drowned
+[17:13:04] [Async Chat Thread - #21/INFO]: <nevy> y u kill me[m
+
+[17:13:06] [Server thread/INFO]: nevy has just earned the achievement [Taking Inventory]
+[17:13:10] [Async Chat Thread - #21/INFO]: <Fizzy> if anyone wants to trade i got 12 diamonds on me[m
+
+[17:13:21] [Async Chat Thread - #21/INFO]: <BubbleNugget82> jroy nevy is on are team[m
+
+[17:13:25] [Async Chat Thread - #21/INFO]: <Lemonition> who is it[m
+
+[17:13:25] [Async Chat Thread - #21/INFO]: <blurr_bagel> man i could use that right now heh[m
+
+[17:13:27] [Async Chat Thread - #21/INFO]: <JRoy> oh[m
+
+[17:13:27] [Thread-82/INFO]: UUID of player FunnymanXD is 92f169df-4a11-3260-bac6-b1339e1c942a
+[17:13:27] [Server thread/INFO]: FunnymanXD[/[0:0:0:0:0:0:0:1]:52170] logged in with entity id 97303 at ([world]210.72944257046967, 11.0, 25.566620990487287)
+[17:13:28] [Async Chat Thread - #21/INFO]: <JRoy> mb[m
+
+[17:13:29] [Async Chat Thread - #21/INFO]: <FreakBob2477> what do want in return?[m
+
+[17:13:32] [Async Chat Thread - #21/INFO]: <JRoy> who is nevy tho[m
+
+[17:13:36] [Server thread/INFO]: Sully issued server command: /tpa Lemonition
+[17:13:37] [Server thread/INFO]: JRoy issued server command: /home <Base>
+[17:13:39] [Async Chat Thread - #21/INFO]: <Fizzy> well[m
+
+[17:13:39] [Server thread/INFO]: BubbleNugget82 has just earned the achievement [Repopulation]
+[17:13:41] [Server thread/INFO]: Lemonition issued server command: /home hi
+[17:13:43] [Async Chat Thread - #21/INFO]: <Fizzy> im looking for information[m
+
+[17:13:43] [Async Chat Thread - #21/INFO]: <BubbleNugget82> rhys[m
+
+[17:13:48] [Async Chat Thread - #21/INFO]: <JRoy> ok[m
+
+[17:13:50] [Async Chat Thread - #21/INFO]: <Fizzy> specifically matveys new base[m
+
+[17:13:53] [Async Chat Thread - #21/INFO]: <chandrevej> whats the y level for diamonds on this versino???[m
+
+[17:13:53] [Async Chat Thread - #21/INFO]: <Lemonition> ty i can let sully in right[m
+
+[17:13:56] [Async Chat Thread - #21/INFO]: <Fizzy> yeah[m
+
+[17:14:01] [Server thread/INFO]: Lemonition issued server command: /tpaccept
+[17:14:03] [Async Chat Thread - #21/INFO]: <Fizzy> y=11[m
+
+[17:14:07] [Async Chat Thread - #21/INFO]: <chandrevej> bet[m
+
+[17:14:11] [Async Chat Thread - #21/INFO]: <Fizzy> but if you have smtn else like a gapple i can trade for that[m
+
+[17:14:16] [Async Chat Thread - #21/INFO]: <Lemonition> carter[m
+
+[17:14:20] [Async Chat Thread - #21/INFO]: <Lemonition> here[m
+
+[17:14:23] [Async Chat Thread - #21/INFO]: <Lemonition> onlyt hat iron[m
+
+[17:14:24] [Async Chat Thread - #21/INFO]: <Fizzy> or coords for nether fort[m
+
+[17:14:24] [Server thread/INFO]: JRoy issued server command: /tpa Lemonition
+[17:14:26] [Async Chat Thread - #21/INFO]: <Lemonition> not my diamond stuff[m
+
+[17:14:31] [Async Chat Thread - #21/INFO]: <FreakBob2477> bruh ive found more emeralds than diamonds[m
+
+[17:14:33] [Async Chat Thread - #21/INFO]: <Sully> ty[m
+
+[17:14:37] [Async Chat Thread - #21/INFO]: <FreakBob2477> ts pmo[m
+
+[17:14:39] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[17:14:44] [Server thread/INFO]: Lemonition lost connection: Disconnected
+[17:14:44] [Server thread/INFO]: Lemonition left the game.
+[17:14:44] [Server thread/INFO]: nevy has just earned the achievement [Getting Wood]
+[17:15:03] [Async Chat Thread - #21/INFO]: <Fizzy> yeah ok so ill trade 8 dims for either matvey's new base or nether fortress cords[m
+
+[17:15:23] [Thread-83/INFO]: UUID of player Lemonition is 728541c4-6293-3179-9512-e592ca4a9658
+[17:15:23] [Server thread/INFO]: Lemonition[/[0:0:0:0:0:0:0:1]:48244] logged in with entity id 99476 at ([world]491.2475878207801, 58.5, -2278.699999988079)
+[17:15:38] [Server thread/INFO]: Lemonition issued server command: /tell Fizzy can I let jr see the base
+[17:15:43] [Async Chat Thread - #21/INFO]: <Fizzy> ykw[m
+
+[17:15:44] [Server thread/INFO]: Lemonition issued server command: /tell Fizzy only upper part
+[17:15:54] [Server thread/INFO]: Fizzy issued server command: /tell Lemonition yeah sure
+[17:16:07] [Server thread/INFO]: Lemonition issued server command: /tell Fizzy like tpa too?
+[17:16:14] [Server thread/INFO]: Lemonition issued server command: /tell Fizzy he has coords off
+[17:16:16] [Thread-84/INFO]: UUID of player GamingSpur is 58516d5d-4e7c-3aca-b2aa-d4e40f41ae4e
+[17:16:16] [Server thread/INFO]: GamingSpur[/[0:0:0:0:0:0:0:1]:33358] logged in with entity id 100452 at ([world]-1149.1464487722722, 66.0, 175.6719324838493)
+[17:16:20] [Server thread/INFO]: JRoy issued server command: /tpa Lemonition
+[17:16:22] [Server thread/INFO]: Fizzy issued server command: /tell Lemonition sure
+[17:16:22] [Server thread/INFO]: nevy has just earned the achievement [Benchmarking]
+[17:16:24] [Server thread/INFO]: Lemonition issued server command: /tpaccept
+[17:16:29] [Async Chat Thread - #21/INFO]: <Sully> ej come water[m
+
+[17:16:42] [Async Chat Thread - #21/INFO]: <GamingSpur> shut up[m
+
+[17:17:06] [Async Chat Thread - #21/INFO]: <Sully> could you paint me something[m
+
+[17:17:15] [Async Chat Thread - #21/INFO]: <Lemonition> what[m
+
+[17:17:16] [Async Chat Thread - #21/INFO]: <GamingSpur> why[m
+
+[17:17:33] [Async Chat Thread - #21/INFO]: <chandrevej> i think i foud an infinite snow biome[m
+
+[17:18:39] [Server thread/INFO]: Lemonition issued server command: /tpa JRoy
+[17:18:42] [Async Chat Thread - #22/INFO]: <Fizzy> evan are you at spawn[m
+
+[17:18:49] [Async Chat Thread - #22/INFO]: <GamingSpur> nope[m
+
+[17:19:19] [Server thread/INFO]: JRoy issued server command: /home <Base>
+[17:19:45] [Server thread/INFO]: Lemonition issued server command: /tpa JRoy
+[17:19:57] [Server thread/INFO]: JRoy issued server command: /tpaccept
+[17:20:00] [Server thread/INFO]: nevy has just earned the achievement [Time to Mine!]
+[17:20:16] [Server thread/INFO]: Sully issued server command: /home main
+[17:20:33] [Server thread/INFO]: Sully issued server command: /del home main
+[17:20:37] [Server thread/INFO]: Lemonition issued server command: /home hi
+[17:20:39] [Server thread/INFO]: Sully issued server command: /del home main
+[17:20:45] [Server thread/INFO]: Lemonition issued server command: /home hi
+[17:20:50] [Server thread/INFO]: Sully issued server command: /delhome main
+[17:20:53] [Server thread/INFO]: blurr_bagel has just earned the achievement [Getting an Upgrade]
+[17:20:58] [Server thread/INFO]: Sully issued server command: /sethome main
+[17:21:05] [Async Chat Thread - #23/INFO]: <Fizzy> alright if anyone griefs the community center[m
+
+[17:21:08] [Async Chat Thread - #23/INFO]: <Fizzy> i will kill you[m
+
+[17:21:11] [Async Chat Thread - #23/INFO]: <Lemonition> oh you built it?[m
+
+[17:21:13] [Server thread/INFO]: Lemonition issued server command: /tpa Fizzy
+[17:21:15] [Async Chat Thread - #23/INFO]: <Fizzy> im starting now[m
+
+[17:21:15] [Async Chat Thread - #23/INFO]: <GamingSpur> boo hoo[m
+
+[17:21:16] [Server thread/INFO]: Fizzy issued server command: /tpaccept
+[17:21:18] [Async Chat Thread - #23/INFO]: <Lemonition> i'll help[m
+
+[17:21:22] [Server thread/INFO]: chandrevej issued server command: /what are the cords???
+[17:21:25] [Async Chat Thread - #23/INFO]: <Fizzy> im putting it on stilts[m
+
+[17:21:26] [Async Chat Thread - #23/INFO]: <chandrevej> what are the cords???[m
+
+[17:21:30] [Async Chat Thread - #23/INFO]: <Fizzy> spawn[m
+
+[17:21:35] [Server thread/INFO]: Sully issued server command: /tpa GamingSpur
+[17:21:36] [Async Chat Thread - #23/INFO]: <chandrevej> ok[m
+
+[17:21:45] [Async Chat Thread - #23/INFO]: <Lemonition> ima go get wood actually[m
+
+[17:21:47] [Server thread/INFO]: Lemonition issued server command: /home hi
+[17:21:48] [Server thread/INFO]: GamingSpur issued server command: /tpdeny
+[17:21:49] [Async Chat Thread - #23/INFO]: <Fizzy> im warning you i have fully enchanted diamond gear[m
+
+[17:22:06] [Async Chat Thread - #23/INFO]: <Lemonition> are we js doin oak?[m
+
+[17:22:20] [Async Chat Thread - #23/INFO]: <Fizzy> should get more but oak is all thats nearby[m
+
+[17:22:29] [Async Chat Thread - #23/INFO]: <Fizzy> im gonna make it two /homes[m
+
+[17:22:32] [Async Chat Thread - #23/INFO]: <Lemonition> ok i'll find some like spruce or something[m
+
+[17:22:33] [Async Chat Thread - #23/INFO]: <Lemonition> yay[m
+
+[17:22:41] [Async Chat Thread - #23/INFO]: <GamingSpur> thank you ty[m
+
+[17:23:40] [Server thread/INFO]: Sully issued server command: /tpa GamingSpur
+[17:23:45] [Server thread/INFO]: GamingSpur issued server command: /tpdeny
+[17:24:11] [Server thread/INFO]: Sully issued server command: /telGamingSpur wow
+[17:24:23] [Server thread/WARN]: blurr_bagel moved wrongly!
+[17:24:28] [Server thread/INFO]: Sully issued server command: /tellGamingSpur wow
+[17:24:33] [Async Chat Thread - #24/INFO]: <Lemonition> ty if u need any blocsk for the community center lmk[m
+
+[17:24:38] [Server thread/INFO]: chandrevej has just earned the achievement [Getting Wood]
+[17:24:42] [Server thread/INFO]: Sully issued server command: /tell GamingSpur wow
+[17:25:02] [Server thread/INFO]: Sully issued server command: /tell GamingSpur i see how it is
+[17:25:04] [Server thread/INFO]: GamingSpur issued server command: /whisper Sully stop
+[17:25:15] [Server thread/INFO]: Lemonition issued server command: /tpa Fizzy
+[17:25:17] [Server thread/INFO]: Fizzy issued server command: /tpaccept
+[17:25:24] [Thread-85/INFO]: UUID of player NickAA is c85c331d-e67a-3f43-9dc4-7fe035c5007f
+[17:25:24] [Server thread/INFO]: NickAA[/[0:0:0:0:0:0:0:1]:39768] logged in with entity id 109839 at ([world]163.4819757819626, 59.0, -249.18266886613603)
+[17:25:29] [Async Chat Thread - #24/INFO]: <Lemonition> here[m
+
+[17:25:33] [Async Chat Thread - #24/INFO]: <Lemonition> wood[m
+
+[17:25:35] [Server thread/INFO]: NickAA issued server command: /tpa BubbleNugget82
+[17:25:43] [Async Chat Thread - #24/INFO]: <Fizzy> sick[m
+
+[17:25:44] [Server thread/INFO]: BubbleNugget82 issued server command: /tpaccept
+[17:25:50] [Server thread/INFO]: Sully issued server command: /tell GamingSpur do you know who i am
+[17:25:55] [Server thread/INFO]: chandrevej lost connection: Disconnected
+[17:25:55] [Server thread/INFO]: chandrevej left the game.
+[17:26:02] [Server thread/INFO]: Lemonition issued server command: /tell Fizzy i said i was gonna get spruce so they wouldnt know were in an acacia
+[17:26:07] [Async Chat Thread - #24/INFO]: <blurr_bagel> nick is this you[m
+
+[17:26:12] [Async Chat Thread - #24/INFO]: <blurr_bagel> yes or no[m
+
+[17:26:15] [Async Chat Thread - #24/INFO]: <NickAA> yes[m
+
+[17:26:16] [Async Chat Thread - #24/INFO]: <Lemonition> no[m
+
+[17:26:18] [Async Chat Thread - #24/INFO]: <NickAA> i didn't do that[m
+
+[17:26:30] [Async Chat Thread - #24/INFO]: <Lemonition> he did do that[m
+
+[17:26:37] [Async Chat Thread - #24/INFO]: <Fizzy> could you get me some birch hampton[m
+
+[17:26:41] [Async Chat Thread - #24/INFO]: <Lemonition> sure[m
+
+[17:26:47] [Async Chat Thread - #24/INFO]: <Lemonition> are any of yall in a birch?[m
+
+[17:26:55] [Server thread/INFO]: Lemonition issued server command: /home hi
+[17:26:59] [Async Chat Thread - #24/INFO]: <Fizzy> two dims for birch tp[m
+
+[17:27:00] [Async Chat Thread - #24/INFO]: <NickAA> where do our bases connect[m
+
+[17:27:07] [Server thread/INFO]: Lemonition issued server command: /home hi
+[17:27:30] [Server thread/INFO]: Lemonition issued server command: /tpa Fizzy
+[17:27:32] [Server thread/INFO]: GamingSpur lost connection: Disconnected
+[17:27:32] [Server thread/INFO]: GamingSpur left the game.
+[17:27:34] [Server thread/INFO]: Fizzy issued server command: /tpaccept
+[17:27:39] [Async Chat Thread - #24/INFO]: <Lemonition> ima place some saplings near the community center[m
+
+[17:27:48] [Async Chat Thread - #24/INFO]: <Fizzy> wait hamp[m
+
+[17:27:51] [Async Chat Thread - #24/INFO]: <Lemonition> what[m
+
+[17:27:56] [Async Chat Thread - #24/INFO]: <Fizzy> im gonna hit you with one arrow[m
+
+[17:27:58] [Async Chat Thread - #24/INFO]: <Fizzy> tell me the dmg[m
+
+[17:27:58] [Async Chat Thread - #24/INFO]: <Lemonition> gulp[m
+
+[17:28:00] [Async Chat Thread - #24/INFO]: <blurr_bagel> where exactly is the community center[m
+
+[17:28:03] [Async Chat Thread - #24/INFO]: <Lemonition> half[m
+
+[17:28:04] [Server thread/INFO]: nevy has just earned the achievement [Hot Topic]
+[17:28:05] [Async Chat Thread - #24/INFO]: <Lemonition> gulp[m
+
+[17:28:05] [Async Chat Thread - #24/INFO]: <Fizzy> sick[m
+
+[17:28:07] [Async Chat Thread - #24/INFO]: <Fizzy> its at spawn[m
+
+[17:28:27] [Async Chat Thread - #24/INFO]: <NickAA> ty pls let me use ur enchantment table[m
+
+[17:29:10] [Async Chat Thread - #24/INFO]: <Fizzy> cant do that[m
+
+[17:29:16] [Async Chat Thread - #24/INFO]: <NickAA> boi[m
+
+[17:30:09] [Server thread/WARN]: JRoy moved wrongly!
+[17:30:25] [Server thread/INFO]: Sully issued server command: /tell Lemonition im in some birch if you still need it
+[17:30:32] [Server thread/INFO]: Lemonition issued server command: /tpa Sully
+[17:30:36] [Server thread/INFO]: Sully issued server command: /tpaccept
+[17:30:44] [Server thread/INFO]: NickAA lost connection: Disconnected
+[17:30:44] [Server thread/INFO]: NickAA left the game.
+[17:30:44] [Async Chat Thread - #25/INFO]: <Lemonition> thx[m
+
+[17:31:03] [Server thread/INFO]: blurr_bagel lost connection: Disconnected
+[17:31:03] [Server thread/INFO]: blurr_bagel left the game.
+[17:31:10] [Server thread/INFO]: Sully issued server command: /home main
+[17:31:20] [Server thread/INFO]: Sully lost connection: Disconnected
+[17:31:20] [Server thread/INFO]: Sully left the game.
+[17:31:23] [Server thread/INFO]: Fizzy lost connection: Disconnected
+[17:31:23] [Server thread/INFO]: Fizzy left the game.
+[17:31:34] [Server thread/INFO]: nevy lost connection: Disconnected
+[17:31:34] [Server thread/INFO]: nevy left the game.
+[17:31:45] [Server thread/INFO]: Lemonition issued server command: /tpa FunnymanXD
+[17:31:55] [Server thread/INFO]: Lemonition issued server command: /tell FunnymanXD i wanna see ur progress on the base
+[17:32:09] [Server thread/INFO]: BubbleNugget82 lost connection: Disconnected
+[17:32:09] [Server thread/INFO]: BubbleNugget82 left the game.
+[17:32:29] [Server thread/INFO]: FunnymanXD lost connection: Disconnected
+[17:32:29] [Server thread/INFO]: FunnymanXD left the game.
+[17:32:32] [Server thread/INFO]: Lemonition lost connection: Disconnected
+[17:32:32] [Server thread/INFO]: Lemonition left the game.
+[17:32:55] [Thread-86/INFO]: UUID of player chandrevej is e4590abd-f4ee-3248-8445-f6927b52b538
+[17:32:55] [Server thread/INFO]: chandrevej[/[0:0:0:0:0:0:0:1]:58988] logged in with entity id 118298 at ([world]3714.708962723128, 74.0, -166.3000000119209)
+[17:32:59] [Server thread/INFO]: FreakBob2477 lost connection: Disconnected
+[17:32:59] [Server thread/INFO]: FreakBob2477 left the game.
+[17:33:26] [Server thread/INFO]: chandrevej lost connection: Login timed out!
+[17:33:26] [Server thread/INFO]: chandrevej left the game.
+[17:33:26] [Server thread/WARN]: handleDisconnection() called twice
+[17:33:31] [Thread-87/INFO]: UUID of player chandrevej is e4590abd-f4ee-3248-8445-f6927b52b538
+[17:33:31] [Server thread/INFO]: chandrevej[/[0:0:0:0:0:0:0:1]:53538] logged in with entity id 118520 at ([world]3714.910486974851, 74.0, -166.90439757135758)
+[17:34:02] [Server thread/INFO]: chandrevej lost connection: Login timed out!
+[17:34:02] [Server thread/INFO]: chandrevej left the game.
+[17:34:02] [Server thread/WARN]: handleDisconnection() called twice
+[17:34:09] [Thread-88/INFO]: UUID of player chandrevej is e4590abd-f4ee-3248-8445-f6927b52b538
+[17:34:09] [Server thread/INFO]: chandrevej[/[0:0:0:0:0:0:0:1]:53244] logged in with entity id 118674 at ([world]3714.9748599763075, 74.0, -166.9782901572908)
+[17:34:09] [Server thread/INFO]: JRoy was burnt to a crisp whilst fighting Blaze
+[17:34:37] [Server thread/INFO]: chandrevej lost connection: Disconnected
+[17:34:37] [Server thread/INFO]: chandrevej left the game.
+[17:34:52] [Server thread/INFO]: JRoy lost connection: Disconnected
+[17:34:52] [Server thread/INFO]: JRoy left the game.
+[17:39:31] [Thread-90/INFO]: UUID of player FunnymanXD is 92f169df-4a11-3260-bac6-b1339e1c942a
+[17:39:31] [Server thread/INFO]: FunnymanXD[/[0:0:0:0:0:0:0:1]:60220] logged in with entity id 118999 at ([world]262.7969635552258, 63.0, 33.12061906847955)
+[17:40:01] [Server thread/INFO]: FunnymanXD lost connection: Login timed out!
+[17:40:01] [Server thread/INFO]: FunnymanXD left the game.
+[17:40:01] [Server thread/WARN]: handleDisconnection() called twice
+[17:40:06] [Thread-91/INFO]: UUID of player JRoy is d1fdfab8-6e2e-3160-95e7-e63fd213b737
+[17:40:06] [Server thread/INFO]: JRoy[/[0:0:0:0:0:0:0:1]:43372] logged in with entity id 119086 at ([world_nether]41.41004722905453, 75.0, 5.170996136741756)
+[17:41:08] [Thread-92/INFO]: UUID of player FunnymanXD is 92f169df-4a11-3260-bac6-b1339e1c942a
+[17:41:08] [Server thread/INFO]: FunnymanXD[/[0:0:0:0:0:0:0:1]:52996] logged in with entity id 119212 at ([world]262.7969635552258, 63.0, 33.12061906847955)
+[17:42:19] [Server thread/INFO]: JRoy issued server command: /home <Base>
+[17:43:06] [Server thread/INFO]: JRoy issued server command: /tpa home
+[17:43:14] [Server thread/INFO]: JRoy issued server command: /home <Base>
+[17:45:07] [Thread-93/INFO]: UUID of player nevy is aa058c8b-87fe-3215-b67d-5c81b9529893
+[17:45:07] [Server thread/INFO]: nevy[/[0:0:0:0:0:0:0:1]:51274] logged in with entity id 120651 at ([world]228.9869297236687, 62.0, -114.61741391030547)
+[17:45:26] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[17:46:14] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[17:46:22] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[17:49:14] [Server thread/INFO]: JRoy fell from a high place
+[17:49:31] [Server thread/INFO]: JRoy issued server command: /home <Base>
+[17:49:59] [Server thread/INFO]: nevy lost connection: Disconnected
+[17:49:59] [Server thread/INFO]: nevy left the game.
+[17:54:05] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[17:57:46] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[17:58:02] [Thread-94/INFO]: UUID of player CrafterOfMines is 19ab12c5-554d-3805-9c4e-84624144569c
+[17:58:02] [Server thread/INFO]: CrafterOfMines[/[0:0:0:0:0:0:0:1]:38528] logged in with entity id 124401 at ([world]474.10715256846896, 66.0, 1527.980724786368)
+[17:59:02] [Thread-95/INFO]: UUID of player ShuShu is bd41e5df-ebcd-3d5b-987e-82c318b5b2a6
+[17:59:02] [Server thread/INFO]: ShuShu[/[0:0:0:0:0:0:0:1]:55732] logged in with entity id 127613 at ([world]-648.8565535510688, 56.0, 571.8046463908776)
+[17:59:12] [Thread-96/INFO]: UUID of player Breazey is d2fab18f-0506-37b5-8c15-0bb5b6a8afa5
+[17:59:12] [Server thread/INFO]: Breazey[/[0:0:0:0:0:0:0:1]:60470] logged in with entity id 128619 at ([world]1369.300000011921, 12.0, 300.7898536850733)
+[17:59:19] [Server thread/INFO]: JRoy tried to swim in lava to escape Zombie
+[17:59:36] [Server thread/INFO]: JRoy issued server command: /home <Base>
+[18:01:01] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[18:01:05] [Thread-97/INFO]: UUID of player Fizzy is 62c75a5c-9780-37b4-839e-23e606512cc4
+[18:01:05] [Server thread/INFO]: Fizzy[/[0:0:0:0:0:0:0:1]:50704] logged in with entity id 130510 at ([world]-93.79754333616867, 72.0, 267.75536100024067)
+[18:01:13] [Server thread/INFO]: Fizzy lost connection: Disconnected
+[18:01:13] [Server thread/INFO]: Fizzy left the game.
+[18:02:58] [Thread-98/INFO]: UUID of player FreakBob2477 is 5cc70c72-875a-3361-b06a-47468364ec5d
+[18:02:58] [Server thread/INFO]: FreakBob2477[/[0:0:0:0:0:0:0:1]:51064] logged in with entity id 134689 at ([world]-722.7217370521272, 11.0, -784.6999999880791)
+[18:03:10] [Server thread/INFO]: JRoy lost connection: Disconnected
+[18:03:10] [Server thread/INFO]: JRoy left the game.
+[18:03:15] [Thread-99/INFO]: UUID of player JRoy is d1fdfab8-6e2e-3160-95e7-e63fd213b737
+[18:03:15] [Server thread/INFO]: JRoy[/[0:0:0:0:0:0:0:1]:50604] logged in with entity id 135057 at ([world]-439.64796880239294, 11.0, 414.69999998807907)
+[18:03:49] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[18:04:13] [Server thread/INFO]: ShuShu has just earned the achievement [Acquire Hardware]
+[18:04:50] [Async Chat Thread - #26/INFO]: <FreakBob2477> "Mrs. thur please dont report minecraft"-Shushu[m
+
+[18:05:48] [Async Chat Thread - #26/INFO]: <ShuShu> Wth minecraft?-Mrs thur[m
+
+[18:07:04] [Server thread/INFO]: FunnymanXD has just earned the achievement [Hot Topic]
+[18:07:10] [Thread-101/INFO]: UUID of player nevy is aa058c8b-87fe-3215-b67d-5c81b9529893
+[18:07:11] [Server thread/INFO]: nevy[/[0:0:0:0:0:0:0:1]:53228] logged in with entity id 138520 at ([world]297.0576060881981, 75.0, 269.3945028286195)
+[18:07:13] [Thread-102/INFO]: UUID of player Gibbyy8 is 3503e127-d772-36a1-827c-f930a35b401b
+[18:07:13] [Server thread/INFO]: Gibbyy8[/[0:0:0:0:0:0:0:1]:53236] logged in with entity id 138783 at ([world]1371.4483554543747, 11.0, 702.6829471077373)
+[18:07:43] [Server thread/INFO]: Gibbyy8 was slain by Zombie
+[18:09:07] [Server thread/INFO]: CrafterOfMines lost connection: Disconnected
+[18:09:07] [Server thread/INFO]: CrafterOfMines left the game.
+[18:09:09] [Thread-103/INFO]: UUID of player CrafterOfMines is 19ab12c5-554d-3805-9c4e-84624144569c
+[18:09:09] [Server thread/INFO]: CrafterOfMines[/[0:0:0:0:0:0:0:1]:53652] logged in with entity id 141211 at ([world]474.0234260841039, 67.0, 1533.764603437172)
+[18:09:50] [Async Chat Thread - #27/INFO]: <CrafterOfMines> is the server laggign for yall as well[m
+
+[18:09:57] [Async Chat Thread - #27/INFO]: <ShuShu> nah[m
+
+[18:10:01] [Async Chat Thread - #27/INFO]: <FreakBob2477> nah im straight[m
+
+[18:10:04] [Server thread/INFO]: Gibbyy8 issued server command: /tpa CrafterOfMines
+[18:10:15] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[18:10:17] [Server thread/INFO]: CrafterOfMines lost connection: Disconnected
+[18:10:17] [Server thread/INFO]: CrafterOfMines left the game.
+[18:10:20] [Async Chat Thread - #27/INFO]: <Gibbyy8> gabe let me teleport[m
+
+[18:10:23] [Thread-104/INFO]: UUID of player Tampafan39 is a88acbff-c42a-3d32-aa66-4934db6a58c0
+[18:10:23] [Server thread/INFO]: Tampafan39[/[0:0:0:0:0:0:0:1]:34340] logged in with entity id 142335 at ([world]-113.5, 69.0, 247.5)
+[18:10:54] [Server thread/INFO]: Tampafan39 lost connection: Login timed out!
+[18:10:54] [Server thread/INFO]: Tampafan39 left the game.
+[18:10:54] [Server thread/WARN]: handleDisconnection() called twice
+[18:11:50] [Thread-105/INFO]: UUID of player Tampafan39 is a88acbff-c42a-3d32-aa66-4934db6a58c0
+[18:11:50] [Server thread/INFO]: Tampafan39[/[0:0:0:0:0:0:0:1]:58270] logged in with entity id 143740 at ([world]-113.02962554619407, 69.0, 247.66968850260375)
+[18:12:13] [Server thread/INFO]: Gibbyy8 lost connection: Timed out
+[18:12:13] [Server thread/INFO]: Gibbyy8 left the game.
+[18:12:52] [Server thread/INFO]: FreakBob2477 lost connection: Timed out
+[18:12:52] [Server thread/INFO]: FreakBob2477 left the game.
+[18:13:05] [Server thread/INFO]: Tampafan39 lost connection: Disconnected
+[18:13:05] [Server thread/INFO]: Tampafan39 left the game.
+[18:13:15] [Thread-106/INFO]: UUID of player Gibbyy8 is 3503e127-d772-36a1-827c-f930a35b401b
+[18:13:15] [Server thread/INFO]: Gibbyy8[/[0:0:0:0:0:0:0:1]:44996] logged in with entity id 145116 at ([world]-116.65108284097772, 64.0, 306.30000001192093)
+[18:13:20] [Server thread/INFO]: Breazey was shot by Skeleton
+[18:13:45] [Server thread/INFO]: Gibbyy8 issued server command: /home base
+[18:14:02] [Server thread/INFO]: Gibbyy8 issued server command: /home gibbyhome
+[18:14:11] [Server thread/INFO]: ShuShu lost connection: Disconnected
+[18:14:11] [Server thread/INFO]: ShuShu left the game.
+[18:14:32] [Server thread/INFO]: nevy lost connection: Disconnected
+[18:14:32] [Server thread/INFO]: nevy left the game.
+[18:14:52] [Server thread/INFO]: Gibbyy8 issued server command: /tpa benontip
+[18:15:11] [Thread-107/INFO]: UUID of player mrcreeper_17 is 2de2b6e5-741c-3162-9470-b6a739db66fa
+[18:15:11] [Server thread/INFO]: mrcreeper_17[/[0:0:0:0:0:0:0:1]:38258] logged in with entity id 146413 at ([world]-417.58224516631907, 137.0, 656.8829179732165)
+[18:15:30] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[18:15:51] [Server thread/INFO]: mrcreeper_17 has just earned the achievement [Getting Wood]
+[18:16:07] [Thread-108/INFO]: UUID of player FreakBob2477 is 5cc70c72-875a-3361-b06a-47468364ec5d
+[18:16:07] [Server thread/INFO]: FreakBob2477[/[0:0:0:0:0:0:0:1]:45602] logged in with entity id 147480 at ([world]-706.3796998312272, 11.0, -767.221387738233)
+[18:18:00] [Server thread/INFO]: Gibbyy8 lost connection: Disconnected
+[18:18:00] [Server thread/INFO]: Gibbyy8 left the game.
+[18:18:05] [Server thread/INFO]: Breazey lost connection: Disconnected
+[18:18:05] [Server thread/INFO]: Breazey left the game.
+[18:18:27] [Server thread/INFO]: FreakBob2477 lost connection: Disconnected
+[18:18:27] [Server thread/INFO]: FreakBob2477 left the game.
+[18:24:16] [Thread-109/INFO]: UUID of player NickAA is c85c331d-e67a-3f43-9dc4-7fe035c5007f
+[18:24:16] [Server thread/INFO]: NickAA[/[0:0:0:0:0:0:0:1]:34160] logged in with entity id 151642 at ([world]156.51444806022627, 11.0, -245.30000001192093)
+[18:24:34] [Server thread/INFO]: NickAA issued server command: /home house
+[18:24:40] [Async Chat Thread - #28/INFO]: <NickAA> what classes yll in[m
+
+[18:25:06] [Server thread/INFO]: NickAA lost connection: Disconnected
+[18:25:06] [Server thread/INFO]: NickAA left the game.
+[18:32:20] [Thread-110/INFO]: UUID of player Sully is 8559908a-1458-31ee-8991-b78b1bd7a4ed
+[18:32:20] [Server thread/INFO]: Sully[/[0:0:0:0:0:0:0:1]:33216] logged in with entity id 156365 at ([world]494.7088870815231, 63.0, -2278.1454530369115)
+[18:39:42] [Server thread/INFO]: mrcreeper_17 has just earned the achievement [Benchmarking]
+[18:40:04] [Server thread/INFO]: mrcreeper_17 has just earned the achievement [Time to Strike!]
+[18:40:29] [Server thread/INFO]: mrcreeper_17 has just earned the achievement [Monster Hunter]
+[18:42:06] [Server thread/INFO]: Sully issued server command: /home main
+[18:42:08] [Server thread/INFO]: mrcreeper_17 was shot by Skeleton
+[18:42:23] [Server thread/INFO]: mrcreeper_17 issued server command: /home hoome
+[18:43:10] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[18:43:38] [Server thread/INFO]: mrcreeper_17 has just earned the achievement [Cow Tipper]
+[18:44:18] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[18:48:38] [Thread-112/INFO]: UUID of player GamingSpur is 58516d5d-4e7c-3aca-b2aa-d4e40f41ae4e
+[18:48:38] [Server thread/INFO]: GamingSpur[/[0:0:0:0:0:0:0:1]:59606] logged in with entity id 170031 at ([world]-1157.4747831778934, 31.0, 139.54587583440056)
+[18:49:02] [Server thread/INFO]: Sully issued server command: /tell Gaming Spur whats up ej khalid
+[18:49:02] [Server thread/INFO]: [Sully: That player cannot be found]
+[18:49:22] [Server thread/INFO]: Sully issued server command: /tell GamingSpur whats up ej kalid
+[18:50:05] [Server thread/INFO]: GamingSpur issued server command: /wsp Sully shut up
+[18:50:08] [Server thread/INFO]: GamingSpur issued server command: /help
+[18:50:18] [Thread-113/INFO]: UUID of player Freelancer is fefa8a21-5d3f-37b5-b24f-af8a2993fce6
+[18:50:18] [Server thread/INFO]: Freelancer[/[0:0:0:0:0:0:0:1]:34828] logged in with entity id 171590 at ([world]492.6966129652108, 63.0, -2275.090776105667)
+[18:50:43] [Server thread/INFO]: GamingSpur issued server command: /help [n]
+[18:50:53] [Server thread/INFO]: GamingSpur issued server command: /help Minecraft
+[18:51:06] [Server thread/INFO]: GamingSpur issued server command: /tell Sully shut up
+[18:52:02] [Server thread/INFO]: Sully issued server command: /tell GamingSpur whoa its carter dude chill
+[18:52:06] [Thread-114/INFO]: UUID of player FreakBob2477 is 5cc70c72-875a-3361-b06a-47468364ec5d
+[18:52:06] [Server thread/INFO]: FreakBob2477[/[0:0:0:0:0:0:0:1]:41702] logged in with entity id 172695 at ([world]-711.7071176087154, 11.0, -770.4402311758724)
+[18:52:28] [Thread-115/INFO]: UUID of player Gibbyy8 is 3503e127-d772-36a1-827c-f930a35b401b
+[18:52:28] [Server thread/INFO]: Gibbyy8[/[0:0:0:0:0:0:0:1]:40734] logged in with entity id 173102 at ([world]233.30000001192093, 61.0, 44.082800234796224)
+[18:53:04] [Server thread/INFO]: Gibbyy8 issued server command: /version
+[18:53:09] [Server thread/INFO]: Gibbyy8 issued server command: /
+[18:53:19] [Server thread/INFO]: Gibbyy8 issued server command: /tool
+[18:53:35] [Server thread/INFO]: Gibbyy8 issued server command: /searchitem
+[18:53:50] [Server thread/INFO]: Gibbyy8 issued server command: /searchitem grass
+[18:54:03] [Thread-117/INFO]: UUID of player CrafterOfMines is 19ab12c5-554d-3805-9c4e-84624144569c
+[18:54:03] [Server thread/INFO]: CrafterOfMines[/[0:0:0:0:0:0:0:1]:46864] logged in with entity id 174790 at ([world]475.48539439333183, 67.0, 1532.407546947956)
+[18:54:19] [Thread-118/INFO]: UUID of player Tampafan39 is a88acbff-c42a-3d32-aa66-4934db6a58c0
+[18:54:19] [Server thread/INFO]: Tampafan39[/[0:0:0:0:0:0:0:1]:38718] logged in with entity id 175150 at ([world]-136.69999998807907, 73.0, 275.3522243057088)
+[18:54:47] [Server thread/INFO]: Gibbyy8 issued server command: /tpa JRoy
+[18:54:49] [Server thread/INFO]: Sully issued server command: /tell Tampafan39 yoooo whats up dude
+[18:54:54] [Server thread/INFO]: JRoy issued server command: /tpdeny
+[18:56:18] [Server thread/INFO]: Tampafan39 lost connection: Timed out
+[18:56:18] [Server thread/INFO]: Tampafan39 left the game.
+[18:56:57] [Server thread/INFO]: Gibbyy8 has just earned the achievement [Benchmarking]
+[18:57:11] [Server thread/INFO]: JRoy lost connection: Disconnected
+[18:57:11] [Server thread/INFO]: JRoy left the game.
+[18:57:16] [Thread-119/INFO]: UUID of player Tampafan39 is a88acbff-c42a-3d32-aa66-4934db6a58c0
+[18:57:16] [Server thread/INFO]: Tampafan39[/[0:0:0:0:0:0:0:1]:52610] logged in with entity id 178126 at ([world]-136.07450606992273, 72.0, 278.04922496325037)
+[18:57:25] [Server thread/INFO]: Sully issued server command: /tpa Gibbyy8
+[18:57:36] [Server thread/INFO]: Gibbyy8 issued server command: /tpaccept
+[18:57:51] [Server thread/WARN]: Sully moved wrongly!
+[18:58:29] [Server thread/INFO]: Freelancer lost connection: Disconnected
+[18:58:29] [Server thread/INFO]: Freelancer left the game.
+[18:58:45] [Server thread/INFO]: Tampafan39 lost connection: Timed out
+[18:58:45] [Server thread/INFO]: Tampafan39 left the game.
+[18:59:13] [Thread-120/INFO]: UUID of player Tampafan39 is a88acbff-c42a-3d32-aa66-4934db6a58c0
+[18:59:13] [Server thread/INFO]: Tampafan39[/[0:0:0:0:0:0:0:1]:39650] logged in with entity id 179822 at ([world]-136.07450606992273, 72.0, 278.04922496325037)
+[18:59:27] [Server thread/INFO]: Sully lost connection: Disconnected
+[18:59:27] [Server thread/INFO]: Sully left the game.
+[18:59:29] [Server thread/INFO]: FunnymanXD lost connection: Disconnected
+[18:59:29] [Server thread/INFO]: FunnymanXD left the game.
+[18:59:45] [Server thread/INFO]: Tampafan39 has just earned the achievement [Taking Inventory]
+[18:59:58] [Server thread/INFO]: GamingSpur issued server command: /sethome mine
+[19:00:30] [Thread-121/INFO]: UUID of player Sully is 8559908a-1458-31ee-8991-b78b1bd7a4ed
+[19:00:30] [Server thread/INFO]: Sully[/[0:0:0:0:0:0:0:1]:48236] logged in with entity id 180664 at ([world]178.30000001192093, 64.0, 155.07006140765492)
+[19:00:49] [Server thread/INFO]: Sully issued server command: /tpa Tampafan39
+[19:01:08] [Server thread/INFO]: Tampafan39 issued server command: /tpaccept
+[19:01:22] [Server thread/INFO]: Tampafan39 has just earned the achievement [Getting Wood]
+[19:02:03] [Async Chat Thread - #29/INFO]: <Gibbyy8> thanks tully[m
+
+[19:02:05] [Server thread/INFO]: Sully issued server command: /tpa Tampafan39
+[19:02:11] [Thread-122/INFO]: UUID of player jed23132 is f53f892c-5a36-3b52-82d5-1b74fdccfb40
+[19:02:11] [Server thread/INFO]: jed23132[/[0:0:0:0:0:0:0:1]:55106] logged in with entity id 182027 at ([world]-121.5, 71.0, 253.5)
+[19:02:28] [Server thread/INFO]: Tampafan39 issued server command: /tpaccept
+[19:02:42] [Server thread/INFO]: jed23132 lost connection: Login timed out!
+[19:02:42] [Server thread/INFO]: jed23132 left the game.
+[19:02:42] [Server thread/WARN]: handleDisconnection() called twice
+[19:04:11] [Server thread/INFO]: Gibbyy8 issued server command: /home gibbyhome
+[19:04:20] [Thread-123/INFO]: UUID of player jed23132 is f53f892c-5a36-3b52-82d5-1b74fdccfb40
+[19:04:20] [Server thread/INFO]: jed23132[/[0:0:0:0:0:0:0:1]:36620] logged in with entity id 184584 at ([world]-121.5, 71.0, 253.5)
+[19:04:21] [Server thread/INFO]: Gibbyy8 issued server command: /home gibbyhome
+[19:04:51] [Server thread/INFO]: jed23132 lost connection: Login timed out!
+[19:04:51] [Server thread/INFO]: jed23132 left the game.
+[19:04:51] [Server thread/WARN]: handleDisconnection() called twice
+[19:05:03] [Thread-124/INFO]: UUID of player ShuShu is bd41e5df-ebcd-3d5b-987e-82c318b5b2a6
+[19:05:04] [Server thread/INFO]: ShuShu[/[0:0:0:0:0:0:0:1]:53520] logged in with entity id 185339 at ([world]-661.1396226892556, 61.0, 794.1519366609765)
+[19:05:55] [Server thread/INFO]: Gibbyy8 has just earned the achievement [Time to Mine!]
+[19:05:55] [Server thread/INFO]: Gibbyy8 has just earned the achievement [Getting an Upgrade]
+[19:09:05] [Thread-126/INFO]: UUID of player jed23132 is f53f892c-5a36-3b52-82d5-1b74fdccfb40
+[19:09:05] [Server thread/INFO]: jed23132[/[0:0:0:0:0:0:0:1]:54936] logged in with entity id 190707 at ([world]-121.5, 71.0, 253.5)
+[19:09:36] [Server thread/INFO]: jed23132 lost connection: Login timed out!
+[19:09:36] [Server thread/INFO]: jed23132 left the game.
+[19:09:36] [Server thread/WARN]: handleDisconnection() called twice
+[19:09:51] [Thread-127/INFO]: UUID of player jed23132 is f53f892c-5a36-3b52-82d5-1b74fdccfb40
+[19:09:51] [Server thread/INFO]: jed23132[/[0:0:0:0:0:0:0:1]:58712] logged in with entity id 191286 at ([world]-121.5, 71.0, 253.5)
+[19:11:24] [Server thread/INFO]: mrcreeper_17 issued server command: /home hoome
+[19:12:03] [Server thread/INFO]: Tampafan39 has just earned the achievement [Benchmarking]
+[19:12:24] [Server thread/INFO]: Gibbyy8 lost connection: Timed out
+[19:12:24] [Server thread/INFO]: Gibbyy8 left the game.
+[19:14:16] [Server thread/INFO]: GamingSpur issued server command: /home main
+[19:14:30] [Server thread/INFO]: Sully issued server command: /tpa GamingSpur
+[19:14:39] [Server thread/INFO]: FreakBob2477 has just earned the achievement [We Need to Go Deeper]
+[19:14:44] [Server thread/INFO]: GamingSpur issued server command: /tpdeny
+[19:15:01] [Server thread/INFO]: GamingSpur issued server command: /tell Sully stop tpaing me
+[19:15:05] [Server thread/INFO]: ShuShu has just earned the achievement [Cow Tipper]
+[19:15:33] [Server thread/INFO]: Sully issued server command: /tell GamingSpur i just wanted to meet im not gonna do anything. why so hostile?
+[19:16:03] [Server thread/INFO]: GamingSpur issued server command: /tell Sully im at my base and dont want anyone else here
+[19:16:15] [Server thread/INFO]: Tampafan39 has just earned the achievement [Time to Mine!]
+[19:16:38] [Thread-128/INFO]: UUID of player Gibbyy8 is 3503e127-d772-36a1-827c-f930a35b401b
+[19:16:38] [Server thread/INFO]: Gibbyy8[/[0:0:0:0:0:0:0:1]:50072] logged in with entity id 198851 at ([world]1227.7819833622113, 63.0, 613.9175739432646)
+[19:16:46] [Server thread/INFO]: mrcreeper_17 drowned
+[19:16:51] [Server thread/INFO]: Sully issued server command: /tell GamingSpur could have led with that the first 10 times instead of telling me to shut up
+[19:16:55] [Server thread/INFO]: mrcreeper_17 issued server command: /home hoome
+[19:17:12] [Server thread/INFO]: mrcreeper_17 suffocated in a wall
+[19:17:22] [Server thread/INFO]: mrcreeper_17 issued server command: /home hoome
+[19:17:25] [Server thread/INFO]: GamingSpur issued server command: /tell Sully true my b
+[19:17:25] [Async Chat Thread - #30/INFO]: <CrafterOfMines> nooooooo[m
+
+[19:17:31] [Server thread/INFO]: jed23132 lost connection: Disconnected
+[19:17:31] [Server thread/INFO]: jed23132 left the game.
+[19:18:43] [Server thread/INFO]: ShuShu lost connection: Disconnected
+[19:18:43] [Server thread/INFO]: ShuShu left the game.
+[19:19:19] [Server thread/INFO]: Tampafan39 lost connection: Timed out
+[19:19:19] [Server thread/INFO]: Tampafan39 left the game.
+[19:19:22] [Server thread/INFO]: mrcreeper_17 issued server command: /home hoome
+[19:19:37] [Server thread/WARN]: mrcreeper_17 moved wrongly!
+[19:19:37] [Server thread/WARN]: mrcreeper_17 moved wrongly!
+[19:19:37] [Server thread/WARN]: mrcreeper_17 moved wrongly!
+[19:19:37] [Server thread/WARN]: mrcreeper_17 moved wrongly!
+[19:20:47] [Server thread/INFO]: Sully lost connection: Disconnected
+[19:20:47] [Server thread/INFO]: Sully left the game.
+[19:22:20] [Async Chat Thread - #31/INFO]: <FreakBob2477> whos portal is in the middle of the desert[m
+
+[19:22:39] [Async Chat Thread - #31/INFO]: <Gibbyy8> prolly gabe[m
+
+[19:22:58] [Async Chat Thread - #31/INFO]: <mrcreeper_17> thats some gabe type shanagans[m
+
+[19:23:12] [Server thread/INFO]: GamingSpur lost connection: Disconnected
+[19:23:12] [Server thread/INFO]: GamingSpur left the game.
+[19:23:13] [Async Chat Thread - #31/INFO]: <CrafterOfMines> me or medina[m
+
+[19:23:22] [Async Chat Thread - #31/INFO]: <mrcreeper_17> keller prob[m
+
+[19:23:27] [Async Chat Thread - #31/INFO]: <mrcreeper_17> which r u[m
+
+[19:23:38] [Async Chat Thread - #31/INFO]: <CrafterOfMines> the only other gabe in our grade[m
+
+[19:23:40] [Async Chat Thread - #31/INFO]: <FreakBob2477> im medina and i was the one who asked[m
+
+[19:23:47] [Async Chat Thread - #31/INFO]: <mrcreeper_17> gulp[m
+
+[19:23:48] [Async Chat Thread - #31/INFO]: <CrafterOfMines> ah i see[m
+
+[19:23:54] [Server thread/INFO]: Gibbyy8 has just earned the achievement [Time to Strike!]
+[19:23:55] [Async Chat Thread - #31/INFO]: <CrafterOfMines> you died in lava last night[m
+
+[19:24:16] [Async Chat Thread - #31/INFO]: <FreakBob2477> bru where tf is the fortress[m
+
+[19:24:30] [Async Chat Thread - #31/INFO]: <mrcreeper_17> tyler probably knows[m
+
+[19:24:45] [Thread-129/INFO]: UUID of player Breazey is d2fab18f-0506-37b5-8c15-0bb5b6a8afa5
+[19:24:45] [Server thread/INFO]: Breazey[/[0:0:0:0:0:0:0:1]:56390] logged in with entity id 204816 at ([world]1368.54930391896, 14.0, 202.66837828076245)
+[19:25:15] [Server thread/INFO]: Breazey lost connection: Login timed out!
+[19:25:15] [Server thread/INFO]: Breazey left the game.
+[19:25:15] [Server thread/WARN]: handleDisconnection() called twice
+[19:25:23] [Thread-130/INFO]: UUID of player Breazey is d2fab18f-0506-37b5-8c15-0bb5b6a8afa5
+[19:25:23] [Server thread/INFO]: Breazey[/[0:0:0:0:0:0:0:1]:48172] logged in with entity id 205477 at ([world]1368.54930391896, 14.0, 202.66837828076245)
+[19:26:28] [Server thread/WARN]: CrafterOfMines moved wrongly!
+[19:26:28] [Server thread/WARN]: CrafterOfMines moved wrongly!
+[19:28:15] [Server thread/INFO]: FreakBob2477 lost connection: Disconnected
+[19:28:15] [Server thread/INFO]: FreakBob2477 left the game.
+[19:28:24] [Server thread/INFO]: Gibbyy8 issued server command: /sethome home
+[19:28:25] [Server thread/INFO]: Breazey lost connection: Disconnected
+[19:28:25] [Server thread/INFO]: Breazey left the game.
+[19:28:42] [Server thread/INFO]: CrafterOfMines lost connection: Disconnected
+[19:28:42] [Server thread/INFO]: CrafterOfMines left the game.
+[19:28:54] [Server thread/INFO]: mrcreeper_17 issued server command: /home hoome
+[19:29:03] [Server thread/INFO]: Gibbyy8 lost connection: Disconnected
+[19:29:03] [Server thread/INFO]: Gibbyy8 left the game.
+[19:29:41] [Server thread/INFO]: mrcreeper_17 lost connection: Disconnected
+[19:29:41] [Server thread/INFO]: mrcreeper_17 left the game.
+[19:34:28] [Thread-131/INFO]: UUID of player JRoy is d1fdfab8-6e2e-3160-95e7-e63fd213b737
+[19:34:29] [Server thread/INFO]: JRoy[/[0:0:0:0:0:0:0:1]:41838] logged in with entity id 208143 at ([world]-1837.971789085223, 11.0, 389.5329796124537)
+[19:34:38] [Thread-132/INFO]: UUID of player Will is bccb1f64-220b-32d2-9fc5-369d8daa4109
+[19:34:38] [Server thread/INFO]: Will[/[0:0:0:0:0:0:0:1]:46658] logged in with entity id 208362 at ([world]-2037.699999988079, 43.0, 2566.200496308441)
+[19:35:43] [Thread-133/INFO]: UUID of player Lemonition is 728541c4-6293-3179-9512-e592ca4a9658
+[19:35:43] [Server thread/INFO]: Lemonition[/[0:0:0:0:0:0:0:1]:45034] logged in with entity id 208627 at ([world]597.3753147198643, 69.0, -3365.7547563156395)
+[19:35:43] [Thread-134/INFO]: UUID of player nevy_ is dad450e6-4e32-3542-9905-cffb1746c5cb
+[19:35:43] [Server thread/INFO]: nevy_[/[0:0:0:0:0:0:0:1]:45044] logged in with entity id 208696 at ([world]-126.5, 71.0, 251.5)
+[19:35:53] [Server thread/INFO]: Will issued server command: /deletehome
+[19:36:02] [Server thread/INFO]: Will issued server command: /deletehome fmw
+[19:36:04] [Thread-135/INFO]: UUID of player FunnymanXD is 92f169df-4a11-3260-bac6-b1339e1c942a
+[19:36:04] [Server thread/INFO]: FunnymanXD[/[0:0:0:0:0:0:0:1]:35736] logged in with entity id 208919 at ([world]198.27314894971948, 14.0, 15.452222049684075)
+[19:36:08] [Server thread/INFO]: Will issued server command: /sethome fmw
+[19:36:14] [Server thread/INFO]: nevy_ lost connection: Login timed out!
+[19:36:14] [Server thread/INFO]: nevy_ left the game.
+[19:36:14] [Server thread/WARN]: handleDisconnection() called twice
+[19:36:22] [Server thread/INFO]: Lemonition issued server command: /tpa FunnymanXD
+[19:36:26] [Server thread/INFO]: FunnymanXD issued server command: /tpaccept
+[19:36:57] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[19:37:18] [Thread-137/INFO]: UUID of player nevy_ is dad450e6-4e32-3542-9905-cffb1746c5cb
+[19:37:18] [Server thread/INFO]: nevy_[/[0:0:0:0:0:0:0:1]:39898] logged in with entity id 209734 at ([world]-126.5, 71.0, 251.5)
+[19:37:30] [Thread-138/INFO]: UUID of player chicken_ is aae82cf2-d0ed-37e1-b58e-22b24507a71f
+[19:37:30] [Server thread/INFO]: chicken_[/[0:0:0:0:0:0:0:1]:59756] logged in with entity id 209754 at ([world]-120.5, 72.0, 262.5)
+[19:37:42] [Server thread/INFO]: chicken_ lost connection: Disconnected
+[19:37:42] [Server thread/INFO]: chicken_ left the game.
+[19:37:49] [Server thread/INFO]: nevy_ lost connection: Login timed out!
+[19:37:49] [Server thread/INFO]: nevy_ left the game.
+[19:37:49] [Server thread/WARN]: handleDisconnection() called twice
+[19:37:52] [Thread-139/INFO]: UUID of player chicken_ is aae82cf2-d0ed-37e1-b58e-22b24507a71f
+[19:37:52] [Server thread/INFO]: chicken_[/[0:0:0:0:0:0:0:1]:45990] logged in with entity id 209983 at ([world]-119.838330063718, 72.0, 263.2363877229357)
+[19:37:57] [Thread-140/INFO]: UUID of player Mr_Creeper_27 is 48e3e27f-d174-35aa-9e85-dfb574c8fa3b
+[19:37:57] [Server thread/INFO]: Mr_Creeper_27[/[0:0:0:0:0:0:0:1]:51970] logged in with entity id 210000 at ([world]173.49840821096697, 63.0, 140.73686361176402)
+[19:37:59] [Thread-141/INFO]: UUID of player nevy_ is dad450e6-4e32-3542-9905-cffb1746c5cb
+[19:37:59] [Server thread/INFO]: nevy_[/[0:0:0:0:0:0:0:1]:51984] logged in with entity id 210068 at ([world]-126.20766831224871, 71.0, 251.93996650572012)
+[19:38:05] [Async Chat Thread - #32/INFO]: <chicken_> bro[m
+
+[19:38:06] [Server thread/INFO]: chicken_ has just earned the achievement [Taking Inventory]
+[19:38:08] [Server thread/INFO]: chicken_ issued server command: /home
+[19:38:10] [Thread-142/INFO]: UUID of player blurr_bagel is 3d3e45ef-b298-3446-9914-c155c2098b59
+[19:38:11] [Server thread/INFO]: blurr_bagel[/[0:0:0:0:0:0:0:1]:39774] logged in with entity id 210222 at ([world]160.56840399646234, 11.0, -245.51403889952002)
+[19:38:20] [Server thread/INFO]: chicken_ lost connection: Disconnected
+[19:38:20] [Server thread/INFO]: chicken_ left the game.
+[19:38:30] [Server thread/INFO]: nevy_ lost connection: Login timed out!
+[19:38:30] [Server thread/INFO]: nevy_ left the game.
+[19:38:30] [Server thread/WARN]: handleDisconnection() called twice
+[19:38:32] [Thread-143/INFO]: UUID of player chicken is ec5b73f4-8ad1-389a-a579-08d4703d43bd
+[19:38:32] [Server thread/INFO]: chicken[/[0:0:0:0:0:0:0:1]:51488] logged in with entity id 210531 at ([world]-2055.300000011921, 62.0, 3938.9550304762924)
+[19:38:35] [Thread-144/INFO]: UUID of player nevy_ is dad450e6-4e32-3542-9905-cffb1746c5cb
+[19:38:35] [Server thread/INFO]: nevy_[/[0:0:0:0:0:0:0:1]:59572] logged in with entity id 210626 at ([world]-126.20766831224871, 71.0, 251.93996650572012)
+[19:38:36] [Thread-145/INFO]: UUID of player Tampafan39 is a88acbff-c42a-3d32-aa66-4934db6a58c0
+[19:38:36] [Server thread/INFO]: Tampafan39[/[0:0:0:0:0:0:0:1]:59584] logged in with entity id 210651 at ([world]-4.6999999880790595, 66.0, 208.3000000119209)
+[19:38:57] [Server thread/WARN]: JRoy moved wrongly!
+[19:39:06] [Server thread/INFO]: nevy_ lost connection: Login timed out!
+[19:39:06] [Server thread/INFO]: nevy_ left the game.
+[19:39:06] [Server thread/WARN]: handleDisconnection() called twice
+[19:39:15] [Server thread/INFO]: Will issued server command: /tpa chicken
+[19:39:18] [Server thread/INFO]: chicken issued server command: /tpaccept
+[19:39:33] [Server thread/INFO]: Will issued server command: /tpa chicken
+[19:39:36] [Server thread/INFO]: chicken issued server command: /tpaccept
+[19:39:42] [Server thread/INFO]: Lemonition issued server command: /home hi
+[19:39:51] [Thread-146/INFO]: UUID of player Maddox3887 is 91e7eafa-1b57-3338-8aeb-181aeb782ce1
+[19:39:52] [Server thread/INFO]: Maddox3887[/[0:0:0:0:0:0:0:1]:51850] logged in with entity id 211774 at ([world]-126.5, 72.0, 249.5)
+[19:39:57] [Server thread/INFO]: Will issued server command: /home fmw
+[19:40:00] [Async Chat Thread - #33/INFO]: <chicken> maddox ur a cuck[m
+
+[19:40:10] [Async Chat Thread - #33/INFO]: <chicken> wait[m
+
+[19:40:12] [Thread-147/INFO]: UUID of player nevy_ is dad450e6-4e32-3542-9905-cffb1746c5cb
+[19:40:12] [Server thread/INFO]: nevy_[/[0:0:0:0:0:0:0:1]:40092] logged in with entity id 212166 at ([world]-126.20766831224871, 71.0, 251.93996650572012)
+[19:40:12] [Async Chat Thread - #33/INFO]: <chicken> im sorry[m
+
+[19:40:13] [Async Chat Thread - #33/INFO]: <blurr_bagel> matvey let me tp to u[m
+
+[19:40:15] [Async Chat Thread - #33/INFO]: <chicken> i sorry[m
+
+[19:40:16] [Async Chat Thread - #33/INFO]: <chicken> no[m
+
+[19:40:17] [Server thread/INFO]: blurr_bagel issued server command: /idk where i am
+[19:40:21] [Async Chat Thread - #33/INFO]: <blurr_bagel> idk where i am[m
+
+[19:40:22] [Server thread/INFO]: Maddox3887 lost connection: Login timed out!
+[19:40:22] [Server thread/INFO]: Maddox3887 left the game.
+[19:40:22] [Server thread/WARN]: handleDisconnection() called twice
+[19:40:25] [Server thread/INFO]: blurr_bagel lost connection: Disconnected
+[19:40:25] [Server thread/INFO]: blurr_bagel left the game.
+[19:40:43] [Server thread/INFO]: nevy_ lost connection: Login timed out!
+[19:40:43] [Server thread/INFO]: nevy_ left the game.
+[19:40:43] [Server thread/WARN]: handleDisconnection() called twice
+[19:40:45] [Thread-148/INFO]: UUID of player Maddox3887 is 91e7eafa-1b57-3338-8aeb-181aeb782ce1
+[19:40:45] [Server thread/INFO]: Maddox3887[/[0:0:0:0:0:0:0:1]:49374] logged in with entity id 212557 at ([world]-126.1301091337287, 72.0, 249.9845733033215)
+[19:40:50] [Thread-149/INFO]: UUID of player nevy_ is dad450e6-4e32-3542-9905-cffb1746c5cb
+[19:40:50] [Server thread/INFO]: nevy_[/[0:0:0:0:0:0:0:1]:49384] logged in with entity id 212583 at ([world]-126.02078633790923, 71.0, 251.99905217285345)
+[19:40:51] [Server thread/INFO]: Maddox3887 issued server command: /password
+[19:41:07] [Server thread/INFO]: Maddox3887 issued server command: /password maddox
+[19:41:16] [Server thread/INFO]: Maddox3887 lost connection: Login timed out!
+[19:41:16] [Server thread/INFO]: Maddox3887 left the game.
+[19:41:16] [Server thread/WARN]: handleDisconnection() called twice
+[19:41:20] [Server thread/INFO]: nevy_ lost connection: Login timed out!
+[19:41:20] [Server thread/INFO]: nevy_ left the game.
+[19:41:20] [Server thread/WARN]: handleDisconnection() called twice
+[19:41:24] [Thread-150/INFO]: UUID of player Maddox3887 is 91e7eafa-1b57-3338-8aeb-181aeb782ce1
+[19:41:24] [Server thread/INFO]: Maddox3887[/[0:0:0:0:0:0:0:1]:41604] logged in with entity id 213004 at ([world]-126.03614285082455, 72.0, 249.95674640738417)
+[19:41:28] [Thread-151/INFO]: UUID of player nevy_ is dad450e6-4e32-3542-9905-cffb1746c5cb
+[19:41:28] [Server thread/INFO]: nevy_[/[0:0:0:0:0:0:0:1]:41614] logged in with entity id 213054 at ([world]-126.02078633790923, 71.0, 251.99905217285345)
+[19:41:46] [Server thread/INFO]: Will lost connection: Disconnected
+[19:41:46] [Server thread/INFO]: Will left the game.
+[19:41:59] [Server thread/INFO]: nevy_ lost connection: Login timed out!
+[19:41:59] [Server thread/INFO]: nevy_ left the game.
+[19:41:59] [Server thread/WARN]: handleDisconnection() called twice
+[19:41:59] [Thread-152/INFO]: UUID of player lukey_t is 65062ff5-78fb-3d1b-9bf9-d58ae1b08a89
+[19:41:59] [Server thread/INFO]: lukey_t[/[0:0:0:0:0:0:0:1]:42118] logged in with entity id 213701 at ([world]168.16409114883706, 59.0, -256.28345996019124)
+[19:42:03] [Thread-153/INFO]: UUID of player nevy_ is dad450e6-4e32-3542-9905-cffb1746c5cb
+[19:42:03] [Server thread/INFO]: nevy_[/[0:0:0:0:0:0:0:1]:43116] logged in with entity id 213888 at ([world]-126.02078633790923, 71.0, 251.99905217285345)
+[19:42:16] [Thread-154/INFO]: UUID of player Breazey is d2fab18f-0506-37b5-8c15-0bb5b6a8afa5
+[19:42:16] [Server thread/INFO]: Breazey[/[0:0:0:0:0:0:0:1]:39522] logged in with entity id 214245 at ([world]254.0019687375646, 70.0, 231.55983938357696)
+[19:42:34] [Server thread/INFO]: nevy_ lost connection: Login timed out!
+[19:42:34] [Server thread/INFO]: nevy_ left the game.
+[19:42:34] [Server thread/WARN]: handleDisconnection() called twice
+[19:42:46] [Thread-155/INFO]: UUID of player Will is bccb1f64-220b-32d2-9fc5-369d8daa4109
+[19:42:47] [Server thread/INFO]: Will[/[0:0:0:0:0:0:0:1]:40936] logged in with entity id 214656 at ([world]-2045.1333851469399, 59.0, 2547.8661741067713)
+[19:42:51] [Server thread/INFO]: Maddox3887 has just earned the achievement [Taking Inventory]
+[19:43:30] [Server thread/INFO]: Maddox3887 has just earned the achievement [Getting Wood]
+[19:44:15] [Thread-156/INFO]: UUID of player nevy_ is dad450e6-4e32-3542-9905-cffb1746c5cb
+[19:44:15] [Server thread/INFO]: nevy_[/[0:0:0:0:0:0:0:1]:46624] logged in with entity id 216797 at ([world]-126.02078633790923, 71.0, 251.99905217285345)
+[19:44:42] [Server thread/INFO]: Maddox3887 has just earned the achievement [Benchmarking]
+[19:44:45] [Server thread/INFO]: nevy_ lost connection: Login timed out!
+[19:44:45] [Server thread/INFO]: nevy_ left the game.
+[19:44:45] [Server thread/WARN]: handleDisconnection() called twice
+[19:44:50] [Server thread/INFO]: Maddox3887 has just earned the achievement [Time to Mine!]
+[19:44:50] [Server thread/INFO]: Maddox3887 has just earned the achievement [Getting an Upgrade]
+[19:45:27] [Server thread/INFO]: chicken issued server command: /sethome kaka
+[19:45:32] [Server thread/INFO]: chicken issued server command: /delhome mama
+[19:45:37] [Server thread/INFO]: chicken issued server command: /sethome kaka
+[19:45:39] [Server thread/INFO]: Tampafan39 lost connection: Timed out
+[19:45:39] [Server thread/INFO]: Tampafan39 left the game.
+[19:45:40] [Thread-157/INFO]: UUID of player nevy_ is dad450e6-4e32-3542-9905-cffb1746c5cb
+[19:45:40] [Server thread/INFO]: nevy_[/[0:0:0:0:0:0:0:1]:54764] logged in with entity id 218847 at ([world]-126.02078633790923, 71.0, 251.99905217285345)
+[19:45:58] [Server thread/INFO]: Maddox3887 lost connection: Disconnected
+[19:45:58] [Server thread/INFO]: Maddox3887 left the game.
+[19:46:10] [Server thread/INFO]: nevy_ lost connection: Login timed out!
+[19:46:10] [Server thread/INFO]: nevy_ left the game.
+[19:46:10] [Server thread/WARN]: handleDisconnection() called twice
+[19:46:17] [Thread-158/INFO]: UUID of player nevy_ is dad450e6-4e32-3542-9905-cffb1746c5cb
+[19:46:17] [Server thread/INFO]: nevy_[/[0:0:0:0:0:0:0:1]:40670] logged in with entity id 219609 at ([world]-126.02078633790923, 71.0, 251.99905217285345)
+[19:46:43] [Server thread/INFO]: Lemonition lost connection: Disconnected
+[19:46:43] [Server thread/INFO]: Lemonition left the game.
+[19:46:48] [Server thread/INFO]: nevy_ lost connection: Login timed out!
+[19:46:48] [Server thread/INFO]: nevy_ left the game.
+[19:46:48] [Server thread/WARN]: handleDisconnection() called twice
+[19:46:54] [Thread-159/INFO]: UUID of player nevy_ is dad450e6-4e32-3542-9905-cffb1746c5cb
+[19:46:54] [Server thread/INFO]: nevy_[/[0:0:0:0:0:0:0:1]:50242] logged in with entity id 220294 at ([world]-126.02078633790923, 71.0, 251.99905217285345)
+[19:46:55] [Server thread/INFO]: JRoy issued server command: /home <Base>
+[19:46:58] [Server thread/INFO]: chicken lost connection: Disconnected
+[19:46:58] [Server thread/INFO]: chicken left the game.
+[19:47:05] [Server thread/INFO]: Will lost connection: Disconnected
+[19:47:05] [Server thread/INFO]: Will left the game.
+[19:47:25] [Server thread/INFO]: nevy_ lost connection: Login timed out!
+[19:47:25] [Server thread/INFO]: nevy_ left the game.
+[19:47:25] [Server thread/WARN]: handleDisconnection() called twice
+[19:47:25] [Server thread/INFO]: JRoy has just earned the achievement [Hot Topic]
+[19:47:56] [Thread-160/INFO]: UUID of player Tampafan39 is a88acbff-c42a-3d32-aa66-4934db6a58c0
+[19:47:56] [Server thread/INFO]: Tampafan39[/[0:0:0:0:0:0:0:1]:52826] logged in with entity id 221008 at ([world]158.3815929559914, 67.0, 262.17445897387194)
+[19:48:53] [Thread-161/INFO]: UUID of player nevy_ is dad450e6-4e32-3542-9905-cffb1746c5cb
+[19:48:53] [Server thread/INFO]: nevy_[/[0:0:0:0:0:0:0:1]:36440] logged in with entity id 221526 at ([world]-126.02078633790923, 71.0, 251.99905217285345)
+[19:49:01] [Server thread/INFO]: lukey_t lost connection: Disconnected
+[19:49:01] [Server thread/INFO]: lukey_t left the game.
+[19:49:10] [Server thread/INFO]: Breazey lost connection: Disconnected
+[19:49:10] [Server thread/INFO]: Breazey left the game.
+[19:49:24] [Server thread/INFO]: nevy_ lost connection: Login timed out!
+[19:49:24] [Server thread/INFO]: nevy_ left the game.
+[19:49:24] [Server thread/WARN]: handleDisconnection() called twice
+[19:49:32] [Thread-162/INFO]: UUID of player nevy_ is dad450e6-4e32-3542-9905-cffb1746c5cb
+[19:49:33] [Server thread/INFO]: nevy_[/[0:0:0:0:0:0:0:1]:55312] logged in with entity id 222244 at ([world]-126.02078633790923, 71.0, 251.99905217285345)
+[19:49:51] [Server thread/INFO]: JRoy lost connection: Disconnected
+[19:49:51] [Server thread/INFO]: JRoy left the game.
+[19:50:11] [Async Chat Thread - #36/INFO]: <nevy_> why cant i login on my other character[m
+
+[19:50:23] [Server thread/INFO]: Mr_Creeper_27 tried to swim in lava
+[19:50:45] [Async Chat Thread - #36/INFO]: <Mr_Creeper_27> actually gunna kms[m
+
+[19:51:06] [Async Chat Thread - #36/INFO]: <Tampafan39> no balls[m
+
+[19:51:22] [Server thread/INFO]: FunnymanXD lost connection: Timed out
+[19:51:22] [Server thread/INFO]: FunnymanXD left the game.
+[19:51:28] [Server thread/INFO]: Mr_Creeper_27 was slain by nevy_
+[19:51:49] [Async Chat Thread - #36/INFO]: <nevy_> trusw[m
+
+[19:52:06] [Server thread/INFO]: nevy_ drowned
+[19:53:45] [Server thread/INFO]: nevy_ issued server command: /logout
+[19:54:02] [Server thread/INFO]: Mr_Creeper_27 issued server command: /home mine
+[19:54:16] [Server thread/INFO]: nevy_ lost connection: Login timed out!
+[19:54:16] [Server thread/INFO]: nevy_ left the game.
+[19:54:16] [Server thread/WARN]: handleDisconnection() called twice
+[19:54:20] [Thread-163/INFO]: UUID of player nevy_ is dad450e6-4e32-3542-9905-cffb1746c5cb
+[19:54:20] [Server thread/INFO]: nevy_[/[0:0:0:0:0:0:0:1]:47200] logged in with entity id 224776 at ([world]21.220951980053226, 71.0, 242.35888763441568)
+[19:56:51] [Server thread/INFO]: nevy_ has just earned the achievement [Taking Inventory]
+[19:57:02] [Server thread/INFO]: nevy_ has just earned the achievement [Getting Wood]
+[19:57:59] [Server thread/INFO]: Mr_Creeper_27 was slain by Zombie
+[19:58:09] [Thread-164/INFO]: UUID of player FunnymanXD is 92f169df-4a11-3260-bac6-b1339e1c942a
+[19:58:09] [Server thread/INFO]: FunnymanXD[/[0:0:0:0:0:0:0:1]:60996] logged in with entity id 226405 at ([world]210.4657719484155, 11.0, 25.69999998807907)
+[19:58:19] [Server thread/INFO]: Tampafan39 burned to death
+[19:58:49] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[19:59:00] [Server thread/INFO]: Mr_Creeper_27 was slain by Zombie
+[19:59:03] [Server thread/INFO]: nevy_ was slain by Zombie
+[19:59:40] [Thread-165/INFO]: UUID of player blurr_bagel is 3d3e45ef-b298-3446-9914-c155c2098b59
+[19:59:40] [Server thread/INFO]: blurr_bagel[/[0:0:0:0:0:0:0:1]:52984] logged in with entity id 227073 at ([world]244.69999998807907, 10.0, -263.86089898050466)
+[20:00:15] [Server thread/INFO]: Mr_Creeper_27 lost connection: Disconnected
+[20:00:15] [Server thread/INFO]: Mr_Creeper_27 left the game.
+[20:00:40] [Async Chat Thread - #37/INFO]: <nevy_> brayden i cant login on my other character so i had to mke new one[m
+
+[20:00:57] [Thread-166/INFO]: UUID of player Mr_Creeper_27 is 48e3e27f-d174-35aa-9e85-dfb574c8fa3b
+[20:00:57] [Server thread/INFO]: Mr_Creeper_27[/[0:0:0:0:0:0:0:1]:35228] logged in with entity id 227696 at ([world]-105.18052114185609, 69.0, 253.15047122081108)
+[20:01:49] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[20:02:14] [Server thread/INFO]: Tampafan39 was slain by Spider
+[20:03:44] [Thread-167/INFO]: UUID of player Chicken_Lurv is 51b5ca58-efb1-358e-a54c-71926d484619
+[20:03:44] [Server thread/INFO]: Chicken_Lurv[/[0:0:0:0:0:0:0:1]:53878] logged in with entity id 229515 at ([world]-117.5, 72.0, 255.5)
+[20:03:57] [Server thread/INFO]: nevy_ has just earned the achievement [Benchmarking]
+[20:04:15] [Server thread/INFO]: Chicken_Lurv lost connection: Login timed out!
+[20:04:15] [Server thread/INFO]: Chicken_Lurv left the game.
+[20:04:15] [Server thread/WARN]: handleDisconnection() called twice
+[20:04:18] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[20:04:29] [Server thread/INFO]: nevy_ has just earned the achievement [Time to Mine!]
+[20:04:29] [Server thread/INFO]: nevy_ has just earned the achievement [Getting an Upgrade]
+[20:04:56] [Server thread/INFO]: nevy_ has just earned the achievement [Hot Topic]
+[20:05:00] [Thread-168/INFO]: UUID of player Chicken_Lurv is 51b5ca58-efb1-358e-a54c-71926d484619
+[20:05:00] [Server thread/INFO]: Chicken_Lurv[/[0:0:0:0:0:0:0:1]:40438] logged in with entity id 230224 at ([world]-117.74830370635732, 72.0, 255.85134640360707)
+[20:06:02] [Server thread/INFO]: Chicken_Lurv issued server command: /tpa Blurr_bagel
+[20:06:09] [Server thread/INFO]: blurr_bagel issued server command: /accept
+[20:06:14] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[20:06:58] [Server thread/INFO]: Tampafan39 has just earned the achievement [Getting an Upgrade]
+[20:07:51] [Server thread/INFO]: Chicken_Lurv has just earned the achievement [Taking Inventory]
+[20:09:35] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[20:09:41] [Server thread/INFO]: Tampafan39 has just earned the achievement [Hot Topic]
+[20:09:55] [Thread-170/INFO]: UUID of player Lemonition is 728541c4-6293-3179-9512-e592ca4a9658
+[20:09:55] [Server thread/INFO]: Lemonition[/[0:0:0:0:0:0:0:1]:60756] logged in with entity id 232119 at ([world]771.2111545074433, 70.0, -2566.9172112535675)
+[20:10:22] [Server thread/INFO]: FunnymanXD issued server command: /tpa Lemonition
+[20:10:25] [Server thread/INFO]: Lemonition issued server command: /tpaccept
+[20:10:37] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[20:12:06] [Server thread/INFO]: Lemonition lost connection: Disconnected
+[20:12:06] [Server thread/INFO]: Lemonition left the game.
+[20:13:05] [Server thread/INFO]: Mr_Creeper_27 has just earned the achievement [Cow Tipper]
+[20:13:25] [Server thread/INFO]: Chicken_Lurv has just earned the achievement [Getting Wood]
+[20:14:18] [Server thread/INFO]: Tampafan39 tried to swim in lava
+[20:14:31] [Async Chat Thread - #38/INFO]: <FunnymanXD> anyone have two string I can borrow for a second?[m
+
+[20:14:34] [Server thread/INFO]: Tampafan39 lost connection: Disconnected
+[20:14:34] [Server thread/INFO]: Tampafan39 left the game.
+[20:15:23] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[20:15:46] [Thread-171/INFO]: UUID of player ShuShu is bd41e5df-ebcd-3d5b-987e-82c318b5b2a6
+[20:15:46] [Server thread/INFO]: ShuShu[/[0:0:0:0:0:0:0:1]:41438] logged in with entity id 238895 at ([world]-1156.1598437620264, 59.0, 994.2132098454679)
+[20:15:52] [Async Chat Thread - #39/INFO]: <blurr_bagel> andrew tp to me[m
+
+[20:16:02] [Server thread/INFO]: ShuShu issued server command: /how twin
+[20:16:10] [Server thread/INFO]: Mr_Creeper_27 was slain by nevy_
+[20:16:17] [Server thread/INFO]: ShuShu issued server command: /no tp to me
+[20:16:17] [Async Chat Thread - #39/INFO]: <blurr_bagel> rhys tp to me[m
+
+[20:16:19] [Server thread/INFO]: ShuShu issued server command: /rn
+[20:16:25] [Async Chat Thread - #39/INFO]: <ShuShu> rn[m
+
+[20:16:29] [Async Chat Thread - #39/INFO]: <blurr_bagel> yes[m
+
+[20:16:29] [Async Chat Thread - #39/INFO]: <ShuShu> tp[m
+
+[20:16:32] [Async Chat Thread - #39/INFO]: <ShuShu> trust[m
+
+[20:16:34] [Async Chat Thread - #39/INFO]: <nevy_> how[m
+
+[20:16:36] [Async Chat Thread - #39/INFO]: <ShuShu> to me[m
+
+[20:16:38] [Async Chat Thread - #39/INFO]: <blurr_bagel> no im with someone else[m
+
+[20:16:53] [Async Chat Thread - #39/INFO]: <blurr_bagel> rhy type slash tpa (my name)[m
+
+[20:17:20] [Server thread/INFO]: nevy_ issued server command: /tpa blurr_bagel
+[20:17:24] [Server thread/INFO]: blurr_bagel issued server command: /accept
+[20:17:26] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[20:17:41] [Async Chat Thread - #39/INFO]: <nevy_> wsp[m
+
+[20:17:50] [Async Chat Thread - #39/INFO]: <blurr_bagel> this is rhys[m
+
+[20:17:50] [Async Chat Thread - #39/INFO]: <ShuShu> twin[m
+
+[20:18:04] [Async Chat Thread - #39/INFO]: <nevy_> i found jroys base[m
+
+[20:18:08] [Async Chat Thread - #39/INFO]: <blurr_bagel> lmao[m
+
+[20:18:33] [Async Chat Thread - #39/INFO]: <nevy_> he keeps all his stuff on hime cause he had nothing in his chest[m
+
+[20:19:24] [Async Chat Thread - #39/INFO]: <nevy_> this is cool asf[m
+
+[20:19:32] [Server thread/INFO]: Mr_Creeper_27 lost connection: Disconnected
+[20:19:32] [Server thread/INFO]: Mr_Creeper_27 left the game.
+[20:19:33] [Async Chat Thread - #39/INFO]: <blurr_bagel> aidan to go y 52 and z -255[m
+
+[20:19:56] [Async Chat Thread - #39/INFO]: <Chicken_Lurv> why[m
+
+[20:20:20] [Async Chat Thread - #39/INFO]: <blurr_bagel> bro why did u build straight up it blocked everything ii had a staircase[m
+
+[20:20:24] [Thread-172/INFO]: UUID of player Mr_Creeper_27 is 48e3e27f-d174-35aa-9e85-dfb574c8fa3b
+[20:20:24] [Server thread/INFO]: Mr_Creeper_27[/[0:0:0:0:0:0:0:1]:41978] logged in with entity id 241495 at ([world]-193.13083363045982, 63.0, 392.9920636252209)
+[20:20:25] [Async Chat Thread - #39/INFO]: <FunnymanXD> Chicken lurv who are u[m
+
+[20:20:30] [Async Chat Thread - #39/INFO]: <blurr_bagel> caulder[m
+
+[20:20:32] [Async Chat Thread - #39/INFO]: <FunnymanXD> yo blurr bagel[m
+
+[20:20:36] [Async Chat Thread - #39/INFO]: <blurr_bagel> yo[m
+
+[20:20:39] [Async Chat Thread - #39/INFO]: <FunnymanXD> this is matve[m
+
+[20:20:45] [Async Chat Thread - #39/INFO]: <blurr_bagel> no its not[m
+
+[20:20:54] [Async Chat Thread - #39/INFO]: <FunnymanXD> swear[m
+
+[20:21:12] [Async Chat Thread - #39/INFO]: <blurr_bagel> is this fin[m
+
+[20:21:37] [Async Chat Thread - #39/INFO]: <nevy_> who is that brayden[m
+
+[20:21:59] [Async Chat Thread - #39/INFO]: <blurr_bagel> why did u build straight donw lmao[m
+
+[20:22:03] [Async Chat Thread - #39/INFO]: <blurr_bagel> down[m
+
+[20:22:15] [Async Chat Thread - #39/INFO]: <ShuShu> lmao[m
+
+[20:22:21] [Async Chat Thread - #39/INFO]: <nevy_> who is chicken lurv[m
+
+[20:22:23] [Async Chat Thread - #39/INFO]: <blurr_bagel> andrew tp[m
+
+[20:22:26] [Server thread/INFO]: FunnymanXD was slain by Zombie Pigman
+[20:22:34] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[20:22:38] [Async Chat Thread - #39/INFO]: <blurr_bagel> thats classified[m
+
+[20:22:47] [Async Chat Thread - #39/INFO]: <nevy_> wdym[m
+
+[20:22:48] [Async Chat Thread - #39/INFO]: <FunnymanXD> nevy who are you[m
+
+[20:22:55] [Async Chat Thread - #39/INFO]: <blurr_bagel> nevy is caulder[m
+
+[20:22:56] [Async Chat Thread - #39/INFO]: <nevy_> rhys[m
+
+[20:24:19] [Server thread/INFO]: ShuShu has just earned the achievement [DIAMONDS!]
+[20:24:28] [Async Chat Thread - #40/INFO]: <ShuShu> eat that[m
+
+[20:24:30] [Async Chat Thread - #40/INFO]: <ShuShu> boi[m
+
+[20:24:40] [Async Chat Thread - #40/INFO]: <nevy_> u suck[m
+
+[20:24:49] [Async Chat Thread - #40/INFO]: <ShuShu> bro ur not even in stem[m
+
+[20:24:52] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[20:24:58] [Async Chat Thread - #40/INFO]: <ShuShu> bbaf why did u add adien and rhys[m
+
+[20:25:13] [Async Chat Thread - #40/INFO]: <blurr_bagel> because brady let them[m
+
+[20:25:22] [Async Chat Thread - #40/INFO]: <nevy_> yo who added andrew[m
+
+[20:25:38] [Async Chat Thread - #40/INFO]: <Chicken_Lurv> stem kids only[m
+
+[20:25:54] [Async Chat Thread - #40/INFO]: <nevy_> theres so mant non stem kids in here[m
+
+[20:26:13] [Async Chat Thread - #40/INFO]: <ShuShu> bro its u braden and aiden[m
+
+[20:26:24] [Async Chat Thread - #40/INFO]: <blurr_bagel> yea but yall let me and rhys in[m
+
+[20:26:58] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[20:27:12] [Async Chat Thread - #40/INFO]: <Chicken_Lurv> and me[m
+
+[20:28:08] [Async Chat Thread - #40/INFO]: <ShuShu> murp[m
+
+[20:28:16] [Async Chat Thread - #40/INFO]: <ShuShu> jsus try to keep underground[m
+
+[20:28:19] [Async Chat Thread - #40/INFO]: <nevy_> i found yall base[m
+
+[20:28:24] [Thread-173/INFO]: UUID of player JRoy is d1fdfab8-6e2e-3160-95e7-e63fd213b737
+[20:28:24] [Server thread/INFO]: JRoy[/[0:0:0:0:0:0:0:1]:39876] logged in with entity id 245915 at ([world]-237.56265684742965, 56.0, 410.54622604605754)
+[20:28:34] [Async Chat Thread - #40/INFO]: <blurr_bagel> yea we are were not doing anything we js wanna play minecraft merp[m
+
+[20:28:42] [Thread-174/INFO]: UUID of player lukey_t is 65062ff5-78fb-3d1b-9bf9-d58ae1b08a89
+[20:28:42] [Server thread/INFO]: lukey_t[/[0:0:0:0:0:0:0:1]:47242] logged in with entity id 246219 at ([world]168.96352441961812, 59.0, -254.92672137417284)
+[20:28:56] [Async Chat Thread - #40/INFO]: <Chicken_Lurv> murp[m
+
+[20:29:03] [Server thread/INFO]: JRoy was killed by Witch using magic
+[20:29:16] [Server thread/INFO]: JRoy issued server command: /home <base>
+[20:29:18] [Async Chat Thread - #40/INFO]: <nevy_> who r u[m
+
+[20:29:20] [Server thread/INFO]: JRoy issued server command: /home <Base>
+[20:29:21] [Async Chat Thread - #40/INFO]: <lukey_t> bro put the torches back[m
+
+[20:29:21] [Async Chat Thread - #40/INFO]: <ShuShu> 9[m
+
+[20:29:36] [Async Chat Thread - #40/INFO]: <nevy_> i don have ant[m
+
+[20:29:37] [Server thread/INFO]: JRoy has just earned the achievement [Acquire Hardware]
+[20:31:25] [Server thread/INFO]: blurr_bagel lost connection: Internal Exception: java.net.SocketException: Connection reset
+[20:31:25] [Server thread/INFO]: blurr_bagel left the game.
+[20:31:49] [Server thread/INFO]: JRoy issued server command: /tpa lukey_t
+[20:32:03] [Server thread/INFO]: Chicken_Lurv lost connection: Disconnected
+[20:32:03] [Server thread/INFO]: Chicken_Lurv left the game.
+[20:32:10] [Server thread/INFO]: lukey_t issued server command: /tpaccept
+[20:32:48] [Async Chat Thread - #41/INFO]: <lukey_t> drop piston[m
+
+[20:32:56] [Server thread/INFO]: FunnymanXD issued server command: /HOME BUNKER
+[20:33:01] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[20:33:05] [Async Chat Thread - #41/INFO]: <nevy_> i dint have a piston[m
+
+[20:33:09] [Server thread/INFO]: ShuShu lost connection: Disconnected
+[20:33:09] [Server thread/INFO]: ShuShu left the game.
+[20:33:11] [Server thread/INFO]: nevy_ lost connection: Disconnected
+[20:33:11] [Server thread/INFO]: nevy_ left the game.
+[20:33:32] [Server thread/INFO]: lukey_t lost connection: Disconnected
+[20:33:32] [Server thread/INFO]: lukey_t left the game.
+[20:34:17] [Thread-175/INFO]: UUID of player nevy_ is dad450e6-4e32-3542-9905-cffb1746c5cb
+[20:34:17] [Server thread/INFO]: nevy_[/[0:0:0:0:0:0:0:1]:36642] logged in with entity id 251725 at ([world]170.43944274771783, 59.0, -251.41798717054203)
+[20:34:37] [Server thread/INFO]: FunnymanXD lost connection: Disconnected
+[20:34:37] [Server thread/INFO]: FunnymanXD left the game.
+[20:34:47] [Server thread/INFO]: nevy_ lost connection: Login timed out!
+[20:34:47] [Server thread/INFO]: nevy_ left the game.
+[20:34:47] [Server thread/WARN]: handleDisconnection() called twice
+[20:34:54] [Server thread/INFO]: JRoy lost connection: Disconnected
+[20:34:54] [Server thread/INFO]: JRoy left the game.
+[20:34:55] [Thread-176/INFO]: UUID of player nevy_ is dad450e6-4e32-3542-9905-cffb1746c5cb
+[20:34:55] [Server thread/INFO]: nevy_[/[0:0:0:0:0:0:0:1]:36366] logged in with entity id 252009 at ([world]170.43944274771783, 59.0, -251.41798717054203)
+[20:35:01] [Thread-177/INFO]: UUID of player mrcreeper_17 is 2de2b6e5-741c-3162-9470-b6a739db66fa
+[20:35:01] [Server thread/INFO]: mrcreeper_17[/[0:0:0:0:0:0:0:1]:36368] logged in with entity id 252118 at ([world]-393.48750001192093, 138.0, 665.6950453724288)
+[20:35:50] [Server thread/INFO]: nevy_ lost connection: Disconnected
+[20:35:50] [Server thread/INFO]: nevy_ left the game.
+[20:37:25] [Server thread/INFO]: mrcreeper_17 lost connection: Disconnected
+[20:37:25] [Server thread/INFO]: mrcreeper_17 left the game.
+[20:38:39] [Server thread/INFO]: Mr_Creeper_27 was slain by Zombie
+[20:38:44] [Server thread/INFO]: Mr_Creeper_27 lost connection: Disconnected
+[20:38:44] [Server thread/INFO]: Mr_Creeper_27 left the game.
+[21:05:20] [Thread-179/INFO]: UUID of player Will is bccb1f64-220b-32d2-9fc5-369d8daa4109
+[21:05:20] [Server thread/INFO]: Will[/[0:0:0:0:0:0:0:1]:46606] logged in with entity id 253253 at ([world]-2031.0775390546376, 19.0, 2619.73773636347)
+[21:07:13] [Thread-181/INFO]: UUID of player chicken is ec5b73f4-8ad1-389a-a579-08d4703d43bd
+[21:07:13] [Server thread/INFO]: chicken[/[0:0:0:0:0:0:0:1]:43038] logged in with entity id 253376 at ([world]-2282.4137451354945, 70.0, 2993.6566862172126)
+[21:07:24] [Async Chat Thread - #42/INFO]: <chicken> yoooo[m
+
+[21:07:39] [Async Chat Thread - #42/INFO]: <Will> yoooo[m
+
+[21:07:56] [Async Chat Thread - #42/INFO]: <Will> its just us i say we greif[m
+
+[21:08:04] [Async Chat Thread - #42/INFO]: <chicken> we would need to find ppl[m
+
+[21:08:09] [Async Chat Thread - #42/INFO]: <chicken> imma just get my base rolling[m
+
+[21:11:34] [Server thread/INFO]: chicken issued server command: /home kaka
+[21:13:07] [Async Chat Thread - #43/INFO]: <chicken> will[m
+
+[21:13:11] [Async Chat Thread - #43/INFO]: <chicken> do u have a bucket[m
+
+[21:16:21] [Server thread/INFO]: chicken issued server command: /home kaka
+[21:16:29] [Server thread/INFO]: chicken fell from a high place
+[21:16:36] [Async Chat Thread - #44/INFO]: <chicken> oops[m
+
+[21:16:39] [Async Chat Thread - #44/INFO]: <Will> noooooo[m
+
+[21:16:58] [Async Chat Thread - #44/INFO]: <chicken> nah we chill[m
+
+[21:17:18] [Server thread/INFO]: chicken issued server command: /home kaka
+[21:17:37] [Async Chat Thread - #44/INFO]: <chicken> will i need a bucket so bad bro[m
+
+[21:17:40] [Async Chat Thread - #44/INFO]: <chicken> let me tp to u[m
+
+[21:17:44] [Server thread/INFO]: chicken issued server command: /tpa will
+[21:17:57] [Async Chat Thread - #44/INFO]: <chicken> pls accept[m
+
+[21:18:00] [Async Chat Thread - #44/INFO]: <chicken> i need the bucket so bad[m
+
+[21:18:00] [Server thread/INFO]: Will issued server command: /tpaccept
+[21:18:26] [Async Chat Thread - #44/INFO]: <chicken> ok thanks[m
+
+[21:18:29] [Async Chat Thread - #44/INFO]: <chicken> do u need back[m
+
+[21:18:30] [Server thread/INFO]: chicken issued server command: /hoem
+[21:18:32] [Server thread/INFO]: chicken issued server command: /home
+[21:18:34] [Server thread/INFO]: chicken issued server command: /home kaka
+[21:18:46] [Async Chat Thread - #44/INFO]: <Will> nah keep it[m
+
+[21:18:49] [Async Chat Thread - #44/INFO]: <chicken> ok[m
+
+[21:19:32] [Server thread/INFO]: chicken issued server command: /home kaka
+[21:19:49] [Server thread/INFO]: chicken issued server command: /delhome kaka
+[21:19:51] [Server thread/INFO]: chicken issued server command: /sethome kaka
+[21:20:06] [Server thread/INFO]: chicken issued server command: /tpa will
+[21:20:13] [Async Chat Thread - #45/INFO]: <chicken> let me tp so i can mine where u at rq[m
+
+[21:20:19] [Async Chat Thread - #45/INFO]: <chicken> ill split my diamonds when i find[m
+
+[21:20:29] [Async Chat Thread - #45/INFO]: <chicken> pls[m
+
+[21:20:31] [Server thread/INFO]: Will issued server command: /tpaccept
+[21:29:48] [Server thread/INFO]: chicken issued server command: /home kaka
+[21:31:10] [Async Chat Thread - #46/INFO]: <chicken> i gotta get off for a lil[m
+
+[21:31:12] [Server thread/INFO]: chicken lost connection: Disconnected
+[21:31:12] [Server thread/INFO]: chicken left the game.
+[21:36:03] [Thread-182/INFO]: UUID of player FreakBob2477 is 5cc70c72-875a-3361-b06a-47468364ec5d
+[21:36:03] [Server thread/INFO]: FreakBob2477[/[0:0:0:0:0:0:0:1]:47548] logged in with entity id 263710 at ([world_nether]24.24668825112686, 37.0, -414.69999998807907)
+[21:41:51] [Thread-184/INFO]: UUID of player mrcreeper_17 is 2de2b6e5-741c-3162-9470-b6a739db66fa
+[21:41:51] [Server thread/INFO]: mrcreeper_17[/[0:0:0:0:0:0:0:1]:39280] logged in with entity id 265014 at ([world]-393.5153065515805, 138.0, 664.293764358286)
+[21:42:00] [Server thread/WARN]: FreakBob2477 moved wrongly!
+[21:46:10] [Async Chat Thread - #47/INFO]: <FreakBob2477> who is in the nether rn mining quartz[m
+
+[21:47:40] [Server thread/INFO]: mrcreeper_17 has just earned the achievement [Time to Mine!]
+[21:49:54] [Server thread/INFO]: FreakBob2477 issued server command: /locate fortress
+[21:50:24] [Server thread/INFO]: FreakBob2477 issued server command: /locate fortress
+[21:51:17] [Server thread/INFO]: FreakBob2477 issued server command: /locatefortress
+[21:53:19] [Server thread/INFO]: Will issued server command: /deletehome fmw
+[21:53:25] [Server thread/INFO]: Will issued server command: /sethome fmw
+[21:53:32] [Server thread/INFO]: Will lost connection: Disconnected
+[21:53:32] [Server thread/INFO]: Will left the game.
+[21:59:41] [Thread-185/INFO]: UUID of player Lemonition is 728541c4-6293-3179-9512-e592ca4a9658
+[21:59:41] [Server thread/INFO]: Lemonition[/[0:0:0:0:0:0:0:1]:48786] logged in with entity id 268061 at ([world]948.4505029130663, 66.0, -2728.735990006087)
+[21:59:53] [Async Chat Thread - #48/INFO]: <Lemonition> hi[m
+
+[22:00:01] [Async Chat Thread - #48/INFO]: <FreakBob2477> greetings[m
+
+[22:00:04] [Async Chat Thread - #48/INFO]: <mrcreeper_17> hi hampton[m
+
+[22:00:14] [Async Chat Thread - #48/INFO]: <FreakBob2477> has anyone found the fort[m
+
+[22:00:18] [Async Chat Thread - #48/INFO]: <Lemonition> whatg ffort[m
+
+[22:00:27] [Async Chat Thread - #48/INFO]: <FreakBob2477> the nether fort[m
+
+[22:00:36] [Async Chat Thread - #48/INFO]: <Lemonition> oh yea i think jr found it[m
+
+[22:00:48] [Async Chat Thread - #48/INFO]: <FreakBob2477> wtf bro how[m
+
+[22:00:56] [Async Chat Thread - #48/INFO]: <Lemonition> idk he found it like rly quickly too[m
+
+[22:00:58] [Async Chat Thread - #48/INFO]: <Lemonition> on accident[m
+
+[22:01:14] [Async Chat Thread - #48/INFO]: <FreakBob2477> he had to have used commands or sum[m
+
+[22:01:19] [Server thread/INFO]: mrcreeper_17 has just earned the achievement [Getting an Upgrade]
+[22:01:29] [Server thread/INFO]: FreakBob2477 issued server command: /locate
+[22:01:36] [Server thread/INFO]: FreakBob2477 issued server command: /locate village
+[22:01:51] [Server thread/INFO]: FreakBob2477 issued server command: /locate netherfortress
+[22:01:56] [Server thread/INFO]: Lemonition issued server command: /sethome dark
+[22:02:47] [Server thread/INFO]: Lemonition issued server command: /tpa mrcreeper_17
+[22:02:56] [Server thread/INFO]: mrcreeper_17 issued server command: /tpaccept
+[22:03:22] [Async Chat Thread - #49/INFO]: <Lemonition> bro my camera keeps bugging out[m
+
+[22:03:43] [Async Chat Thread - #49/INFO]: <FreakBob2477> yall know any strats to finding the fort[m
+
+[22:03:46] [Async Chat Thread - #49/INFO]: <Lemonition> no[m
+
+[22:03:55] [Async Chat Thread - #49/INFO]: <FreakBob2477> fawwwk[m
+
+[22:04:10] [Server thread/INFO]: Lemonition issued server command: /tell mrcreeper_17 sick base
+[22:04:40] [Server thread/INFO]: mrcreeper_17 issued server command: /tell Lemonition thanks pookie
+[22:04:48] [Server thread/INFO]: Lemonition issued server command: /tell mrcreeper_17 me and ty are prob gonna move bases soon btw
+[22:05:04] [Server thread/INFO]: mrcreeper_17 issued server command: /tell Lemonition W
+[22:06:03] [Server thread/INFO]: Lemonition issued server command: /home hi
+[22:06:53] [Server thread/INFO]: Lemonition lost connection: Disconnected
+[22:06:53] [Server thread/INFO]: Lemonition left the game.
+[22:12:23] [Async Chat Thread - #50/INFO]: <FreakBob2477> i finally fucking found it[m
+
+[22:15:01] [Server thread/INFO]: FreakBob2477 has just earned the achievement [Into Fire]
+[22:16:14] [Thread-187/INFO]: UUID of player chicken is ec5b73f4-8ad1-389a-a579-08d4703d43bd
+[22:16:14] [Server thread/INFO]: chicken[/[0:0:0:0:0:0:0:1]:33772] logged in with entity id 271486 at ([world]-2279.9344595392827, 34.0, 2996.674302658708)
+[22:16:32] [Async Chat Thread - #51/INFO]: <chicken> gabriel medina?[m
+
+[22:16:52] [Async Chat Thread - #51/INFO]: <FreakBob2477> i found the fortress[m
+
+[22:17:53] [Thread-188/INFO]: UUID of player Peter_pasta is 4ba7d703-2811-32cb-8188-48d755d4c0b5
+[22:17:53] [Server thread/INFO]: Peter_pasta[/[0:0:0:0:0:0:0:1]:58630] logged in with entity id 272044 at ([world]-116.5, 71.0, 252.5)
+[22:18:23] [Server thread/INFO]: Peter_pasta lost connection: Login timed out!
+[22:18:23] [Server thread/INFO]: Peter_pasta left the game.
+[22:18:23] [Server thread/WARN]: handleDisconnection() called twice
+[22:18:35] [Thread-189/INFO]: UUID of player Peter_pasta is 4ba7d703-2811-32cb-8188-48d755d4c0b5
+[22:18:35] [Server thread/INFO]: Peter_pasta[/[0:0:0:0:0:0:0:1]:48252] logged in with entity id 272515 at ([world]-116.32357568109576, 71.0, 252.0017666523556)
+[22:20:09] [Server thread/INFO]: Peter_pasta has just earned the achievement [Taking Inventory]
+[22:21:06] [Server thread/INFO]: FreakBob2477 issued server command: /tpa chicken
+[22:21:10] [Server thread/INFO]: chicken issued server command: /tpaccept
+[22:21:32] [Server thread/INFO]: Peter_pasta has just earned the achievement [Getting Wood]
+[22:21:37] [Server thread/INFO]: FreakBob2477 issued server command: /tp village
+[22:21:55] [Server thread/INFO]: FreakBob2477 issued server command: /home village
+[22:24:07] [Server thread/INFO]: chicken issued server command: /tpa freak
+[22:24:40] [Server thread/INFO]: FreakBob2477 issued server command: /tp accept
+[22:24:45] [Server thread/INFO]: FreakBob2477 issued server command: /tpaccept
+[22:36:22] [Server thread/INFO]: chicken issued server command: /tpa freak
+[22:36:30] [Server thread/INFO]: FreakBob2477 issued server command: /tpaccept
+[22:36:53] [Server thread/INFO]: mrcreeper_17 has just earned the achievement [Hot Topic]
+[22:37:44] [Server thread/INFO]: mrcreeper_17 has just earned the achievement [Acquire Hardware]
+[22:45:59] [Server thread/INFO]: chicken issued server command: /home kaka
+[22:46:57] [Server thread/INFO]: chicken issued server command: /home kaka
+[22:48:24] [Server thread/INFO]: chicken issued server command: /home kaka
+[22:48:32] [Server thread/INFO]: chicken issued server command: /home kaka
+[22:49:13] [Server thread/INFO]: chicken issued server command: /home kaka
+[22:50:37] [Server thread/INFO]: chicken issued server command: /home kaka
+[22:50:44] [Server thread/INFO]: Peter_pasta issued server command: /sethome
+[22:52:51] [Server thread/INFO]: chicken issued server command: /home kaka
+[22:53:37] [Server thread/INFO]: chicken has just earned the achievement [Hot Topic]
+[22:55:23] [Server thread/INFO]: chicken issued server command: /home kaka
+[22:56:30] [Thread-191/INFO]: UUID of player Fizzy is 62c75a5c-9780-37b4-839e-23e606512cc4
+[22:56:30] [Server thread/INFO]: Fizzy[/[0:0:0:0:0:0:0:1]:57560] logged in with entity id 295254 at ([world]-93.79754333616867, 72.0, 267.75536100024067)
+[22:56:35] [Async Chat Thread - #52/INFO]: <chicken> hi tyler[m
+
+[22:56:41] [Async Chat Thread - #52/INFO]: <Fizzy> hi matvey[m
+
+[22:56:46] [Async Chat Thread - #52/INFO]: <chicken> why hunt me[m
+
+[22:56:50] [Async Chat Thread - #52/INFO]: <Fizzy> fun[m
+
+[22:56:56] [Async Chat Thread - #52/INFO]: <Fizzy> and madelines getback[m
+
+[22:57:03] [Async Chat Thread - #52/INFO]: <chicken> can we be friends[m
+
+[22:57:10] [Async Chat Thread - #52/INFO]: <Fizzy> no[m
+
+[22:57:20] [Async Chat Thread - #52/INFO]: <Fizzy> i gotta spin back for madeline[m
+
+[22:57:23] [Async Chat Thread - #52/INFO]: <Fizzy> sorry vro[m
+
+[22:58:02] [Async Chat Thread - #52/INFO]: <Fizzy> now[m
+
+[22:58:08] [Async Chat Thread - #52/INFO]: <Fizzy> i got twelve diamonds on me[m
+
+[22:58:12] [Async Chat Thread - #52/INFO]: <chicken> ok[m
+
+[22:58:14] [Async Chat Thread - #52/INFO]: <Fizzy> if someone wants to leak matveys coords[m
+
+[22:58:17] [Async Chat Thread - #52/INFO]: <Fizzy> its all yours[m
+
+[22:58:18] [Async Chat Thread - #52/INFO]: <chicken> nice[m
+
+[22:59:35] [Async Chat Thread - #53/INFO]: <chicken> have fun[m
+
+[22:59:42] [Async Chat Thread - #53/INFO]: <chicken> r u making borders when ty[m
+
+[22:59:56] [Async Chat Thread - #53/INFO]: <chicken> fizzy[m
+
+[22:59:58] [Async Chat Thread - #53/INFO]: <chicken> answer[m
+
+[23:00:10] [Async Chat Thread - #53/INFO]: <Fizzy> mb i tabbed out[m
+
+[23:00:16] [Async Chat Thread - #53/INFO]: <Fizzy> so listen[m
+
+[23:00:21] [Async Chat Thread - #53/INFO]: <Fizzy> idk how the command works[m
+
+[23:00:29] [Async Chat Thread - #53/INFO]: <Fizzy> and i dont wanna screw anyone up[m
+
+[23:00:33] [Async Chat Thread - #53/INFO]: <Fizzy> are yall like[m
+
+[23:00:33] [Async Chat Thread - #53/INFO]: <chicken> ok[m
+
+[23:00:44] [Async Chat Thread - #53/INFO]: <Fizzy> at least 100 blocks from border[m
+
+[23:00:45] [Async Chat Thread - #53/INFO]: <chicken> i might possibly be outside the borders[m
+
+[23:00:48] [Server thread/INFO]: mrcreeper_17 issued server command: /tell Fizzy do you actually not?
+[23:00:49] [Async Chat Thread - #53/INFO]: <Fizzy> ok[m
+
+[23:01:01] [Server thread/INFO]: Fizzy issued server command: /tell mrcreeper_17 yeah no i actually dont
+[23:01:06] [Async Chat Thread - #53/INFO]: <chicken> theoritically i could be cooked[m
+
+[23:01:09] [Server thread/INFO]: Fizzy issued server command: /tell mrcreeper_17 you tryna call?
+[23:01:13] [Async Chat Thread - #53/INFO]: <chicken> so like 10k by 10k would be chill[m
+
+[23:01:16] [Server thread/INFO]: mrcreeper_17 issued server command: /tell Fizzy i mean sure man
+[23:01:16] [Async Chat Thread - #53/INFO]: <Fizzy> just tell me when its a good time to try it[m
+
+[23:01:19] [Async Chat Thread - #53/INFO]: <Fizzy> dawg???[m
+
+[23:01:38] [Server thread/INFO]: Fizzy issued server command: /tell mrcreeper_17 can you call on discord
+[23:02:07] [Thread-192/INFO]: UUID of player FunnymanXD is 92f169df-4a11-3260-bac6-b1339e1c942a
+[23:02:08] [Server thread/INFO]: FunnymanXD[/[0:0:0:0:0:0:0:1]:53480] logged in with entity id 300253 at ([world]210.2275374338493, 11.0, 25.613343858494577)
+[23:02:16] [Server thread/INFO]: chicken issued server command: /tpa freak
+[23:02:17] [Server thread/INFO]: FreakBob2477 issued server command: /tpaccept
+[23:02:25] [Async Chat Thread - #54/INFO]: <chicken> fizzy i actually would be chill rn[m
+
+[23:02:44] [Async Chat Thread - #54/INFO]: <FunnymanXD> anyone know who made the server?[m
+
+[23:02:48] [Async Chat Thread - #54/INFO]: <Fizzy> its me[m
+
+[23:02:49] [Async Chat Thread - #54/INFO]: <chicken> fizzy[m
+
+[23:02:57] [Async Chat Thread - #54/INFO]: <FunnymanXD> how'd you make it?[m
+
+[23:03:04] [Server thread/INFO]: mrcreeper_17 issued server command: /home hoome
+[23:03:20] [Server thread/INFO]: [Server] heres proof its fizzy im typing through terminal
+[23:03:27] [Async Chat Thread - #54/INFO]: <Fizzy> but um[m
+
+[23:03:32] [Async Chat Thread - #54/INFO]: <Fizzy> theres a github repo[m
+
+[23:03:41] [Async Chat Thread - #54/INFO]: <Fizzy> i use codespaces to do it without local port forwarding[m
+
+[23:03:45] [Async Chat Thread - #54/INFO]: <Fizzy> max 120 hrs a month[m
+
+[23:03:48] [Async Chat Thread - #54/INFO]: <Fizzy> but you can make alts[m
+
+[23:03:52] [Async Chat Thread - #54/INFO]: <Fizzy> and fork it over and over[m
+
+[23:04:23] [Async Chat Thread - #54/INFO]: <chicken> wait so fizzy ur gonna have to re do it via codespace in a little less than a week no?[m
+
+[23:04:28] [Async Chat Thread - #54/INFO]: <Fizzy> yeah[m
+
+[23:04:31] [Async Chat Thread - #54/INFO]: <Fizzy> but the data saves[m
+
+[23:04:33] [Async Chat Thread - #54/INFO]: <Fizzy> dw[m
+
+[23:04:49] [Async Chat Thread - #54/INFO]: <FunnymanXD> so basically you need server upkeep every few weeks?[m
+
+[23:04:51] [Async Chat Thread - #54/INFO]: <chicken> wait fizzy is maddie actually mad at me[m
+
+[23:05:03] [Async Chat Thread - #54/INFO]: <Fizzy> i mean[m
+
+[23:05:09] [Async Chat Thread - #54/INFO]: <Fizzy> you DID kill her like 10 times[m
+
+[23:05:13] [Async Chat Thread - #54/INFO]: <chicken> THAT WASNT ME[m
+
+[23:05:13] [Async Chat Thread - #54/INFO]: <Fizzy> gotta run it back yk[m
+
+[23:05:16] [Server thread/INFO]: FreakBob2477 lost connection: Disconnected
+[23:05:16] [Server thread/INFO]: FreakBob2477 left the game.
+[23:05:17] [Async Chat Thread - #54/INFO]: <chicken> that was owen jackson[m
+
+[23:05:19] [Async Chat Thread - #54/INFO]: <chicken> on my life[m
+
+[23:05:28] [Async Chat Thread - #54/INFO]: <chicken> ON EVERYTHING[m
+
+[23:05:30] [Async Chat Thread - #54/INFO]: <chicken> it was not me[m
+
+[23:05:33] [Async Chat Thread - #54/INFO]: <Fizzy> also "themossyrock haters say hi"[m
+
+[23:05:37] [Async Chat Thread - #54/INFO]: <chicken> ok bro[m
+
+[23:05:41] [Async Chat Thread - #54/INFO]: <chicken> u literally said hi[m
+
+[23:05:43] [Async Chat Thread - #54/INFO]: <mrcreeper_17> bro didnt you like hate on her tho[m
+
+[23:05:44] [Async Chat Thread - #54/INFO]: <Fizzy> shhhh[m
+
+[23:05:51] [Async Chat Thread - #54/INFO]: <Fizzy> its different[m
+
+[23:05:59] [Async Chat Thread - #54/INFO]: <FunnymanXD> so fizzy you literally coded spawnpoints into the game?[m
+
+[23:06:00] [Async Chat Thread - #54/INFO]: <chicken> but like it was jokes i dont mean anything i say on game[m
+
+[23:06:06] [Async Chat Thread - #54/INFO]: <mrcreeper_17> isnt tyler friends w her or smth[m
+
+[23:06:09] [Async Chat Thread - #54/INFO]: <Fizzy> jacob i did not do that dawg[m
+
+[23:06:24] [Async Chat Thread - #54/INFO]: <Fizzy> yeah no matvey i 100% understand that[m
+
+[23:06:26] [Async Chat Thread - #54/INFO]: <FunnymanXD> then how does ./home work[m
+
+[23:06:27] [Async Chat Thread - #54/INFO]: <Fizzy> she took it personal[m
+
+[23:06:32] [Async Chat Thread - #54/INFO]: <Fizzy> it came with the repo[m
+
+[23:06:35] [Async Chat Thread - #54/INFO]: <Fizzy> it was a plugin[m
+
+[23:06:38] [Async Chat Thread - #54/INFO]: <FunnymanXD> gotcha[m
+
+[23:06:49] [Server thread/INFO]: FunnymanXD issued server command: /you said you got it off of github?
+[23:06:52] [Async Chat Thread - #54/INFO]: <Fizzy> plus its fun to beef in minecraft[m
+
+[23:06:57] [Async Chat Thread - #54/INFO]: <Fizzy> any excuse works[m
+
+[23:07:01] [Async Chat Thread - #54/INFO]: <FunnymanXD> you said you got it off of github?[m
+
+[23:07:03] [Async Chat Thread - #54/INFO]: <Fizzy> yeah[m
+
+[23:07:07] [Async Chat Thread - #54/INFO]: <Fizzy> want me to send you the repo[m
+
+[23:07:09] [Async Chat Thread - #54/INFO]: <FunnymanXD> bet, thanks bro[m
+
+[23:07:17] [Async Chat Thread - #54/INFO]: <chicken> fizzy can u like tell her i didnt mean it and i apoligize if i made her feel anyway[m
+
+[23:07:20] [Async Chat Thread - #54/INFO]: <chicken> like actually[m
+
+[23:07:24] [Async Chat Thread - #54/INFO]: <chicken> i dont want irl beef[m
+
+[23:07:28] [Async Chat Thread - #54/INFO]: <chicken> only on the game[m
+
+[23:07:30] [Async Chat Thread - #54/INFO]: <Fizzy> i think she knows[m
+
+[23:07:36] [Async Chat Thread - #54/INFO]: <chicken> idk[m
+
+[23:07:37] [Async Chat Thread - #54/INFO]: <Fizzy> she just doesnt wanna play anymore[m
+
+[23:08:00] [Async Chat Thread - #54/INFO]: <chicken> yeah bro i feel bad yk[m
+
+[23:08:05] [Async Chat Thread - #54/INFO]: <chicken> she took it personally[m
+
+[23:08:08] [Server thread/INFO]: chicken issued server command: /home kaka
+[23:08:13] [Async Chat Thread - #54/INFO]: <Fizzy> well you gotta remember[m
+
+[23:08:22] [Async Chat Thread - #54/INFO]: <Fizzy> guys and girls are just different sometimes[m
+
+[23:08:38] [Async Chat Thread - #54/INFO]: <Fizzy> ik thats some preschool shit to say[m
+
+[23:08:41] [Async Chat Thread - #54/INFO]: <Fizzy> but it is kinda true[m
+
+[23:09:07] [Thread-194/INFO]: UUID of player FreakBob2477 is 5cc70c72-875a-3361-b06a-47468364ec5d
+[23:09:07] [Server thread/INFO]: FreakBob2477[/[0:0:0:0:0:0:0:1]:33606] logged in with entity id 303380 at ([world]-780.2870959528581, 73.0, -699.3075811078594)
+[23:09:20] [Async Chat Thread - #54/INFO]: <chicken> no but fizzy she was joking back[m
+
+[23:09:21] [Server thread/INFO]: mrcreeper_17 issued server command: /tpa Fizzy
+[23:09:24] [Server thread/INFO]: Fizzy issued server command: /tpaccept
+[23:09:31] [Async Chat Thread - #54/INFO]: <Fizzy> yeah idk vro[m
+
+[23:09:41] [Async Chat Thread - #54/INFO]: <chicken> she was calling me hypocritical and stuff[m
+
+[23:10:07] [Server thread/INFO]: chicken issued server command: /home kaka
+[23:11:57] [Server thread/INFO]: chicken issued server command: /tpa freak
+[23:12:01] [Server thread/INFO]: FreakBob2477 issued server command: /home village
+[23:12:12] [Async Chat Thread - #55/INFO]: <chicken> wait fizzy lowk running away from u is fun[m
+
+[23:12:17] [Async Chat Thread - #55/INFO]: <Fizzy> ikr[m
+
+[23:12:18] [Async Chat Thread - #55/INFO]: <chicken> giving me motivation to grind[m
+
+[23:12:22] [Async Chat Thread - #55/INFO]: <Fizzy> exactly[m
+
+[23:12:24] [Async Chat Thread - #55/INFO]: <Fizzy> its fun[m
+
+[23:12:25] [Server thread/INFO]: FreakBob2477 issued server command: /tpaccept
+[23:12:32] [Async Chat Thread - #55/INFO]: <Fizzy> me and hampton are gonna make a treasure hunt[m
+
+[23:12:42] [Async Chat Thread - #55/INFO]: <chicken> if only eaglercraft had like 1.16 thats peak minecraft i cant lie[m
+
+[23:12:51] [Async Chat Thread - #55/INFO]: <Fizzy> 1.12 should be dropping soon[m
+
+[23:12:57] [Async Chat Thread - #55/INFO]: <Fizzy> ill try and update it when it does[m
+
+[23:13:02] [Async Chat Thread - #55/INFO]: <Fizzy> that has elytra[m
+
+[23:13:04] [Async Chat Thread - #55/INFO]: <chicken> 1.12 is oceans right?[m
+
+[23:13:04] [Async Chat Thread - #55/INFO]: <Fizzy> swimming[m
+
+[23:13:09] [Async Chat Thread - #55/INFO]: <Fizzy> terracotta[m
+
+[23:13:09] [Async Chat Thread - #55/INFO]: <chicken> 1.9 had elytras[m
+
+[23:13:12] [Async Chat Thread - #55/INFO]: <Fizzy> ik[m
+
+[23:13:15] [Async Chat Thread - #55/INFO]: <Fizzy> im just saying like[m
+
+[23:13:19] [Async Chat Thread - #55/INFO]: <Fizzy> stuff 1.8 doesnt have[m
+
+[23:13:40] [Async Chat Thread - #55/INFO]: <chicken> idk if our chromebook can handle 1.12[m
+
+[23:13:56] [Async Chat Thread - #55/INFO]: <Fizzy> you underestimate these people optimization skills[m
+
+[23:14:22] [Async Chat Thread - #55/INFO]: <chicken> o wait i forgot eaglercraft is basically optimized chromebook minecraft[m
+
+[23:14:25] [Server thread/INFO]: chicken issued server command: /home kaka
+[23:14:28] [Async Chat Thread - #55/INFO]: <Fizzy> yeah[m
+
+[23:14:33] [Async Chat Thread - #55/INFO]: <Fizzy> if this was regular[m
+
+[23:14:43] [Async Chat Thread - #55/INFO]: <Fizzy> our chromebook would explode[m
+
+[23:14:47] [Async Chat Thread - #55/INFO]: <chicken> yeah bro[m
+
+[23:15:02] [Async Chat Thread - #55/INFO]: <Fizzy> lowkey im finna leak my coords soon[m
+
+[23:15:05] [Async Chat Thread - #55/INFO]: <Fizzy> could be fun[m
+
+[23:15:12] [Async Chat Thread - #55/INFO]: <Fizzy> i dont think yall could kill me tho[m
+
+[23:15:35] [Async Chat Thread - #55/INFO]: <chicken> wait can i tp to you rq i swear ill put everything away[m
+
+[23:15:35] [Async Chat Thread - #55/INFO]: <FunnymanXD> any chance you can email me for a few minute fizzy?[m
+
+[23:15:45] [Async Chat Thread - #55/INFO]: <chicken> ill pay 1 diamond[m
+
+[23:15:45] [Async Chat Thread - #55/INFO]: <FunnymanXD> just need a little help[m
+
+[23:15:49] [Async Chat Thread - #55/INFO]: <chicken> i wanna see the base[m
+
+[23:15:56] [Async Chat Thread - #55/INFO]: <Fizzy> im not at base rn[m
+
+[23:15:58] [Async Chat Thread - #55/INFO]: <Fizzy> im at spawn[m
+
+[23:16:12] [Server thread/INFO]: Fizzy issued server command: /home main
+[23:16:15] [Async Chat Thread - #55/INFO]: <Fizzy> let me tp rq[m
+
+[23:16:21] [Async Chat Thread - #55/INFO]: <Fizzy> k tp[m
+
+[23:16:32] [Async Chat Thread - #55/INFO]: <Fizzy> im not worried abt you bringing stuff[m
+
+[23:16:34] [Async Chat Thread - #55/INFO]: <Fizzy> go right ahead[m
+
+[23:16:42] [Server thread/INFO]: chicken issued server command: /tpa fizzy
+[23:16:45] [Server thread/INFO]: Fizzy issued server command: /tpaccept
+[23:16:48] [Async Chat Thread - #55/INFO]: <Fizzy> and jacob[m
+
+[23:16:50] [Async Chat Thread - #55/INFO]: <chicken> i have nothing on me so whatver[m
+
+[23:16:52] [Async Chat Thread - #55/INFO]: <Fizzy> 839-201-8401[m
+
+[23:16:55] [Async Chat Thread - #55/INFO]: <Fizzy> thats my number[m
+
+[23:16:56] [Async Chat Thread - #55/INFO]: <FunnymanXD> bet[m
+
+[23:17:06] [Async Chat Thread - #55/INFO]: <Fizzy> wait[m
+
+[23:17:18] [Async Chat Thread - #55/INFO]: <Fizzy> nvm ur good[m
+
+[23:17:32] [Async Chat Thread - #55/INFO]: <chicken> whats this[m
+
+[23:17:36] [Async Chat Thread - #55/INFO]: <Fizzy> nothing[m
+
+[23:17:40] [Async Chat Thread - #55/INFO]: <chicken> for me?[m
+
+[23:17:48] [Async Chat Thread - #55/INFO]: <chicken> pov ramadan[m
+
+[23:17:56] [Async Chat Thread - #55/INFO]: <Fizzy> yo[m
+
+[23:18:06] [Async Chat Thread - #55/INFO]: <Fizzy> hehehe[m
+
+[23:18:25] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[23:18:30] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[23:18:34] [Async Chat Thread - #55/INFO]: <Fizzy> i have fortune three i do not need that[m
+
+[23:18:48] [Async Chat Thread - #55/INFO]: <Fizzy> wait[m
+
+[23:18:50] [Async Chat Thread - #55/INFO]: <chicken> does mending even exist[m
+
+[23:18:53] [Async Chat Thread - #55/INFO]: <Fizzy> no it doesnt[m
+
+[23:18:54] [Async Chat Thread - #55/INFO]: <chicken> is it obtainable[m
+
+[23:19:05] [Async Chat Thread - #55/INFO]: <Fizzy> no[m
+
+[23:19:08] [Async Chat Thread - #55/INFO]: <Fizzy> but rq[m
+
+[23:19:10] [Async Chat Thread - #55/INFO]: <chicken> ok bye[m
+
+[23:19:14] [Async Chat Thread - #55/INFO]: <chicken> no chill i have levels[m
+
+[23:19:16] [Async Chat Thread - #55/INFO]: <Fizzy> look at my bow dmg[m
+
+[23:19:18] [Async Chat Thread - #55/INFO]: <Fizzy> one shot[m
+
+[23:19:27] [Async Chat Thread - #55/INFO]: <chicken> 3 hearts[m
+
+[23:19:30] [Async Chat Thread - #55/INFO]: <Fizzy> lol[m
+
+[23:19:44] [Async Chat Thread - #55/INFO]: <chicken> what are the enchants looking like[m
+
+[23:19:47] [Async Chat Thread - #55/INFO]: <FunnymanXD> sent you a text fizzy[m
+
+[23:19:53] [Async Chat Thread - #55/INFO]: <Fizzy> prot three on half[m
+
+[23:19:57] [Async Chat Thread - #55/INFO]: <Fizzy> prot four on the other[m
+
+[23:20:01] [Async Chat Thread - #55/INFO]: <Fizzy> sharpness 4[m
+
+[23:20:03] [Async Chat Thread - #55/INFO]: <Fizzy> knockback[m
+
+[23:20:05] [Async Chat Thread - #55/INFO]: <Fizzy> punch 5[m
+
+[23:20:13] [Server thread/INFO]: chicken issued server command: /home kaka
+[23:20:14] [Async Chat Thread - #55/INFO]: <chicken> dang[m
+
+[23:21:09] [Async Chat Thread - #55/INFO]: <chicken> ty[m
+
+[23:21:12] [Async Chat Thread - #55/INFO]: <Fizzy> im making a community center[m
+
+[23:21:14] [Async Chat Thread - #55/INFO]: <Fizzy> ?[m
+
+[23:21:16] [Async Chat Thread - #55/INFO]: <chicken> can i get some sugar cane plssssss[m
+
+[23:21:22] [Async Chat Thread - #55/INFO]: <chicken> make 2b2t spawn or no?[m
+
+[23:21:24] [Async Chat Thread - #55/INFO]: <Fizzy> take everything but the bottom layer[m
+
+[23:21:27] [Async Chat Thread - #55/INFO]: <chicken> ok[m
+
+[23:21:29] [Async Chat Thread - #55/INFO]: <chicken> ofc[m
+
+[23:21:31] [Server thread/INFO]: chicken issued server command: /tpa fizzy
+[23:21:31] [Async Chat Thread - #55/INFO]: <Fizzy> the plan[m
+
+[23:21:33] [Server thread/INFO]: Fizzy issued server command: /tpaccept
+[23:21:43] [Async Chat Thread - #55/INFO]: <Fizzy> is if someone breaks the community center[m
+
+[23:21:48] [Async Chat Thread - #55/INFO]: <Fizzy> THEN we blow up spawn[m
+
+[23:22:01] [Async Chat Thread - #55/INFO]: <chicken> so we are gonna blow up the spawn is what ur saying[m
+
+[23:22:04] [Async Chat Thread - #55/INFO]: <chicken> like this??/[m
+
+[23:22:10] [Async Chat Thread - #55/INFO]: <Fizzy> si[m
+
+[23:22:12] [Async Chat Thread - #55/INFO]: <FunnymanXD> oh also, ive got a lot of sugarcane[m
+
+[23:22:19] [Async Chat Thread - #55/INFO]: <FunnymanXD> at least a stack[m
+
+[23:22:26] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[23:22:38] [Async Chat Thread - #55/INFO]: <chicken> wait can i get some funnyman[m
+
+[23:22:40] [Async Chat Thread - #55/INFO]: <FunnymanXD> right about 2[m
+
+[23:22:43] [Async Chat Thread - #55/INFO]: <chicken> ty ill replant[m
+
+[23:22:46] [Async Chat Thread - #55/INFO]: <FunnymanXD> sure, ill tp to you[m
+
+[23:23:10] [Async Chat Thread - #55/INFO]: <chicken> ok send rq[m
+
+[23:23:10] [Thread-195/INFO]: UUID of player Lemonition is 728541c4-6293-3179-9512-e592ca4a9658
+[23:23:11] [Server thread/INFO]: Lemonition[/[0:0:0:0:0:0:0:1]:40602] logged in with entity id 313569 at ([world]492.30000001192093, 55.0, -2264.2647776182735)
+[23:23:13] [Server thread/INFO]: FunnymanXD issued server command: /tpa chicken
+[23:23:16] [Server thread/INFO]: chicken issued server command: /tpaccept
+[23:23:27] [Async Chat Thread - #55/INFO]: <Fizzy> btw c to zoom[m
+
+[23:23:32] [Async Chat Thread - #55/INFO]: <chicken> ik[m
+
+[23:23:32] [Async Chat Thread - #55/INFO]: <Lemonition> hi matveyw[m
+
+[23:23:39] [Async Chat Thread - #55/INFO]: <chicken> thanks[m
+
+[23:23:39] [Async Chat Thread - #55/INFO]: <Fizzy> why are you here lol[m
+
+[23:23:45] [Async Chat Thread - #55/INFO]: <FunnymanXD> he wanted sugarcane[m
+
+[23:23:47] [Async Chat Thread - #55/INFO]: <Lemonition> hi man[m
+
+[23:23:50] [Async Chat Thread - #55/INFO]: <FunnymanXD> hey[m
+
+[23:23:54] [Async Chat Thread - #55/INFO]: <chicken> hi guys[m
+
+[23:23:54] [Async Chat Thread - #55/INFO]: <Fizzy> i garuntee you thats enough[m
+
+[23:24:04] [Async Chat Thread - #55/INFO]: <Lemonition> hi man[m
+
+[23:24:09] [Async Chat Thread - #55/INFO]: <FunnymanXD> i gave him nearly 2 stacks so i hope so[m
+
+[23:24:10] [Async Chat Thread - #55/INFO]: <Fizzy> hey jacob what do you have on you rn[m
+
+[23:24:12] [Server thread/INFO]: chicken issued server command: /home kaka
+[23:24:18] [Async Chat Thread - #55/INFO]: <FunnymanXD> literally nothing[m
+
+[23:24:19] [Async Chat Thread - #55/INFO]: <Lemonition> a symbol of peace[m
+
+[23:24:21] [Server thread/INFO]: FunnymanXD was shot by Fizzy using [ak12WitASwtichOnIt]
+[23:24:32] [Async Chat Thread - #55/INFO]: <FunnymanXD> and thats why[m
+
+[23:24:35] [Async Chat Thread - #55/INFO]: <FunnymanXD> XD[m
+
+[23:24:39] [Async Chat Thread - #55/INFO]: <Fizzy> i wouldnt have if it was nothing[m
+
+[23:24:39] [Server thread/INFO]: FunnymanXD issued server command: /home bunker
+[23:24:41] [Async Chat Thread - #55/INFO]: <Fizzy> i mean[m
+
+[23:24:42] [Async Chat Thread - #55/INFO]: <mrcreeper_17> hey jacob[m
+
+[23:24:43] [Server thread/INFO]: chicken issued server command: /home kaka
+[23:24:43] [Async Chat Thread - #55/INFO]: <Fizzy> if u had smtn[m
+
+[23:24:48] [Async Chat Thread - #55/INFO]: <FunnymanXD> hey bro[m
+
+[23:25:02] [Async Chat Thread - #55/INFO]: <FunnymanXD> and yeah that makes sense[m
+
+[23:25:06] [Server thread/INFO]: Fizzy issued server command: /tpa mrcreeper_17
+[23:25:35] [Server thread/INFO]: Fizzy has just earned the achievement [Diamonds to you!]
+[23:26:10] [Server thread/INFO]: Fizzy issued server command: /tpa mrcreeper_17
+[23:26:17] [Server thread/INFO]: mrcreeper_17 issued server command: /tpaccept
+[23:26:48] [Server thread/INFO]: Lemonition lost connection: Disconnected
+[23:26:48] [Server thread/INFO]: Lemonition left the game.
+[23:26:49] [Server thread/INFO]: mrcreeper_17 issued server command: /home hoome
+[23:27:15] [Server thread/INFO]: mrcreeper_17 issued server command: /tpa Fizzy
+[23:27:17] [Server thread/INFO]: FunnymanXD lost connection: Timed out
+[23:27:17] [Server thread/INFO]: FunnymanXD left the game.
+[23:27:18] [Server thread/INFO]: Fizzy issued server command: /tpaccept
+[23:27:39] [Server thread/INFO]: mrcreeper_17 issued server command: /home hoome
+[23:29:17] [Server thread/INFO]: mrcreeper_17 lost connection: Disconnected
+[23:29:17] [Server thread/INFO]: mrcreeper_17 left the game.
+[23:35:00] [Server thread/INFO]: Fizzy lost connection: Disconnected
+[23:35:00] [Server thread/INFO]: Fizzy left the game.
+[23:37:03] [Server thread/INFO]: chicken issued server command: /tpa freak
+[23:37:29] [Server thread/INFO]: FreakBob2477 issued server command: /tpaccept
+[23:40:39] [Thread-197/INFO]: UUID of player FunnymanXD is 92f169df-4a11-3260-bac6-b1339e1c942a
+[23:40:39] [Server thread/INFO]: FunnymanXD[/[0:0:0:0:0:0:0:1]:45540] logged in with entity id 321905 at ([world]263.0023983593785, 63.0, 33.13423933883615)
+[23:41:16] [Server thread/INFO]: FunnymanXD lost connection: Disconnected
+[23:41:16] [Server thread/INFO]: FunnymanXD left the game.
+[23:45:25] [Server thread/INFO]: chicken went up in flames
+[23:46:07] [Server thread/INFO]: chicken issued server command: /tpa freaky
+[23:46:11] [Server thread/INFO]: chicken issued server command: /tpa freak
+[23:46:24] [Server thread/INFO]: FreakBob2477 issued server command: /tpaccept
+[23:46:49] [Server thread/INFO]: chicken issued server command: /home kaka
+[23:48:08] [Server thread/INFO]: FreakBob2477 was killed by Witch using magic
+[23:48:13] [Async Chat Thread - #56/INFO]: <chicken> bro[m
+
+[23:48:15] [Async Chat Thread - #56/INFO]: <chicken> broooo[m
+
+[23:48:16] [Server thread/INFO]: chicken lost connection: Disconnected
+[23:48:16] [Server thread/INFO]: chicken left the game.
+[23:50:23] [Server thread/INFO]: FreakBob2477 lost connection: Disconnected
+[23:50:23] [Server thread/INFO]: FreakBob2477 left the game.
+[23:52:00] [Thread-198/INFO]: UUID of player Fizzy is 62c75a5c-9780-37b4-839e-23e606512cc4
+[23:52:00] [Server thread/INFO]: Fizzy[/[0:0:0:0:0:0:0:1]:47258] logged in with entity id 326731 at ([world]-97.113386819563, 75.0, 254.6703345087505)
+[23:52:12] [Async Chat Thread - #57/INFO]: <Fizzy> bro who is peter pasta[m
+
+[23:53:03] [Thread-199/INFO]: UUID of player FunnymanXD is 92f169df-4a11-3260-bac6-b1339e1c942a
+[23:53:03] [Server thread/INFO]: FunnymanXD[/[0:0:0:0:0:0:0:1]:43978] logged in with entity id 327089 at ([world]262.66406592692186, 63.0, 32.544340079748444)
+[23:53:14] [Server thread/INFO]: Fizzy issued server command: /sethome spawn
+[23:53:21] [Async Chat Thread - #58/INFO]: <Fizzy> im gonna restart the server guys[m
+
+[23:53:27] [Async Chat Thread - #58/INFO]: <FunnymanXD> alright[m
+
+[23:53:27] [Async Chat Thread - #58/INFO]: <Fizzy> im gonna put the new homes[m
+
+[23:53:37] [Async Chat Thread - #58/INFO]: <FunnymanXD> new homes?[m
+
